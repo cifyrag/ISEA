@@ -1,0 +1,1485 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "yes": "Yes",
+    "no": "No",
+    "na": "N/A",
+    "unknown": "Unknown",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "confirm": "Confirm",
+    "error": "Error",
+    "success": "Success"
+  },
+  "nav": {
+    "diveMap": "Dive Map",
+    "logIn": "Log in",
+    "signUp": "Sign up",
+    "logOut": "Log out",
+    "accountSettings": "Account settings",
+    "admin": "Admin",
+    "adminUsers": "Users",
+    "adminDiveSites": "Admin Sites",
+    "diveSites": "Dive Sites",
+    "savedLocations": "Saved Locations",
+    "howItWorks": "How it works",
+    "safetyScoring": "Safety scoring",
+    "faq": "FAQ"
+  },
+  "diveSites": {
+    "title": "Dive Sites",
+    "subtitle": "Browse verified dive sites around the world",
+    "subtitleAdmin": "All dive sites including unverified submissions",
+    "searchPlaceholder": "Search by name, country, or region...",
+    "fetchError": "Failed to load dive sites",
+    "noResults": "No dive sites match your search",
+    "empty": "No dive sites available",
+    "pending": "Pending",
+    "website": "Website",
+    "source": "Source",
+    "listView": "List",
+    "mapView": "Map",
+    "viewDetails": "View Details",
+    "showing": "Showing {{count}} of {{total}} sites",
+    "suggestSite": "Suggest a Site",
+    "suggestTitle": "Suggest a Dive Site",
+    "suggestSubtitle": "Submit a new dive site for admin review",
+    "suggestSubmit": "Submit Suggestion",
+    "suggestSuccess": "Suggestion Submitted!",
+    "suggestSuccessHint": "An admin will review your submission shortly.",
+    "suggestError": "Failed to submit suggestion",
+    "type": "Type",
+    "siteType": "Site Type",
+    "siteTypeSelect": "Select site type...",
+    "siteTypes": {
+      "Unknown": "Unknown",
+      "Reef": "Reef",
+      "Wreck": "Wreck",
+      "Cave": "Cave",
+      "Cavern": "Cavern",
+      "Wall": "Wall",
+      "Pinnacle": "Pinnacle",
+      "Drift": "Drift",
+      "Lake": "Lake",
+      "Muck": "Muck",
+      "Pelagic": "Pelagic",
+      "Plateau": "Plateau"
+    },
+    "depth": "Depth",
+    "minDepth": "Min depth",
+    "maxDepth": "Max depth",
+    "rating": "Rating",
+    "country": "Country",
+    "difficulty": "Difficulty",
+    "unverified": "Unverified",
+    "verified": "Verified"
+  },
+  "diveSiteDetail": {
+    "backToList": "Back to Dive Sites",
+    "fetchError": "Failed to load dive site details",
+    "notFound": "Dive site not found",
+    "description": "Description",
+    "coordinates": "Coordinates",
+    "maxDepth": "Max Depth",
+    "phone": "Phone",
+    "adminInfo": "Admin Information",
+    "osmId": "OSM ID",
+    "createdAt": "Created",
+    "edit": "Edit",
+    "verify": "Verify",
+    "unverify": "Unverify",
+    "delete": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this dive site? This action cannot be undone.",
+    "location": "Location",
+    "diveConditions": "Dive Conditions",
+    "getConditions": "Get Dive Conditions",
+    "loadingConditions": "Fetching dive conditions...",
+    "conditionsError": "Unable to load dive conditions",
+    "retryConditions": "Try Again",
+    "conditionsUnavailable": "Dive conditions are only available for verified dive sites."
+  },
+  "diveSiteImages": {
+    "title": "Photos",
+    "upload": "Upload Photo",
+    "uploading": "Uploading...",
+    "noImages": "No photos yet",
+    "delete": "Delete photo",
+    "deleteConfirm": "Are you sure you want to delete this photo?",
+    "invalidType": "Only JPEG, PNG, and WebP images are allowed",
+    "tooLarge": "Image must not exceed {{max}} MB",
+    "dropHere": "Drop image here",
+    "dropHint": "JPEG, PNG, or WebP up to 10 MB",
+    "dragOrClick": "Drag & drop a photo here, or click to browse"
+  },
+  "savedLocationsPage": {
+    "title": "Saved Locations",
+    "subtitle": "Your personally bookmarked dive sites"
+  },
+  "footer": {
+    "tagline": "AI-powered ocean intelligence for safer underwater adventures.",
+    "product": "Product",
+    "resources": "Resources",
+    "legal": "Legal",
+    "howItWorks": "How it works",
+    "safetyScoring": "Safety scoring",
+    "faq": "FAQ",
+    "disclaimer": "Disclaimer",
+    "terms": "Terms of service",
+    "privacy": "Privacy policy",
+    "copyright": "All rights reserved."
+  },
+  "home": {
+    "badge": "AI-powered dive intelligence",
+    "heroTitle": "Know the conditions",
+    "heroTitleHighlight": "before you dive",
+    "heroSubtitle": "iSea runs a proprietary AI-driven analysis to deliver a complete safety assessment for any dive site on Earth — in a single tap.",
+    "openDiveMap": "Open Dive Map",
+    "getStarted": "Get started free",
+    "logIn": "Log in",
+    "howItWorksLink": "See how it works",
+    "trust": {
+      "satellite": "Live satellite intelligence",
+      "research": "Research-grade methodology",
+      "free": "Free to use"
+    },
+    "features": {
+      "visibility": {
+        "title": "Visibility Forecast",
+        "description": "AI-estimated underwater visibility from live satellite analysis of your dive site."
+      },
+      "temperature": {
+        "title": "Temperature Profile",
+        "description": "Surface and bottom water temperature with personalised wetsuit recommendations."
+      },
+      "currents": {
+        "title": "Currents & Tides",
+        "description": "Live current strength, tidal cycle position, and optimal slack-water windows."
+      },
+      "safety": {
+        "title": "AI Safety Score",
+        "description": "A clear 0–100 risk assessment by our AI, generated for your exact location and time."
+      }
+    },
+    "stats": {
+      "aiPowered": "AI-powered analysis",
+      "aiPoweredSub": "Live ocean intelligence at every dive site",
+      "coverage": "Worldwide coverage",
+      "coverageSub": "From the tropics to the poles",
+      "realTime": "Always available",
+      "realTimeSub": "Forecasts up to 7 days ahead",
+      "free": "Free to use",
+      "freeSub": "No subscription required"
+    },
+    "ai": {
+      "badge": "AI Intelligence",
+      "title": "Ocean intelligence, automated",
+      "subtitle": "Behind every safety score is an AI engine that analyses your dive site in real time and turns complex ocean conditions into a clear go / no-go answer.",
+      "capabilities": {
+        "satellite": {
+          "title": "Satellite intelligence",
+          "description": "Live satellite analysis of water conditions and clarity at your exact coordinates."
+        },
+        "fusion": {
+          "title": "Multi-signal fusion",
+          "description": "Our AI combines many independent ocean signals into a single, unified picture of your dive site."
+        },
+        "reasoning": {
+          "title": "AI safety reasoning",
+          "description": "The engine weighs the full set of risk factors and applies built-in safety overrides for genuinely dangerous conditions."
+        },
+        "realtime": {
+          "title": "Real-time analysis",
+          "description": "Every request runs fresh — no stale answers, no recycled scores. Your dive plan deserves current intelligence."
+        }
+      }
+    },
+    "featuresSection": {
+      "title": "Everything you need for safe diving",
+      "subtitle": "Comprehensive environmental intelligence aggregated from multiple authoritative sources, processed by our AI engine, and presented in an actionable format."
+    },
+    "howItWorks": {
+      "title": "Simple for divers, sophisticated under the hood",
+      "subtitle": "Three steps for you. Ten stages for our AI pipeline.",
+      "step01": {
+        "title": "Pick a location",
+        "desc": "Tap any coordinate on the interactive ocean map worldwide."
+      },
+      "step02": {
+        "title": "AI does the work",
+        "desc": "Our pipeline pulls live ocean intelligence and reasons over it in real time."
+      },
+      "step03": {
+        "title": "Get your safety score",
+        "desc": "A 0–100 score, full risk breakdown, and personalised recommendations."
+      },
+      "step": "STEP",
+      "cta": "See the full 10-stage pipeline"
+    },
+    "safetyBanner": {
+      "title": "iSea is decision support — not a replacement for training.",
+      "body": "Always defer to your dive plan, your buddy check, and local conditions on the day. Read the full",
+      "link": "diving safety disclaimer →"
+    },
+    "cta": {
+      "title": "Start diving smarter today",
+      "subtitle": "Join divers worldwide who use iSea's AI-powered intelligence to plan safer, more informed dives.",
+      "button": "Create free account"
+    }
+  },
+  "aiLoader": {
+    "title": "AI dive-conditions analysis in progress",
+    "subtitle": "Running our 10-stage analysis for your exact coordinates",
+    "completeTitle": "Analysis complete",
+    "completeSubtitle": "Compiling your dive-conditions report",
+    "disclaimerHeadline": "This can take up to 5 minutes.",
+    "disclaimerBody": "Our AI engine is computing a complete environmental analysis for your exact coordinates. Please keep this tab open — closing it will cancel the analysis.",
+    "flushHeadline": "Results received.",
+    "flushBody": "Wrapping up the remaining stages…",
+    "finalising": "Finalising your report",
+    "handingOff": "Opening your report",
+    "keepTabOpen": "Keep this tab open while we work",
+    "steps": {
+      "locate": {
+        "label": "Locating your dive site",
+        "detail": "Identifying the site and preparing the AI analysis"
+      },
+      "bathymetry": {
+        "label": "Mapping seafloor & depth",
+        "detail": "Understanding the underwater landscape at your location"
+      },
+      "weather": {
+        "label": "Fetching atmospheric weather",
+        "detail": "Live weather conditions above the surface"
+      },
+      "marine": {
+        "label": "Fetching marine forecast",
+        "detail": "Live ocean conditions at the surface and below"
+      },
+      "tides": {
+        "label": "Calculating tides & slack windows",
+        "detail": "Finding the best moment in the tidal cycle to dive"
+      },
+      "satellite": {
+        "label": "Reading water clarity from satellite",
+        "detail": "AI analysis of live satellite imagery (this is the slow one)"
+      },
+      "visibility": {
+        "label": "Computing visibility & thermocline",
+        "detail": "Estimating what you'll actually see underwater"
+      },
+      "dynamics": {
+        "label": "Analysing surge, currents & tidal cycle",
+        "detail": "Assessing in-water motion that affects divers"
+      },
+      "safety": {
+        "label": "Running AI safety assessment",
+        "detail": "Reasoning over every risk factor for your dive"
+      },
+      "ai": {
+        "label": "Generating dive recommendations",
+        "detail": "Wetsuit, certification level, marine life alerts, and best dive time"
+      }
+    }
+  },
+  "login": {
+    "title": "Welcome back",
+    "subtitle": "Sign in to continue to iSea",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "diver@example.com",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "submitButton": "Sign in",
+    "submitting": "Signing in...",
+    "noAccount": "Don't have an account?",
+    "createOne": "Create one now",
+    "defaultError": "Invalid email or password"
+  },
+  "register": {
+    "title": "Create your account",
+    "subtitle": "Start planning safer dives with iSea",
+    "firstNameLabel": "First name",
+    "lastNameLabel": "Last name",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "diver@example.com",
+    "roleLabel": "I am a",
+    "roleOptions": {
+      "diver": "Recreational Diver",
+      "trainer": "Dive Instructor",
+      "diveCenter": "Dive Center"
+    },
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Min. 8 characters",
+    "confirmPasswordLabel": "Confirm password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "submitButton": "Create account",
+    "submitting": "Creating account...",
+    "hasAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "errors": {
+      "passwordMismatch": "Passwords do not match",
+      "passwordLength": "Password must be at least 8 characters",
+      "defaultError": "Registration failed"
+    }
+  },
+  "profile": {
+    "title": "Account Settings",
+    "subtitle": "Manage your profile and preferences",
+    "loadingProfile": "Loading profile...",
+    "tabs": {
+      "profile": "Profile",
+      "password": "Password"
+    },
+    "personal": {
+      "title": "Personal Information",
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "bio": "Bio",
+      "bioPlaceholder": "Tell us about yourself..."
+    },
+    "diver": {
+      "title": "Diver Information",
+      "certificationLevel": "Certification Level",
+      "selectCertification": "Select certification",
+      "totalDives": "Total Dives",
+      "certificationLevels": {
+        "openWater": "Open Water",
+        "advancedOpenWater": "Advanced Open Water",
+        "rescueDiver": "Rescue Diver",
+        "divemaster": "Divemaster",
+        "instructor": "Instructor"
+      }
+    },
+    "emergency": {
+      "title": "Emergency Contact",
+      "contactName": "Contact Name",
+      "contactNamePlaceholder": "John Doe",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 234 567 8900",
+      "relationship": "Relationship",
+      "relationshipPlaceholder": "Spouse, Parent, etc."
+    },
+    "preferences": {
+      "title": "Diving Preferences",
+      "preferredSuit": "Preferred Suit",
+      "selectSuit": "Select suit type",
+      "suitTypes": {
+        "wetsuit3mm": "Wetsuit 3mm",
+        "wetsuit5mm": "Wetsuit 5mm",
+        "wetsuit7mm": "Wetsuit 7mm",
+        "drysuit": "Drysuit",
+        "shorty": "Shorty"
+      },
+      "preferredDiveType": "Preferred Dive Type",
+      "selectDiveType": "Select dive type",
+      "diveTypes": {
+        "shore": "Shore",
+        "boat": "Boat",
+        "night": "Night",
+        "wreck": "Wreck",
+        "drift": "Drift",
+        "deep": "Deep"
+      },
+      "maxDepth": "Max Depth (m)",
+      "unitSystem": "Unit System",
+      "metric": "Metric (m, km)",
+      "imperial": "Imperial (ft, mi)",
+      "temperatureUnit": "Temperature Unit",
+      "celsius": "Celsius (°C)",
+      "fahrenheit": "Fahrenheit (°F)"
+    },
+    "saveChanges": "Save Changes",
+    "saving": "Saving...",
+    "profileUpdated": "Profile updated successfully!",
+    "failedToLoad": "Failed to load profile",
+    "failedToUpdate": "Failed to update profile",
+    "password": {
+      "title": "Change Password",
+      "currentPassword": "Current Password",
+      "newPassword": "New Password",
+      "confirmNewPassword": "Confirm New Password",
+      "changeButton": "Change Password",
+      "changing": "Changing...",
+      "changed": "Password changed successfully!",
+      "failedToChange": "Failed to change password",
+      "errors": {
+        "mismatch": "New passwords do not match",
+        "length": "Password must be at least 8 characters"
+      }
+    }
+  },
+  "map": {
+    "sidebarTitle": "Dive Intelligence",
+    "sidebarSubtitle": "Analyze and save dive locations",
+    "conditionsTab": "Conditions",
+    "savedTab": "Saved",
+    "sitesTab": "Sites",
+    "adminTab": "Admin",
+    "selectedLocation": "Selected Location",
+    "saveThisLocation": "Save this location",
+    "noNearbySiteToSave": "Click on a dive site marker to save",
+    "clearSelection": "Clear selection",
+    "divePoint": "Dive Point",
+    "kmFromSelected": "{{distance}} km from selected point",
+    "onLand": "Selected point is on land - showing nearest dive site",
+    "tooShallow": "Selected point is too shallow ({{depth}}m) - showing nearest dive site",
+    "noLocation": "No location selected",
+    "noLocationHint": "Click on the map to get started",
+    "clickToSelect": "Click on the map to select a dive location",
+    "diveDate": "Dive Date (optional)",
+    "diveTime": "Dive Time (optional)",
+    "getConditions": "Get Dive Conditions",
+    "analyzingConditions": "Analyzing conditions...",
+    "legend": {
+      "markers": "Markers",
+      "selected": "Selected",
+      "divePoint": "Dive Point",
+      "diveSites": "Dive Sites",
+      "diveSiteTypes": "Dive Site Types",
+      "verifiedSite": "Verified Site",
+      "unverifiedSite": "Unverified",
+      "savedLocations": "My Saved",
+      "shore": "Shore",
+      "reef": "Reef",
+      "boat": "Boat",
+      "wreck": "Wreck",
+      "cave": "Cave",
+      "other": "Other"
+    },
+    "addAsDiveSite": "Add as Dive Site",
+    "verifiedSiteRequired": "Dive conditions are only available for verified dive sites. Please select a verified site on the map.",
+    "layers": {
+      "title": "Layers",
+      "verified": "Verified Sites",
+      "unverified": "Unverified Sites",
+      "saved": "My Saved",
+      "sitesLoaded": "sites loaded",
+      "siteTypes": "Site Types",
+      "showAll": "Show All",
+      "hideAll": "Hide All",
+      "depthRange": "Depth Range"
+    },
+    "search": {
+      "placeholder": "Search address, city, zip code, or coordinates...",
+      "noResults": "No locations found. Try a different search term.",
+      "error": "Search failed. Please try again.",
+      "nearbySites": "{{count}} dive sites nearby"
+    }
+  },
+  "adminSites": {
+    "addSite": "Add Dive Site",
+    "importOsm": "Import from OpenStreetMap",
+    "importOsmHint": "Automatically import dive sites around the current map center.",
+    "radius": "radius",
+    "import": "Import",
+    "importing": "Importing...",
+    "verified": "Verified",
+    "unverified": "Pending",
+    "pendingReview": "Pending Review",
+    "verifiedSites": "Verified Sites",
+    "empty": "No dive sites in this area",
+    "emptyHint": "Add manually or import from OpenStreetMap",
+    "region": "Region",
+    "maxDepth": "Max Depth",
+    "source": "Source",
+    "sourceManual": "Manual",
+    "sourceApi": "API Import",
+    "sourceOverpass": "Overpass",
+    "checkConditions": "Check Conditions",
+    "verify": "Verify",
+    "edit": "Edit",
+    "deleteConfirm": "Are you sure you want to delete this dive site?",
+    "form": {
+      "addTitle": "Add New Dive Site",
+      "editTitle": "Edit Dive Site",
+      "name": "Name",
+      "namePlaceholder": "e.g. Blue Hole",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "description": "Description",
+      "descriptionPlaceholder": "Short description of this dive site...",
+      "country": "Country",
+      "region": "Region",
+      "maxDepth": "Max Depth (m)",
+      "phone": "Phone Number",
+      "website": "Website",
+      "nameRequired": "Name is required",
+      "invalidCoords": "Please enter valid coordinates",
+      "saveFailed": "Failed to save dive site",
+      "saving": "Saving..."
+    }
+  },
+  "conditions": {
+    "safetyScore": "Safety Score",
+    "excellent": "Excellent",
+    "good": "Good",
+    "fair": "Fair",
+    "poor": "Poor",
+    "visibility": "Visibility",
+    "temperature": "Temperature",
+    "current": "Current",
+    "waves": "Waves",
+    "locationAdjusted": "Location Adjusted",
+    "onLandAdjusted": "Selected point was on land. Showing nearest dive site ({{distance}}km away).",
+    "shallowAdjusted": "Selected point was too shallow ({{depth}}m). Showing nearest dive site with adequate depth ({{distance}}km away).",
+    "activeWarnings": "Active Warnings",
+    "recommendations": "Recommendations",
+    "bestTime": "Best Time",
+    "recommendedSuit": "Recommended Suit",
+    "suitableForBeginners": "Suitable for Beginners",
+    "viewFullDetails": "View Full Details",
+    "personalWarnings": "Personalised warnings"
+  },
+  "conditionsModal": {
+    "title": "Dive Conditions Details",
+    "safetyScore": "Safety Score",
+    "warningsTitle": "Warnings & Advisories",
+    "activeWarnings": "Active Warnings",
+    "advisories": "Advisories",
+    "visibility": {
+      "title": "Visibility",
+      "estimated": "Estimated Visibility",
+      "base": "Base Visibility",
+      "secchiDepth": "Secchi Depth",
+      "kd490": "Kd490 (Turbidity)",
+      "chlorophyll": "Chlorophyll",
+      "planktonLevel": "Plankton Level",
+      "sedimentLevel": "Sediment Level",
+      "runoffPenalty": "Runoff Penalty",
+      "wavePenalty": "Wave Penalty"
+    },
+    "waterTemp": {
+      "title": "Water Temperature",
+      "surface": "Surface Temperature",
+      "estimatedBottom": "Estimated Bottom Temp",
+      "plannedDepth": "Planned Depth",
+      "thermoclineDepth": "Thermocline Depth",
+      "thermoclineStrength": "Thermocline Strength",
+      "season": "Season",
+      "recommendedSuit": "Recommended Suit"
+    },
+    "currents": {
+      "title": "Currents & Tides",
+      "currentSpeed": "Current Speed",
+      "currentStrength": "Current Strength",
+      "currentDirection": "Current Direction",
+      "tidePhase": "Tide Phase",
+      "tideHeight": "Tide Height",
+      "tidalRange": "Tidal Range",
+      "nextHighTide": "Next High Tide",
+      "nextLowTide": "Next Low Tide",
+      "nextSlackTide": "Next Slack Tide",
+      "timeToSlack": "Time to Slack",
+      "slackWindow": "Slack Window",
+      "driftDiving": "Drift Diving Possible"
+    },
+    "surge": {
+      "title": "Surge & Waves",
+      "waveHeight": "Wave Height",
+      "wavePeriod": "Wave Period",
+      "waveCondition": "Wave Condition",
+      "waveDirection": "Wave Direction",
+      "swellHeight": "Swell Height",
+      "swellPeriod": "Swell Period",
+      "swellDirection": "Swell Direction",
+      "waveEnergy": "Wave Energy",
+      "surgeIntensity": "Surge Intensity",
+      "surgeDepth": "Surge Depth Penetration"
+    },
+    "weather": {
+      "title": "Weather Conditions",
+      "windSpeed": "Wind Speed",
+      "windGusts": "Wind Gusts",
+      "windDirection": "Wind Direction",
+      "beaufortScale": "Beaufort Scale",
+      "windType": "Wind Type",
+      "airTemp": "Air Temperature",
+      "sky": "Sky",
+      "cloudCover": "Cloud Cover",
+      "precipitation": "Precipitation",
+      "precipitationType": "Precipitation Type",
+      "thunderstormRisk": "Thunderstorm Risk"
+    },
+    "surface": {
+      "title": "Surface Conditions",
+      "entryDifficulty": "Entry Difficulty",
+      "exitDifficulty": "Exit Difficulty",
+      "shoreDive": "Shore Dive Possible",
+      "boatDive": "Boat Dive Recommended",
+      "boatConditions": "Boat Conditions",
+      "anchoring": "Anchoring Difficult",
+      "surfaceCurrents": "Strong Surface Currents",
+      "breakingWaves": "Breaking Waves",
+      "ripCurrent": "Rip Current Risk"
+    },
+    "safety": {
+      "title": "Safety Assessment",
+      "overallRisk": "Overall Risk Level",
+      "overallScore": "Overall Score",
+      "waveScore": "Wave",
+      "currentScore": "Current",
+      "visibilityScore": "Visibility",
+      "weatherScore": "Weather",
+      "temperatureScore": "Temperature",
+      "surgeScore": "Surge",
+      "minCertification": "Min Certification",
+      "requiresGuide": "Requires Local Guide",
+      "requiresEquipment": "Requires Special Equipment",
+      "requiredEquipment": "Required Equipment",
+      "postponeRecommended": "Postpone recommended: {{reason}}",
+      "nextSafeWindow": " Next safe window: {{window}}"
+    },
+    "bathymetry": {
+      "title": "Bathymetry",
+      "onLand": "Selected location was on land - showing nearest dive site",
+      "tooShallow": "Selected location was too shallow ({{depth}}m) - showing nearest dive site",
+      "distance": "Distance: {{distance}} km",
+      "depthAtSite": "Depth at Dive Site",
+      "originalDepth": "Original Location Depth",
+      "tooShallowSuffix": "(too shallow)",
+      "maxDiveDepth": "Max Dive Depth",
+      "beginnerDepth": "Beginner Depth",
+      "minDepthArea": "Min Depth in Area",
+      "maxDepthArea": "Max Depth in Area",
+      "slope": "Slope",
+      "terrainType": "Terrain Type",
+      "bottomComposition": "Bottom Composition",
+      "offshoreDirection": "Offshore Direction"
+    },
+    "recommendations": {
+      "title": "Recommendations",
+      "bestTime": "Best Time Today",
+      "optimalSlack": "Optimal Slack Tide",
+      "recommendedSuit": "Recommended Suit",
+      "needsHood": "Needs Hood",
+      "needsGloves": "Needs Gloves",
+      "needsBoots": "Needs Boots",
+      "diveType": "Dive Type",
+      "suitableForBeginners": "Suitable for Beginners",
+      "idealExperience": "Ideal Experience Level",
+      "specialConsiderations": "Special Considerations"
+    },
+    "marinLife": {
+      "title": "Marine Life & Photography",
+      "photoConditions": "Photo Conditions",
+      "marineLifeAlerts": "Marine Life Alerts"
+    },
+    "dataSources": "Data sources: {{sources}}",
+    "requested": "Requested: {{time}}"
+  },
+  "savedLocations": {
+    "title": "Saved Locations",
+    "count": "({{count}})",
+    "refreshAll": "Refresh All",
+    "empty": "No saved locations",
+    "emptyHint": "Click on the map and save a spot to see it here",
+    "noData": "No data",
+    "score": "Score: {{score}}",
+    "difficulty": "Difficulty:",
+    "maxDepth": "Max Depth:",
+    "visits": "Visits:",
+    "updated": "Updated {{time}}",
+    "updateWeather": "Update Weather",
+    "edit": "Edit",
+    "editTitle": "Edit Location",
+    "editSubtitle": "Update your personal notes and rating",
+    "notesLabel": "Notes",
+    "notesPlaceholder": "Personal notes, tips, marine life spotted...",
+    "ratingLabel": "Your Rating",
+    "timesVisitedLabel": "Times Visited",
+    "lastDiveDateLabel": "Last Dive Date",
+    "saving": "Saving...",
+    "saveButton": "Save Changes",
+    "editFailed": "Failed to update location",
+    "viewDiveSite": "View Dive Site",
+    "deleteConfirm": "Are you sure you want to delete this location?",
+    "timeAgo": {
+      "never": "Never",
+      "justNow": "Just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago"
+    }
+  },
+  "saveLocationModal": {
+    "title": "Save Dive Location",
+    "subtitle": "Add this spot to your saved locations",
+    "coordinates": "Coordinates",
+    "nameLabel": "Location Name",
+    "namePlaceholder": "e.g., Blue Hole, Great Barrier Reef",
+    "nameRequired": "Please enter a name for this location",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Brief description of this dive site...",
+    "diveTypeLabel": "Dive Type",
+    "diveTypes": {
+      "shore": "Shore Dive",
+      "boat": "Boat Dive",
+      "reef": "Reef",
+      "wreck": "Wreck",
+      "cave": "Cave"
+    },
+    "difficultyLabel": "Difficulty Level",
+    "difficulties": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "expert": "Expert"
+    },
+    "maxDepthLabel": "Max Depth (meters)",
+    "maxDepthPlaceholder": "e.g., 30",
+    "ratingLabel": "Your Rating",
+    "notesLabel": "Notes",
+    "notesPlaceholder": "Personal notes, tips, marine life spotted...",
+    "saveButton": "Save Location",
+    "saving": "Saving...",
+    "failedToSave": "Failed to save location"
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "users": "Users",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "changeRole": "Change Role",
+    "actions": "Actions",
+    "noUsers": "No users found",
+    "createdAt": "Created",
+    "showing": "Showing",
+    "of": "of",
+    "confirmDeactivate": "Are you sure you want to deactivate this user?",
+    "confirmRoleChange": "Are you sure you want to change this user's role?",
+    "cannotDeactivateSelf": "You cannot deactivate your own account",
+    "accessDenied": "Access Denied",
+    "userDetail": "User Details",
+    "personalInfo": "Personal Info",
+    "diverInfo": "Diver Info",
+    "emergencyContact": "Emergency Contact",
+    "certification": "Certification",
+    "totalDives": "Total Dives",
+    "suitType": "Preferred Suit",
+    "diveType": "Preferred Dive Type",
+    "maxDepth": "Max Depth",
+    "contactName": "Name",
+    "contactPhone": "Phone",
+    "contactRelation": "Relation",
+    "updatedAt": "Updated"
+  },
+  "adminDiveSites": {
+    "title": "Dive Site Management",
+    "subtitle": "Dive Sites",
+    "addSite": "Add Dive Site",
+    "noSites": "No dive sites found",
+    "edit": "Edit",
+    "verify": "Verify",
+    "confirmDelete": "Are you sure you want to delete this dive site?",
+    "searchLat": "Latitude",
+    "searchLon": "Longitude",
+    "searchRadius": "Radius (km)",
+    "search": "Search",
+    "resetFilters": "Reset",
+    "sourceManual": "Manual",
+    "sourceApi": "API Import",
+    "sourceOverpass": "Overpass",
+    "filters": {
+      "title": "Filters",
+      "search": "Search by name",
+      "searchPlaceholder": "Dive site name...",
+      "verified": "Verified Status",
+      "all": "All",
+      "verifiedOnly": "Verified",
+      "unverifiedOnly": "Unverified",
+      "source": "Source",
+      "allSources": "All Sources",
+      "allTypes": "All Types",
+      "country": "Country",
+      "countryPlaceholder": "e.g., Greece",
+      "region": "Region",
+      "regionPlaceholder": "e.g., Crete",
+      "coordinates": "Coordinates (for distance sorting)",
+      "sortBy": "Sort by",
+      "sortName": "Name",
+      "sortDistance": "Distance",
+      "sortCreatedAt": "Date Created",
+      "sortOrder": "Order",
+      "ascending": "Ascending",
+      "descending": "Descending",
+      "pageSize": "Per page"
+    },
+    "table": {
+      "name": "Name",
+      "location": "Location",
+      "type": "Type",
+      "depth": "Depth",
+      "verified": "Verified",
+      "source": "Source",
+      "distance": "Distance",
+      "country": "Country",
+      "region": "Region",
+      "createdAt": "Created"
+    },
+    "form": {
+      "createTitle": "Add Dive Site",
+      "editTitle": "Edit Dive Site",
+      "subtitle": "Enter dive site details",
+      "name": "Name",
+      "namePlaceholder": "e.g., Blue Hole, Dahab",
+      "nameRequired": "Please enter a name",
+      "description": "Description",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "maxDepth": "Max Depth (m)",
+      "diveType": "Dive Type",
+      "difficulty": "Difficulty Level",
+      "country": "Country",
+      "region": "Region"
+    },
+    "searchPrompt": "Enter coordinates to search for dive sites",
+    "searchPromptHint": "Set latitude and longitude above, then click Search",
+    "import": {
+      "title": "Import from Overpass API",
+      "description": "Import dive sites from OpenStreetMap within a bounding box.",
+      "center": "Center",
+      "radius": "Radius (km)",
+      "southLat": "South Lat",
+      "westLon": "West Lon",
+      "northLat": "North Lat",
+      "eastLon": "East Lon",
+      "button": "Import Dive Sites",
+      "importing": "Importing...",
+      "imported": "Imported",
+      "skipped": "Skipped (duplicates)",
+      "total": "Total found",
+      "invalidCoords": "Please enter valid coordinates"
+    },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {{current}} of {{total}}"
+    }
+  },
+  "session": {
+    "expired": "Your session has expired. Please log in again."
+  },
+  "errors": {
+    "fetchDiveConditions": "Failed to fetch dive conditions",
+    "loadSavedLocations": "Failed to load saved locations",
+    "refreshWeather": "Failed to refresh weather",
+    "refreshAllWeather": "Failed to refresh weather for all locations",
+    "deleteLocation": "Failed to delete location",
+    "networkError": "Network error. Please check your connection.",
+    "unknownError": "An unexpected error occurred"
+  },
+  "enums": {
+    "diveStatus": {
+      "0": "Unknown",
+      "1": "Excellent",
+      "2": "Good",
+      "3": "Fair",
+      "4": "Poor",
+      "5": "Not Recommended"
+    },
+    "currentStrength": {
+      "0": "None",
+      "1": "Weak",
+      "2": "Moderate",
+      "3": "Strong",
+      "4": "Dangerous"
+    },
+    "tidePhase": {
+      "0": "Unknown",
+      "1": "Rising",
+      "2": "Falling",
+      "3": "High",
+      "4": "Low",
+      "5": "Slack"
+    },
+    "waveCondition": {
+      "0": "Unknown",
+      "1": "Calm",
+      "2": "Slight",
+      "3": "Moderate",
+      "4": "Rough",
+      "5": "Very Rough"
+    },
+    "riskLevel": {
+      "0": "Unknown",
+      "1": "Low",
+      "2": "Moderate",
+      "3": "High",
+      "4": "Extreme"
+    },
+    "wetsuitType": {
+      "0": "Unknown",
+      "1": "Rash Guard",
+      "2": "3mm Suit",
+      "3": "5mm Suit",
+      "4": "7mm Suit",
+      "5": "Semi-Dry",
+      "6": "Drysuit"
+    },
+    "beginnerSuitability": {
+      "0": "Unknown",
+      "1": "Yes",
+      "2": "No",
+      "3": "With Supervision"
+    },
+    "skyCondition": {
+      "0": "Unknown",
+      "1": "Clear",
+      "2": "Partly Cloudy",
+      "3": "Mostly Cloudy",
+      "4": "Overcast",
+      "5": "Foggy",
+      "6": "Drizzle",
+      "7": "Rain",
+      "8": "Snow",
+      "9": "Showers",
+      "10": "Thunderstorm"
+    },
+    "surgeIntensity": {
+      "0": "None",
+      "1": "Light",
+      "2": "Moderate",
+      "3": "Strong"
+    },
+    "season": {
+      "0": "Unknown",
+      "1": "Spring",
+      "2": "Summer",
+      "3": "Fall",
+      "4": "Winter"
+    },
+    "certificationLevel": {
+      "0": "Open Water",
+      "1": "Advanced Open Water",
+      "2": "Rescue",
+      "3": "Divemaster",
+      "4": "Diving Not Recommended"
+    },
+    "planktonLevel": {
+      "0": "Unknown",
+      "1": "Low",
+      "2": "Medium",
+      "3": "High",
+      "4": "Bloom"
+    },
+    "sedimentLevel": {
+      "0": "Unknown",
+      "1": "Low",
+      "2": "Medium",
+      "3": "High"
+    },
+    "windType": {
+      "0": "Unknown",
+      "1": "Onshore",
+      "2": "Offshore",
+      "3": "Crossshore"
+    },
+    "precipitationType": {
+      "0": "None",
+      "1": "Light Rain",
+      "2": "Rain",
+      "3": "Heavy Rain",
+      "4": "Storm"
+    },
+    "difficultyLevel": {
+      "0": "Unknown",
+      "1": "Easy",
+      "2": "Moderate",
+      "3": "Difficult",
+      "4": "Hazardous"
+    },
+    "boatCondition": {
+      "0": "Unknown",
+      "1": "Calm",
+      "2": "Slight Motion",
+      "3": "Moderate Motion",
+      "4": "Rough"
+    },
+    "bottomComposition": {
+      "0": "Unknown",
+      "1": "Sand",
+      "2": "Silt",
+      "3": "Reef",
+      "4": "Rock",
+      "5": "Mixed"
+    },
+    "diveType": {
+      "0": "Unknown",
+      "1": "Recreational",
+      "2": "Drift",
+      "3": "Technical"
+    },
+    "photoConditions": {
+      "0": "Unknown",
+      "1": "Excellent",
+      "2": "Good",
+      "3": "Fair",
+      "4": "Poor"
+    },
+    "beaufortScale": {
+      "0": "Calm",
+      "1": "Light Air",
+      "2": "Light Breeze",
+      "3": "Gentle Breeze",
+      "4": "Moderate Breeze",
+      "5": "Fresh Breeze",
+      "6": "Strong Breeze",
+      "7": "Near Gale",
+      "8": "Gale",
+      "9": "Strong Gale",
+      "10": "Storm",
+      "11": "Violent Storm",
+      "12": "Hurricane"
+    }
+  },
+  "reviews": {
+    "title": "Reviews",
+    "writeReview": "Write a Review",
+    "editReview": "Edit Review",
+    "updateReview": "Update Review",
+    "submitReview": "Submit Review",
+    "deleteReview": "Delete Review",
+    "deleteConfirm": "Are you sure you want to delete this review?",
+    "submitting": "Submitting...",
+    "yourRating": "Your Rating",
+    "comment": "Comment",
+    "commentPlaceholder": "Share your dive experience at this site...",
+    "ratingRequired": "Please select a rating",
+    "commentRequired": "Please write a comment",
+    "diveDetails": "Dive Details (optional)",
+    "diveDate": "Dive Date",
+    "visibility": "Visibility (m)",
+    "duration": "Duration (min)",
+    "maxDepth": "Max Depth (m)",
+    "waterTemp": "Water Temp (°C)",
+    "currentStrength": "Current",
+    "selectCurrent": "Select...",
+    "currentNone": "None",
+    "currentWeak": "Weak",
+    "currentModerate": "Moderate",
+    "currentStrong": "Strong",
+    "photos": "Photos",
+    "addPhoto": "Add Photo",
+    "uploadingPhoto": "Uploading...",
+    "dragOrClickPhoto": "Drag & drop photos here, or click to browse",
+    "photoHint": "JPEG, PNG, or WebP up to 10 MB",
+    "photoUploadError": "Failed to upload photo",
+    "showPhotos": "Show photos ({{count}})",
+    "hidePhotos": "Hide photos",
+    "photo": "Photo",
+    "noReviews": "No reviews yet. Be the first to review this dive site!",
+    "basedOn": "Based on {{count}} reviews",
+    "edited": "edited",
+    "vis": "visibility",
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next",
+      "page": "Page {{current}} of {{total}}"
+    }
+  },
+  "privateNotes": {
+    "title": "My Private Notes",
+    "addNote": "Add Note",
+    "createNote": "Create Note",
+    "editNote": "Edit",
+    "deleteNote": "Delete",
+    "deleteConfirm": "Are you sure you want to delete this note?",
+    "titlePlaceholder": "Note title...",
+    "contentPlaceholder": "Write your private notes here...",
+    "noNotes": "You haven't added any private notes for this site yet.",
+    "privacyHint": "These notes are visible only to you and will never be shared publicly.",
+    "edited": "edited"
+  },
+  "howItWorks": {
+    "eyebrow": "How it works",
+    "crumb": "How it works",
+    "title": "AI dive intelligence,",
+    "titleHighlight": "explained simply",
+    "subtitle": "Tap a location, our AI runs a complete ocean-intelligence analysis, and returns a clear safety assessment. Here's what's happening behind the scenes.",
+    "pipeline": {
+      "eyebrow": "The AI workflow",
+      "title": "From a single tap to a full dive assessment",
+      "subtitle": "Our AI works through the analysis in clear, sequential stages. Each one is independently resilient — if any part has a hiccup, the rest continues.",
+      "stageLabel": "Stage",
+      "stages": {
+        "locate": {
+          "title": "Locate the dive site",
+          "description": "Our AI identifies your dive site and prepares the analysis for that exact place."
+        },
+        "bathymetry": {
+          "title": "Map seafloor & depth",
+          "description": "We assess the underwater landscape — depth and terrain type for safe dive planning."
+        },
+        "weather": {
+          "title": "Pull atmospheric weather",
+          "description": "Live weather conditions above the surface, for entry, exit and lightning safety."
+        },
+        "marine": {
+          "title": "Pull marine forecast",
+          "description": "Live sea-state intelligence: surface motion, currents and water temperature."
+        },
+        "tides": {
+          "title": "Calculate tides & slack",
+          "description": "We find the calmest moment in the tidal cycle — the optimal window to dive."
+        },
+        "satellite": {
+          "title": "Read water clarity from satellite",
+          "description": "AI analysis of live satellite imagery to understand how clear the water will be."
+        },
+        "visibility": {
+          "title": "Compute visibility & thermocline",
+          "description": "We estimate what you'll actually see underwater and where you'll feel a temperature change."
+        },
+        "dynamics": {
+          "title": "Analyse surge & currents",
+          "description": "Our AI assesses in-water motion — how much divers will be moved around at depth."
+        },
+        "safety": {
+          "title": "AI safety assessment",
+          "description": "The engine weighs every risk factor and applies built-in overrides for genuinely dangerous conditions."
+        },
+        "ai": {
+          "title": "Generate recommendations",
+          "description": "Personalised wetsuit, certification level, marine-life alerts and best dive time — built for your exact site."
+        }
+      }
+    },
+    "latency": {
+      "title": "What to expect for response time",
+      "subtitle": "Our AI is honest about how long the analysis takes. Most requests are fast, some are slow, and we tell you which is which.",
+      "fast": {
+        "title": "Quick analysis",
+        "body": "Familiar regions where our AI can answer almost instantly."
+      },
+      "typical": {
+        "title": "Typical request",
+        "body": "A fresh AI assessment for any populated coastline."
+      },
+      "cold": {
+        "title": "Deep analysis",
+        "body": "Remote coordinates where live satellite imagery has to be analysed on demand."
+      }
+    },
+    "resilience": {
+      "title": "Built for the messy real world",
+      "subtitle": "Even the best ocean intelligence has gaps. Our AI handles it.",
+      "cardTitle": "AI resilience built in",
+      "body1": "Every stage of the analysis is independently wrapped so that a transient hiccup cannot kill the entire request. When a signal degrades, our AI falls back to estimated values and clearly labels the affected fields.",
+      "body2": "Our engine refuses to inflate the safety score when essential signals are missing. If we can't give you an honest answer, we tell you — we don't make one up."
+    }
+  },
+  "safetyScoring": {
+    "eyebrow": "Safety intelligence",
+    "crumb": "Safety scoring",
+    "title": "Your dive site, scored by",
+    "titleHighlight": "AI",
+    "subtitle": "Our AI condenses live ocean intelligence into a single 0–100 safety score you can act on — at a glance.",
+    "intro": {
+      "eyebrow": "How our AI thinks",
+      "title": "From complex ocean conditions to a clear answer",
+      "subtitle": "Our AI engine reasons over the full picture of your dive site — surface, depth, motion, weather, and water clarity — and translates it into a number divers actually understand.",
+      "cards": {
+        "intelligence": {
+          "title": "Intelligent risk weighting",
+          "body": "Our AI weighs every relevant ocean signal for your specific dive site and combines them into a single, intuitive safety score."
+        },
+        "realtime": {
+          "title": "Live, never cached",
+          "body": "Every score is computed fresh against current ocean intelligence. There are no recycled answers — your dive plan deserves up-to-the-minute analysis."
+        }
+      }
+    },
+    "bands": {
+      "title": "Risk bands",
+      "subtitle": "What each score band means in practical terms — these are the labels you'll see in the app.",
+      "low": {
+        "label": "Low risk",
+        "description": "Excellent or good diving conditions. Standard buddy procedures apply."
+      },
+      "moderate": {
+        "label": "Moderate risk",
+        "description": "Generally safe with awareness. Some conditions warrant attention."
+      },
+      "high": {
+        "label": "High risk",
+        "description": "Diveable only by experienced divers with appropriate gear and local knowledge."
+      },
+      "extreme": {
+        "label": "Not recommended",
+        "description": "Conditions are unsuitable today. Our AI recommends postponing the dive."
+      }
+    },
+    "overrides": {
+      "title": "AI safety overrides",
+      "subtitle": "Some conditions are dangerous regardless of any other positive signals. Our AI knows when to say no.",
+      "cardTitle": "When our AI overrides positive signals",
+      "body": "Even when most of your dive site's signals look good, certain situations make diving genuinely unsafe — and our AI will always force the score to zero in those cases. You'll see a clear explanation of which condition triggered the override so you know exactly what's wrong, not just that something is."
+    },
+    "disclaimer": {
+      "title": "The score is decision support, not a permit to dive",
+      "body": "A high safety score reflects modeled environmental conditions but cannot account for your individual experience, your equipment, your buddy's skill level, recent local events, or how your body feels on the day. Always do your own assessment, defer to your dive plan, and never dive against your gut."
+    }
+  },
+  "faq": {
+    "eyebrow": "Frequently asked",
+    "crumb": "FAQ",
+    "title": "Questions, ",
+    "titleHighlight": "answered honestly",
+    "subtitle": "Everything we get asked about how iSea works, what its limits are, and what your data is used for.",
+    "questions": {
+      "whatIsIsea": {
+        "q": "What is iSea?",
+        "a": "iSea is an AI-powered dive planning platform. You tap a location on a map, our engine analyses the environmental conditions for that exact spot, and returns a complete safety assessment — including visibility, currents, tides, wetsuit recommendation, and a 0–100 safety score."
+      },
+      "isItAi": {
+        "q": "Is it really AI?",
+        "a": "Our pipeline is an AI engine that autonomously analyses live ocean intelligence and applies decades of established oceanographic science to produce a single safety recommendation. It's not a deep-learning black box — we deliberately use transparent heuristics so dive safety decisions are auditable and explainable."
+      },
+      "whyFiveMinutes": {
+        "q": "Why can dive-conditions take up to 5 minutes?",
+        "a": "Most requests are fast. The slow case is when our AI has to run a deep analysis for a remote location it hasn't seen recently — that can take a couple of minutes. We show you a live progress view so you can see exactly what's happening and how far along we are."
+      },
+      "accuracy": {
+        "q": "How accurate is it?",
+        "a": "iSea's safety score is a forecast based on remotely-sensed environmental inputs. It cannot capture microclimate effects, time-of-day variability, or recent local events. Treat it as decision support, not a guarantee — always do your own assessment on the day."
+      },
+      "offlineUse": {
+        "q": "Can I use iSea offline or underwater?",
+        "a": "No. iSea requires an internet connection because every score is computed live from fresh upstream data. There's no cached score — that would be misleading."
+      },
+      "replaceInstructor": {
+        "q": "Does iSea replace a dive instructor or local guide?",
+        "a": "Absolutely not. iSea is decision support for already-certified divers. It cannot teach you to dive, cannot substitute for local knowledge, and cannot judge your personal readiness on a given day. Always defer to certified instructors and local operators for sites you don't know."
+      },
+      "safetyScore": {
+        "q": "What does the safety score actually mean?",
+        "a": "It's a 0–100 number that captures how safe diving conditions are at your exact site, right now. Our AI weighs all the relevant ocean factors and lands on a single score with a clear risk band (Low, Moderate, High, or Not Recommended). When something is genuinely dangerous, our AI overrides everything else and the score drops to zero with an explanation."
+      },
+      "coldOpen": {
+        "q": "Why does the first request for a remote location take longer?",
+        "a": "Our AI does a deeper analysis the first time it sees an unfamiliar region. Once a location has been analysed recently, subsequent requests for the same area are typically much faster."
+      },
+      "lakes": {
+        "q": "Does iSea work for lakes and freshwater?",
+        "a": "Partially. Our AI is primarily tuned for ocean and sea diving. Lake conditions can still be analysed but the safety score and visibility estimates will be less accurate than for marine sites. Dedicated freshwater intelligence is on our roadmap."
+      },
+      "cost": {
+        "q": "Is iSea free?",
+        "a": "Yes, iSea is free to use. Some upstream services have per-call costs that we absorb; we may introduce paid tiers in the future for high-volume professional use."
+      },
+      "data": {
+        "q": "What data do you collect about me?",
+        "a": "Account info (email, name), the dive locations you query, and your saved sites. We don't sell data and we don't track you across other sites. See the privacy policy for details."
+      }
+    }
+  },
+  "terms": {
+    "eyebrow": "Legal",
+    "crumb": "Terms of service",
+    "title": "Terms of service",
+    "subtitle": "The agreement between you and iSea when you use this service.",
+    "lastUpdated": "Last updated: {{date}}",
+    "summary": "TL;DR — iSea is decision support, not a substitute for dive training or judgement on the day. Always read the <disclaimerLink>full safety disclaimer</disclaimerLink>. If anything in these terms is unclear, <contactLink>get in touch</contactLink>.",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of terms",
+        "body": "By accessing or using iSea (the \"Service\"), you agree to be bound by these Terms of Service. If you do not agree, do not use the Service."
+      },
+      "eligibility": {
+        "title": "Eligibility",
+        "body": "You must be at least 16 years old to use iSea. By using the Service you represent that you meet this requirement and that you are using iSea in conjunction with appropriate dive training and certification."
+      },
+      "account": {
+        "title": "Account responsibilities",
+        "body": "You are responsible for safeguarding your account credentials and for any activity under your account. Notify us immediately of any unauthorized access."
+      },
+      "license": {
+        "title": "License to use the Service",
+        "body": "We grant you a limited, non-exclusive, non-transferable, revocable license to access and use the Service for your personal, non-commercial dive planning purposes."
+      },
+      "restrictions": {
+        "title": "Acceptable use",
+        "body": "You will not: (a) reverse-engineer the Service; (b) use it to make decisions for others without their informed consent; (c) scrape, mirror, or redistribute our data; (d) misrepresent the Service's outputs as guarantees of safety; (e) use it for any unlawful purpose."
+      },
+      "userContent": {
+        "title": "User-generated content",
+        "body": "You retain ownership of dive sites, reviews, and notes you submit. You grant iSea a non-exclusive license to host, display and distribute that content within the Service. We may remove content that violates these Terms."
+      },
+      "thirdParty": {
+        "title": "Third-party data",
+        "body": "The Service incorporates data from third-party open and commercial oceanographic providers. Each provider's terms and licenses apply to their data; iSea does not warrant the accuracy of any third-party input. A list of providers and required attributions can be obtained on request."
+      },
+      "disclaimerOfWarranties": {
+        "title": "Disclaimer of warranties",
+        "body": "THE SERVICE IS PROVIDED \"AS IS\" AND \"AS AVAILABLE\" WITHOUT WARRANTIES OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT. WE DO NOT WARRANT THAT SAFETY ASSESSMENTS WILL BE ACCURATE, COMPLETE, OR SUITABLE FOR ANY SPECIFIC DIVE."
+      },
+      "limitationOfLiability": {
+        "title": "Limitation of liability",
+        "body": "TO THE MAXIMUM EXTENT PERMITTED BY LAW, ISEA AND ITS OPERATORS SHALL NOT BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, INCLUDING WITHOUT LIMITATION PERSONAL INJURY, DEATH, LOSS OF PROFITS, DATA OR USE, ARISING OUT OF OR RELATED TO YOUR USE OF OR INABILITY TO USE THE SERVICE. DIVING IS AN INHERENTLY HAZARDOUS ACTIVITY AND YOU ASSUME ALL RISK."
+      },
+      "indemnification": {
+        "title": "Indemnification",
+        "body": "You agree to indemnify and hold harmless iSea and its operators from any claims, damages, losses, liabilities and expenses arising from your use of the Service or your violation of these Terms."
+      },
+      "termination": {
+        "title": "Termination",
+        "body": "We may suspend or terminate your account at any time for violation of these Terms. You may delete your account at any time from your profile settings."
+      },
+      "governingLaw": {
+        "title": "Governing law",
+        "body": "These Terms are governed by the laws of the jurisdiction in which iSea is operated, without regard to conflict-of-law provisions."
+      },
+      "changes": {
+        "title": "Changes to the Terms",
+        "body": "We may update these Terms from time to time. Material changes will be communicated via the Service. Continued use after changes constitutes acceptance."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Questions about these Terms can be sent through the contact channels listed on our home page."
+      }
+    }
+  },
+  "privacy": {
+    "eyebrow": "Legal",
+    "crumb": "Privacy policy",
+    "title": "Privacy policy",
+    "subtitle": "What we collect, why we collect it, and what we never do with your data.",
+    "lastUpdated": "Last updated: {{date}}",
+    "summary": "Short version: we collect the minimum needed to run the Service, we never sell your data, and we don't track you across other websites. You can delete your account and your data at any time.",
+    "sections": {
+      "whatWeCollect": {
+        "title": "What we collect",
+        "body": "Account information you provide (email, name, password hash). Location coordinates you query for dive conditions. Dive sites, reviews and notes you create. Standard technical logs (IP address, browser type) needed to operate the Service."
+      },
+      "howWeUse": {
+        "title": "How we use your data",
+        "body": "To provide the Service (computing dive conditions, displaying your saved sites). To improve the Service (aggregate, anonymized usage analytics). To communicate essential service messages (account, security, terms updates)."
+      },
+      "legalBasis": {
+        "title": "Legal basis (GDPR)",
+        "body": "We process your data under (a) contract — necessary to deliver the Service you signed up for; (b) legitimate interests — operational logging and abuse prevention; (c) consent — where required by law for analytics or marketing."
+      },
+      "sharing": {
+        "title": "Who we share data with",
+        "body": "We do not sell your personal data. We share data only with the infrastructure providers needed to operate the Service (hosting, database, email). Your dive site reviews are publicly visible by design."
+      },
+      "thirdPartyApis": {
+        "title": "Third-party services we call on your behalf",
+        "body": "When you request dive conditions, your coordinates are sent to third-party oceanographic and meteorological data providers used by our pipeline. These services have their own privacy policies. We do not transmit your personal identity (account, name, email) to any of them."
+      },
+      "cookies": {
+        "title": "Cookies and similar technologies",
+        "body": "We use a small number of strictly necessary cookies for authentication and session management. We do not use third-party advertising cookies."
+      },
+      "retention": {
+        "title": "Data retention",
+        "body": "Account data is retained as long as your account is active. Dive-conditions request logs are retained for a maximum of 12 months for operational debugging. Deleted accounts are purged within 30 days."
+      },
+      "security": {
+        "title": "Security",
+        "body": "Passwords are stored as one-way hashes. All traffic uses HTTPS. We follow industry-standard practices for protecting your data, but no system is 100% secure."
+      },
+      "yourRights": {
+        "title": "Your rights",
+        "body": "You have the right to access, correct, export, and delete your personal data at any time. Most actions can be performed directly from your profile settings; for others, contact us."
+      },
+      "children": {
+        "title": "Children's privacy",
+        "body": "iSea is not directed at children under 16 and we do not knowingly collect data from them. If you believe a child has provided us data, contact us immediately."
+      },
+      "transfers": {
+        "title": "International data transfers",
+        "body": "Your data may be processed in countries other than your own. Where required, we rely on appropriate transfer mechanisms recognised under your jurisdiction's data-protection law."
+      },
+      "changes": {
+        "title": "Changes to this policy",
+        "body": "We may update this policy from time to time. Material changes will be communicated via the Service."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Privacy questions and data-rights requests can be submitted through the contact channels listed on our home page."
+      }
+    }
+  },
+  "disclaimer": {
+    "eyebrow": "Safety",
+    "crumb": "Diving safety disclaimer",
+    "title": "Diving safety",
+    "titleHighlight": "disclaimer",
+    "subtitle": "iSea is decision support, not a substitute for training, judgement, or local knowledge. Please read this carefully before using any safety assessment in your dive planning.",
+    "bigWarning": {
+      "headline": "Scuba diving is an inherently hazardous activity.",
+      "body": "It carries risk of serious injury or death. No software product — including iSea — can eliminate that risk. The safety scores, recommendations, and warnings provided by iSea are informed estimates based on remotely-sensed environmental data and do not constitute a guarantee of safe diving conditions."
+    },
+    "points": {
+      "noSubstitute": {
+        "title": "Not a substitute for certified training",
+        "body": "iSea is intended for use by divers who hold a current certification from a recognised training agency (PADI, SSI, NAUI, BSAC, CMAS, etc.). It cannot teach you to dive, evaluate your personal readiness, or replace formal dive education."
+      },
+      "estimates": {
+        "title": "All outputs are estimates",
+        "body": "Visibility, currents, temperature, and other parameters are modeled or forecasted from third-party data sources. Real conditions can differ significantly due to local microclimates, recent weather events, or measurement gaps. Always verify on the day."
+      },
+      "localConditions": {
+        "title": "Local knowledge is irreplaceable",
+        "body": "Currents, hazards, entry/exit logistics, and marine life behaviour at a specific site are best known to local operators and experienced divers familiar with the area. Where possible, dive with or consult someone who knows the site."
+      },
+      "medical": {
+        "title": "Medical fitness is your responsibility",
+        "body": "iSea does not assess your medical fitness to dive. Recent illness, fatigue, alcohol, certain medications, ear/sinus conditions, and other medical factors can dramatically affect safety. If in doubt, consult a dive-medicine physician."
+      },
+      "emergency": {
+        "title": "Always have an emergency plan",
+        "body": "Know your nearest hyperbaric chamber, have surface support, file a dive plan with someone on shore, carry appropriate emergency signalling equipment (SMB, audible signal, mirror), and follow your training agency's emergency procedures."
+      }
+    },
+    "acknowledgement": "By using iSea you acknowledge that you have read and understood this disclaimer, that you accept all risk associated with diving, and that you will exercise your own judgement on every dive."
+  },
+  "personalAssessment": {
+    "title": "Personal assessment",
+    "summaryAllPass": "{{passes}} ✓",
+    "summaryWithWarnings": "{{passes}} ✓ · {{warnings}} ⚠",
+    "experienceLevels": {
+      "Beginner": "Beginner",
+      "Intermediate": "Intermediate",
+      "Experienced": "Experienced",
+      "Expert": "Expert",
+      "Unknown": "Unknown"
+    },
+    "checks": {
+      "certification": {
+        "label": "Certification",
+        "pass": "Your {{cert}} certification covers this dive.",
+        "warnFallback": "Your certification may be below what these conditions require."
+      },
+      "depth": {
+        "label": "Planned depth",
+        "pass": "Within your preferred maximum of {{max}} m.",
+        "warnFallback": "Planned depth exceeds your preferred maximum."
+      },
+      "suit": {
+        "label": "Exposure suit",
+        "pass": "Your usual suit is warm enough for these conditions.",
+        "warnFallback": "You may need a thicker suit than usual for this dive."
+      },
+      "experience": {
+        "label": "Experience",
+        "detail": "{{level}} diver ({{dives}} logged dives)"
+      },
+      "emergencyContact": {
+        "label": "Emergency contact",
+        "pass": "{{name}} · {{relation}} on file.",
+        "warnFallback": "No emergency contact on file. Add one in your profile."
+      }
+    },
+    "emergencyContactCard": {
+      "title": "Emergency contact"
+    }
+  }
+}

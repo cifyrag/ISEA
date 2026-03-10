@@ -1,0 +1,1485 @@
+{
+  "common": {
+    "loading": "Chargement...",
+    "yes": "Oui",
+    "no": "Non",
+    "na": "N/D",
+    "unknown": "Inconnu",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "confirm": "Confirmer",
+    "error": "Erreur",
+    "success": "Succès"
+  },
+  "nav": {
+    "diveMap": "Carte de plongée",
+    "logIn": "Se connecter",
+    "signUp": "S'inscrire",
+    "logOut": "Se déconnecter",
+    "accountSettings": "Paramètres du compte",
+    "admin": "Admin",
+    "adminUsers": "Utilisateurs",
+    "adminDiveSites": "Admin Sites",
+    "diveSites": "Sites de plongée",
+    "savedLocations": "Lieux sauvegardés",
+    "howItWorks": "Comment ça marche",
+    "safetyScoring": "Score de sécurité",
+    "faq": "FAQ"
+  },
+  "diveSites": {
+    "title": "Sites de plongée",
+    "subtitle": "Parcourir les sites de plongée vérifiés dans le monde entier",
+    "subtitleAdmin": "Tous les sites de plongée, y compris les soumissions non vérifiées",
+    "searchPlaceholder": "Rechercher par nom, pays ou région...",
+    "fetchError": "Impossible de charger les sites de plongée",
+    "noResults": "Aucun site de plongée ne correspond à votre recherche",
+    "empty": "Aucun site de plongée disponible",
+    "pending": "En attente",
+    "website": "Site web",
+    "source": "Source",
+    "listView": "Liste",
+    "mapView": "Carte",
+    "viewDetails": "Voir les détails",
+    "showing": "{{count}} sur {{total}} sites affichés",
+    "suggestSite": "Suggérer un site",
+    "suggestTitle": "Suggérer un site de plongée",
+    "suggestSubtitle": "Soumettre un nouveau site de plongée pour examen",
+    "suggestSubmit": "Soumettre la suggestion",
+    "suggestSuccess": "Suggestion soumise !",
+    "suggestSuccessHint": "Un administrateur examinera votre soumission sous peu.",
+    "suggestError": "Impossible de soumettre la suggestion",
+    "type": "Type",
+    "siteType": "Type de site",
+    "siteTypeSelect": "Sélectionner le type de site...",
+    "siteTypes": {
+      "Unknown": "Inconnu",
+      "Reef": "Récif",
+      "Wreck": "Épave",
+      "Cave": "Grotte",
+      "Cavern": "Caverne",
+      "Wall": "Tombant",
+      "Pinnacle": "Pinacle",
+      "Drift": "Dérivante",
+      "Lake": "Lac",
+      "Muck": "Muck",
+      "Pelagic": "Pélagique",
+      "Plateau": "Plateau"
+    },
+    "depth": "Profondeur",
+    "minDepth": "Prof. min",
+    "maxDepth": "Prof. max",
+    "rating": "Note",
+    "country": "Pays",
+    "difficulty": "Difficulté",
+    "unverified": "Non vérifié",
+    "verified": "Vérifié"
+  },
+  "diveSiteDetail": {
+    "backToList": "Retour aux sites de plongée",
+    "fetchError": "Impossible de charger les détails du site",
+    "notFound": "Site de plongée introuvable",
+    "description": "Description",
+    "coordinates": "Coordonnées",
+    "maxDepth": "Profondeur max.",
+    "phone": "Téléphone",
+    "adminInfo": "Informations administrateur",
+    "osmId": "ID OSM",
+    "createdAt": "Créé le",
+    "edit": "Modifier",
+    "verify": "Vérifier",
+    "unverify": "Retirer la vérification",
+    "delete": "Supprimer",
+    "deleteConfirm": "Voulez-vous vraiment supprimer ce site de plongée ? Cette action est irréversible.",
+    "location": "Emplacement",
+    "diveConditions": "Conditions de plongée",
+    "getConditions": "Obtenir les conditions de plongée",
+    "loadingConditions": "Chargement des conditions de plongée...",
+    "conditionsError": "Impossible de charger les conditions de plongée",
+    "retryConditions": "Réessayer",
+    "conditionsUnavailable": "Les conditions de plongée ne sont disponibles que pour les sites vérifiés."
+  },
+  "diveSiteImages": {
+    "title": "Photos",
+    "upload": "Ajouter une photo",
+    "uploading": "Envoi en cours...",
+    "noImages": "Aucune photo",
+    "delete": "Supprimer la photo",
+    "deleteConfirm": "Voulez-vous vraiment supprimer cette photo ?",
+    "invalidType": "Seules les images JPEG, PNG et WebP sont autorisées",
+    "tooLarge": "L'image ne doit pas dépasser {{max}} Mo",
+    "dropHere": "Déposez l'image ici",
+    "dropHint": "JPEG, PNG ou WebP jusqu'à 10 Mo",
+    "dragOrClick": "Glissez-déposez une photo ici ou cliquez pour parcourir"
+  },
+  "savedLocationsPage": {
+    "title": "Lieux sauvegardés",
+    "subtitle": "Vos sites de plongée personnellement marqués"
+  },
+  "footer": {
+    "tagline": "Intelligence océanique alimentée par l'IA pour des aventures sous-marines plus sûres.",
+    "product": "Produit",
+    "resources": "Ressources",
+    "legal": "Mentions légales",
+    "howItWorks": "Comment ça marche",
+    "safetyScoring": "Score de sécurité",
+    "faq": "FAQ",
+    "disclaimer": "Avertissement",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "copyright": "Tous droits réservés."
+  },
+  "home": {
+    "badge": "Intelligence de plongée alimentée par l'IA",
+    "heroTitle": "Connaissez les conditions",
+    "heroTitleHighlight": "avant de plonger",
+    "heroSubtitle": "iSea exécute une analyse propriétaire pilotée par l'IA pour fournir une évaluation complète de sécurité pour n'importe quel site de plongée sur Terre — en un seul clic.",
+    "openDiveMap": "Ouvrir la carte de plongée",
+    "getStarted": "Commencer gratuitement",
+    "logIn": "Se connecter",
+    "howItWorksLink": "Voir comment ça marche",
+    "trust": {
+      "satellite": "Intelligence satellite en direct",
+      "research": "Méthodologie de recherche",
+      "free": "Gratuit"
+    },
+    "features": {
+      "visibility": {
+        "title": "Prévision de visibilité",
+        "description": "Estimation par IA de la visibilité sous-marine à partir d'analyses satellites en direct de votre site."
+      },
+      "temperature": {
+        "title": "Profil de température",
+        "description": "Températures de surface et au fond avec recommandations de combinaison personnalisées."
+      },
+      "currents": {
+        "title": "Courants et marées",
+        "description": "Intensité des courants en direct, position dans le cycle des marées et fenêtres optimales d'étale."
+      },
+      "safety": {
+        "title": "Score de sécurité IA",
+        "description": "Évaluation claire des risques de 0 à 100 par notre IA, générée pour votre lieu et votre date précis."
+      }
+    },
+    "stats": {
+      "aiPowered": "Analyse alimentée par l'IA",
+      "aiPoweredSub": "Intelligence océanique en direct sur chaque site",
+      "coverage": "Couverture mondiale",
+      "coverageSub": "Des tropiques aux pôles",
+      "realTime": "Toujours disponible",
+      "realTimeSub": "Prévisions jusqu'à 7 jours à l'avance",
+      "free": "Gratuit",
+      "freeSub": "Aucun abonnement requis"
+    },
+    "ai": {
+      "badge": "Intelligence IA",
+      "title": "L'intelligence océanique, automatisée",
+      "subtitle": "Derrière chaque score de sécurité, un moteur d'IA qui analyse votre site de plongée en temps réel et traduit des conditions océaniques complexes en une réponse claire : plonger ou pas.",
+      "capabilities": {
+        "satellite": {
+          "title": "Intelligence satellitaire",
+          "description": "Analyse satellite en direct des conditions et de la clarté de l'eau à vos coordonnées exactes."
+        },
+        "fusion": {
+          "title": "Fusion multi-signaux",
+          "description": "Notre IA combine de nombreux signaux océaniques indépendants en une image unifiée de votre site."
+        },
+        "reasoning": {
+          "title": "Raisonnement de sécurité par IA",
+          "description": "Le moteur pèse l'ensemble des facteurs de risque et applique des protections intégrées pour les conditions réellement dangereuses."
+        },
+        "realtime": {
+          "title": "Analyse en temps réel",
+          "description": "Chaque requête est exécutée à neuf — aucune réponse périmée, aucun score recyclé. Votre plan de plongée mérite des renseignements actuels."
+        }
+      }
+    },
+    "featuresSection": {
+      "title": "Tout ce qu'il vous faut pour plonger en sécurité",
+      "subtitle": "Intelligence environnementale complète, agrégée depuis plusieurs sources autoritaires, traitée par notre moteur d'IA et présentée dans un format exploitable."
+    },
+    "howItWorks": {
+      "title": "Simple pour les plongeurs, sophistiqué en coulisses",
+      "subtitle": "Trois étapes pour vous. Dix étapes pour notre pipeline IA.",
+      "step01": {
+        "title": "Choisissez un lieu",
+        "desc": "Touchez n'importe quelle coordonnée sur la carte interactive des océans."
+      },
+      "step02": {
+        "title": "L'IA fait le travail",
+        "desc": "Notre pipeline rassemble l'intelligence océanique en direct et raisonne dessus en temps réel."
+      },
+      "step03": {
+        "title": "Obtenez votre score de sécurité",
+        "desc": "Un score de 0 à 100, une analyse complète des risques et des recommandations personnalisées."
+      },
+      "step": "ÉTAPE",
+      "cta": "Voir le pipeline complet en 10 étapes"
+    },
+    "safetyBanner": {
+      "title": "iSea est une aide à la décision — pas un substitut à la formation.",
+      "body": "Tenez-vous-en toujours à votre plan de plongée, à votre vérification mutuelle et aux conditions locales du jour. Lisez l'intégralité de l'",
+      "link": "avertissement de sécurité plongée →"
+    },
+    "cta": {
+      "title": "Commencez à plonger plus intelligemment dès aujourd'hui",
+      "subtitle": "Rejoignez les plongeurs du monde entier qui utilisent l'intelligence IA d'iSea pour planifier des plongées plus sûres et mieux informées.",
+      "button": "Créer un compte gratuit"
+    }
+  },
+  "login": {
+    "title": "Bon retour",
+    "subtitle": "Connectez-vous pour continuer sur iSea",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "diver@example.com",
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Entrez votre mot de passe",
+    "submitButton": "Se connecter",
+    "submitting": "Connexion en cours...",
+    "noAccount": "Vous n'avez pas de compte ?",
+    "createOne": "Créez-en un maintenant",
+    "defaultError": "Adresse e-mail ou mot de passe invalide"
+  },
+  "register": {
+    "title": "Créez votre compte",
+    "subtitle": "Commencez à planifier des plongées plus sûres avec iSea",
+    "firstNameLabel": "Prénom",
+    "lastNameLabel": "Nom de famille",
+    "emailLabel": "Adresse e-mail",
+    "emailPlaceholder": "diver@example.com",
+    "roleLabel": "Je suis",
+    "roleOptions": {
+      "diver": "Plongeur loisir",
+      "trainer": "Moniteur de plongée",
+      "diveCenter": "Centre de plongée"
+    },
+    "passwordLabel": "Mot de passe",
+    "passwordPlaceholder": "Min. 8 caractères",
+    "confirmPasswordLabel": "Confirmer le mot de passe",
+    "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+    "submitButton": "Créer un compte",
+    "submitting": "Création du compte...",
+    "hasAccount": "Vous avez déjà un compte ?",
+    "signIn": "Se connecter",
+    "errors": {
+      "passwordMismatch": "Les mots de passe ne correspondent pas",
+      "passwordLength": "Le mot de passe doit contenir au moins 8 caractères",
+      "defaultError": "L'inscription a échoué"
+    }
+  },
+  "profile": {
+    "title": "Paramètres du compte",
+    "subtitle": "Gérez votre profil et vos préférences",
+    "loadingProfile": "Chargement du profil...",
+    "tabs": {
+      "profile": "Profil",
+      "password": "Mot de passe"
+    },
+    "personal": {
+      "title": "Informations personnelles",
+      "firstName": "Prénom",
+      "lastName": "Nom de famille",
+      "email": "E-mail",
+      "bio": "Bio",
+      "bioPlaceholder": "Parlez-nous de vous..."
+    },
+    "diver": {
+      "title": "Informations plongeur",
+      "certificationLevel": "Niveau de certification",
+      "selectCertification": "Sélectionner la certification",
+      "totalDives": "Nombre total de plongées",
+      "certificationLevels": {
+        "openWater": "Open Water",
+        "advancedOpenWater": "Advanced Open Water",
+        "rescueDiver": "Rescue Diver",
+        "divemaster": "Divemaster",
+        "instructor": "Instructeur"
+      }
+    },
+    "emergency": {
+      "title": "Contact d'urgence",
+      "contactName": "Nom du contact",
+      "contactNamePlaceholder": "Jean Dupont",
+      "phone": "Numéro de téléphone",
+      "phonePlaceholder": "+33 1 23 45 67 89",
+      "relationship": "Relation",
+      "relationshipPlaceholder": "Conjoint(e), parent, etc."
+    },
+    "preferences": {
+      "title": "Préférences de plongée",
+      "preferredSuit": "Combinaison préférée",
+      "selectSuit": "Sélectionner le type de combinaison",
+      "suitTypes": {
+        "wetsuit3mm": "Combinaison 3mm",
+        "wetsuit5mm": "Combinaison 5mm",
+        "wetsuit7mm": "Combinaison 7mm",
+        "drysuit": "Combinaison étanche",
+        "shorty": "Shorty"
+      },
+      "preferredDiveType": "Type de plongée préféré",
+      "selectDiveType": "Sélectionner le type de plongée",
+      "diveTypes": {
+        "shore": "Depuis le bord",
+        "boat": "Depuis un bateau",
+        "night": "Nocturne",
+        "wreck": "Épave",
+        "drift": "Dérivante",
+        "deep": "Profonde"
+      },
+      "maxDepth": "Profondeur max (m)",
+      "unitSystem": "Système d'unités",
+      "metric": "Métrique (m, km)",
+      "imperial": "Impérial (ft, mi)",
+      "temperatureUnit": "Unité de température",
+      "celsius": "Celsius (°C)",
+      "fahrenheit": "Fahrenheit (°F)"
+    },
+    "saveChanges": "Enregistrer les modifications",
+    "saving": "Enregistrement...",
+    "profileUpdated": "Profil mis à jour avec succès !",
+    "failedToLoad": "Échec du chargement du profil",
+    "failedToUpdate": "Échec de la mise à jour du profil",
+    "password": {
+      "title": "Changer le mot de passe",
+      "currentPassword": "Mot de passe actuel",
+      "newPassword": "Nouveau mot de passe",
+      "confirmNewPassword": "Confirmer le nouveau mot de passe",
+      "changeButton": "Changer le mot de passe",
+      "changing": "Modification en cours...",
+      "changed": "Mot de passe changé avec succès !",
+      "failedToChange": "Échec du changement de mot de passe",
+      "errors": {
+        "mismatch": "Les nouveaux mots de passe ne correspondent pas",
+        "length": "Le mot de passe doit contenir au moins 8 caractères"
+      }
+    }
+  },
+  "map": {
+    "sidebarTitle": "Renseignements de plongée",
+    "sidebarSubtitle": "Analysez et enregistrez des sites de plongée",
+    "conditionsTab": "Conditions",
+    "savedTab": "Enregistrés",
+    "sitesTab": "Sites",
+    "adminTab": "Admin",
+    "selectedLocation": "Emplacement sélectionné",
+    "saveThisLocation": "Enregistrer cet emplacement",
+    "clearSelection": "Effacer la sélection",
+    "divePoint": "Point de plongée",
+    "kmFromSelected": "{{distance}} km du point sélectionné",
+    "onLand": "Le point sélectionné est sur terre - affichage du site de plongée le plus proche",
+    "tooShallow": "Le point sélectionné est trop peu profond ({{depth}}m) - affichage du site de plongée le plus proche",
+    "noLocation": "Aucun emplacement sélectionné",
+    "noLocationHint": "Cliquez sur la carte pour commencer",
+    "clickToSelect": "Cliquez sur la carte pour sélectionner un site de plongée",
+    "diveDate": "Date de plongée (optionnel)",
+    "diveTime": "Heure de plongée (optionnel)",
+    "getConditions": "Obtenir les conditions de plongée",
+    "analyzingConditions": "Analyse des conditions...",
+    "legend": {
+      "markers": "Marqueurs",
+      "selected": "Sélectionné",
+      "divePoint": "Point de plongée",
+      "diveSites": "Sites de plongée",
+      "verifiedSite": "Site vérifié",
+      "unverifiedSite": "Non vérifié",
+      "savedLocations": "Mes enregistrés",
+      "shore": "Bord",
+      "reef": "Récif",
+      "boat": "Bateau",
+      "wreck": "Épave",
+      "cave": "Grotte",
+      "other": "Autre",
+      "diveSiteTypes": "Types de sites de plongée"
+    },
+    "addAsDiveSite": "Ajouter comme site de plongée",
+    "verifiedSiteRequired": "Les conditions de plongée ne sont disponibles que pour les sites vérifiés. Veuillez sélectionner un site vérifié sur la carte.",
+    "layers": {
+      "title": "Couches",
+      "verified": "Sites vérifiés",
+      "unverified": "Sites non vérifiés",
+      "saved": "Mes favoris",
+      "sitesLoaded": "sites chargés",
+      "siteTypes": "Types de sites",
+      "showAll": "Tout afficher",
+      "hideAll": "Tout masquer",
+      "depthRange": "Plage de profondeur"
+    },
+    "search": {
+      "placeholder": "Rechercher adresse, ville, code postal ou coordonnées...",
+      "noResults": "Aucun lieu trouvé. Essayez un autre terme de recherche.",
+      "error": "La recherche a échoué. Veuillez réessayer.",
+      "nearbySites": "{{count}} sites de plongée à proximité"
+    },
+    "noNearbySiteToSave": "Cliquez sur le marqueur d'un site de plongée pour l'enregistrer"
+  },
+  "adminSites": {
+    "addSite": "Ajouter un site de plongée",
+    "importOsm": "Importer depuis OpenStreetMap",
+    "importOsmHint": "Importer automatiquement des sites de plongée autour du centre de la carte.",
+    "radius": "rayon",
+    "import": "Importer",
+    "importing": "Importation...",
+    "verified": "Vérifiés",
+    "unverified": "En attente",
+    "pendingReview": "En attente de vérification",
+    "verifiedSites": "Sites vérifiés",
+    "empty": "Aucun site de plongée dans cette zone",
+    "emptyHint": "Ajoutez-en un manuellement ou importez depuis OpenStreetMap",
+    "region": "Région",
+    "maxDepth": "Prof. max.",
+    "source": "Source",
+    "sourceManual": "Manuel",
+    "sourceApi": "Import API",
+    "sourceOverpass": "Overpass",
+    "checkConditions": "Voir les conditions",
+    "verify": "Vérifier",
+    "edit": "Modifier",
+    "deleteConfirm": "Voulez-vous vraiment supprimer ce site de plongée ?",
+    "form": {
+      "addTitle": "Ajouter un nouveau site de plongée",
+      "editTitle": "Modifier le site de plongée",
+      "name": "Nom",
+      "namePlaceholder": "p. ex. Trou Bleu",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "description": "Description",
+      "descriptionPlaceholder": "Brève description de ce site de plongée...",
+      "country": "Pays",
+      "region": "Région",
+      "maxDepth": "Prof. max. (m)",
+      "phone": "Téléphone",
+      "website": "Site web",
+      "nameRequired": "Le nom est obligatoire",
+      "invalidCoords": "Veuillez entrer des coordonnées valides",
+      "saveFailed": "Impossible d'enregistrer le site de plongée",
+      "saving": "Enregistrement..."
+    }
+  },
+  "conditions": {
+    "safetyScore": "Score de sécurité",
+    "excellent": "Excellent",
+    "good": "Bon",
+    "fair": "Passable",
+    "poor": "Mauvais",
+    "visibility": "Visibilité",
+    "temperature": "Température",
+    "current": "Courant",
+    "waves": "Vagues",
+    "locationAdjusted": "Emplacement ajusté",
+    "onLandAdjusted": "Le point sélectionné était sur terre. Affichage du site de plongée le plus proche (à {{distance}}km).",
+    "shallowAdjusted": "Le point sélectionné était trop peu profond ({{depth}}m). Affichage du site de plongée le plus proche avec une profondeur suffisante (à {{distance}}km).",
+    "activeWarnings": "Avertissements actifs",
+    "recommendations": "Recommandations",
+    "bestTime": "Meilleur moment",
+    "recommendedSuit": "Combinaison recommandée",
+    "suitableForBeginners": "Adapté aux débutants",
+    "viewFullDetails": "Voir tous les détails",
+    "personalWarnings": "Avertissements personnalisés"
+  },
+  "conditionsModal": {
+    "title": "Détails des conditions de plongée",
+    "safetyScore": "Score de sécurité",
+    "warningsTitle": "Avertissements et avis",
+    "activeWarnings": "Avertissements actifs",
+    "advisories": "Avis",
+    "visibility": {
+      "title": "Visibilité",
+      "estimated": "Visibilité estimée",
+      "base": "Visibilité de base",
+      "secchiDepth": "Profondeur de Secchi",
+      "kd490": "Kd490 (Turbidité)",
+      "chlorophyll": "Chlorophylle",
+      "planktonLevel": "Niveau de plancton",
+      "sedimentLevel": "Niveau de sédiments",
+      "runoffPenalty": "Pénalité de ruissellement",
+      "wavePenalty": "Pénalité de vagues"
+    },
+    "waterTemp": {
+      "title": "Température de l'eau",
+      "surface": "Température en surface",
+      "estimatedBottom": "Température estimée au fond",
+      "plannedDepth": "Profondeur prévue",
+      "thermoclineDepth": "Profondeur de la thermocline",
+      "thermoclineStrength": "Intensité de la thermocline",
+      "season": "Saison",
+      "recommendedSuit": "Combinaison recommandée"
+    },
+    "currents": {
+      "title": "Courants et marées",
+      "currentSpeed": "Vitesse du courant",
+      "currentStrength": "Intensité du courant",
+      "currentDirection": "Direction du courant",
+      "tidePhase": "Phase de marée",
+      "tideHeight": "Hauteur de marée",
+      "tidalRange": "Marnage",
+      "nextHighTide": "Prochaine marée haute",
+      "nextLowTide": "Prochaine marée basse",
+      "nextSlackTide": "Prochaine étale",
+      "timeToSlack": "Temps avant l'étale",
+      "slackWindow": "Fenêtre d'étale",
+      "driftDiving": "Plongée dérivante possible"
+    },
+    "surge": {
+      "title": "Houle et vagues",
+      "waveHeight": "Hauteur des vagues",
+      "wavePeriod": "Période des vagues",
+      "waveCondition": "État de la mer",
+      "waveDirection": "Direction des vagues",
+      "swellHeight": "Hauteur de la houle",
+      "swellPeriod": "Période de la houle",
+      "swellDirection": "Direction de la houle",
+      "waveEnergy": "Énergie des vagues",
+      "surgeIntensity": "Intensité de la houle",
+      "surgeDepth": "Pénétration en profondeur de la houle"
+    },
+    "weather": {
+      "title": "Conditions météorologiques",
+      "windSpeed": "Vitesse du vent",
+      "windGusts": "Rafales de vent",
+      "windDirection": "Direction du vent",
+      "beaufortScale": "Échelle de Beaufort",
+      "windType": "Type de vent",
+      "airTemp": "Température de l'air",
+      "sky": "Ciel",
+      "cloudCover": "Couverture nuageuse",
+      "precipitation": "Précipitations",
+      "precipitationType": "Type de précipitations",
+      "thunderstormRisk": "Risque d'orage"
+    },
+    "surface": {
+      "title": "Conditions en surface",
+      "entryDifficulty": "Difficulté d'entrée",
+      "exitDifficulty": "Difficulté de sortie",
+      "shoreDive": "Plongée du bord possible",
+      "boatDive": "Plongée en bateau recommandée",
+      "boatConditions": "Conditions en bateau",
+      "anchoring": "Mouillage difficile",
+      "surfaceCurrents": "Forts courants de surface",
+      "breakingWaves": "Vagues déferlantes",
+      "ripCurrent": "Risque de courant d'arrachement"
+    },
+    "safety": {
+      "title": "Évaluation de sécurité",
+      "overallRisk": "Niveau de risque global",
+      "overallScore": "Score global",
+      "waveScore": "Vagues",
+      "currentScore": "Courant",
+      "visibilityScore": "Visibilité",
+      "weatherScore": "Météo",
+      "temperatureScore": "Température",
+      "surgeScore": "Houle",
+      "minCertification": "Certification minimale",
+      "requiresGuide": "Guide local requis",
+      "requiresEquipment": "Équipement spécial requis",
+      "requiredEquipment": "Équipement requis",
+      "postponeRecommended": "Report recommandé : {{reason}}",
+      "nextSafeWindow": " Prochaine fenêtre sûre : {{window}}"
+    },
+    "bathymetry": {
+      "title": "Bathymétrie",
+      "onLand": "L'emplacement sélectionné était sur terre - affichage du site de plongée le plus proche",
+      "tooShallow": "L'emplacement sélectionné était trop peu profond ({{depth}}m) - affichage du site de plongée le plus proche",
+      "distance": "Distance : {{distance}} km",
+      "depthAtSite": "Profondeur au site",
+      "originalDepth": "Profondeur de l'emplacement d'origine",
+      "tooShallowSuffix": "(trop peu profond)",
+      "maxDiveDepth": "Profondeur max de plongée",
+      "beginnerDepth": "Profondeur débutant",
+      "minDepthArea": "Profondeur min dans la zone",
+      "maxDepthArea": "Profondeur max dans la zone",
+      "slope": "Pente",
+      "terrainType": "Type de terrain",
+      "bottomComposition": "Composition du fond",
+      "offshoreDirection": "Direction vers le large"
+    },
+    "recommendations": {
+      "title": "Recommandations",
+      "bestTime": "Meilleur moment aujourd'hui",
+      "optimalSlack": "Étale optimale",
+      "recommendedSuit": "Combinaison recommandée",
+      "needsHood": "Cagoule nécessaire",
+      "needsGloves": "Gants nécessaires",
+      "needsBoots": "Bottillons nécessaires",
+      "diveType": "Type de plongée",
+      "suitableForBeginners": "Adapté aux débutants",
+      "idealExperience": "Niveau d'expérience idéal",
+      "specialConsiderations": "Considérations particulières"
+    },
+    "marinLife": {
+      "title": "Vie marine et photographie",
+      "photoConditions": "Conditions photo",
+      "marineLifeAlerts": "Alertes vie marine"
+    },
+    "dataSources": "Sources de données : {{sources}}",
+    "requested": "Demandé : {{time}}"
+  },
+  "savedLocations": {
+    "title": "Emplacements enregistrés",
+    "count": "({{count}})",
+    "refreshAll": "Tout actualiser",
+    "empty": "Aucun emplacement enregistré",
+    "emptyHint": "Cliquez sur la carte et enregistrez un site pour le voir ici",
+    "noData": "Aucune donnée",
+    "score": "Score : {{score}}",
+    "difficulty": "Difficulté :",
+    "maxDepth": "Profondeur max :",
+    "visits": "Visites :",
+    "updated": "Mis à jour {{time}}",
+    "updateWeather": "Mettre à jour la météo",
+    "viewDiveSite": "Voir le site de plongée",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet emplacement ?",
+    "timeAgo": {
+      "never": "Jamais",
+      "justNow": "À l'instant",
+      "minutesAgo": "il y a {{count}}min",
+      "hoursAgo": "il y a {{count}}h",
+      "daysAgo": "il y a {{count}}j"
+    },
+    "edit": "Modifier",
+    "editTitle": "Modifier l'emplacement",
+    "editSubtitle": "Mettre à jour vos notes personnelles et votre note",
+    "notesLabel": "Notes",
+    "notesPlaceholder": "Notes personnelles, conseils, faune marine aperçue...",
+    "ratingLabel": "Votre note",
+    "timesVisitedLabel": "Nombre de visites",
+    "lastDiveDateLabel": "Date de la dernière plongée",
+    "saving": "Enregistrement...",
+    "saveButton": "Enregistrer les modifications",
+    "editFailed": "Échec de la mise à jour de l'emplacement"
+  },
+  "saveLocationModal": {
+    "title": "Enregistrer un site de plongée",
+    "subtitle": "Ajoutez ce site à vos emplacements enregistrés",
+    "coordinates": "Coordonnées",
+    "nameLabel": "Nom du site",
+    "namePlaceholder": "ex. : Trou Bleu, Grande Barrière de Corail",
+    "nameRequired": "Veuillez entrer un nom pour cet emplacement",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "Brève description de ce site de plongée...",
+    "diveTypeLabel": "Type de plongée",
+    "diveTypes": {
+      "shore": "Plongée du bord",
+      "boat": "Plongée en bateau",
+      "reef": "Récif",
+      "wreck": "Épave",
+      "cave": "Grotte"
+    },
+    "difficultyLabel": "Niveau de difficulté",
+    "difficulties": {
+      "beginner": "Débutant",
+      "intermediate": "Intermédiaire",
+      "advanced": "Avancé",
+      "expert": "Expert"
+    },
+    "maxDepthLabel": "Profondeur max (mètres)",
+    "maxDepthPlaceholder": "ex. : 30",
+    "ratingLabel": "Votre note",
+    "notesLabel": "Notes",
+    "notesPlaceholder": "Notes personnelles, conseils, vie marine observée...",
+    "saveButton": "Enregistrer le site",
+    "saving": "Enregistrement...",
+    "failedToSave": "Échec de l'enregistrement du site"
+  },
+  "admin": {
+    "title": "Panneau d'administration",
+    "users": "Utilisateurs",
+    "email": "E-mail",
+    "role": "Rôle",
+    "status": "Statut",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "activate": "Activer",
+    "deactivate": "Désactiver",
+    "changeRole": "Changer le rôle",
+    "actions": "Actions",
+    "noUsers": "Aucun utilisateur trouvé",
+    "createdAt": "Créé",
+    "confirmDeactivate": "Êtes-vous sûr de vouloir désactiver cet utilisateur ?",
+    "confirmRoleChange": "Êtes-vous sûr de vouloir changer le rôle de cet utilisateur ?",
+    "cannotDeactivateSelf": "Vous ne pouvez pas désactiver votre propre compte",
+    "accessDenied": "Accès refusé",
+    "showing": "Affichage de",
+    "of": "sur",
+    "userDetail": "Détails utilisateur",
+    "personalInfo": "Informations personnelles",
+    "diverInfo": "Informations plongeur",
+    "emergencyContact": "Contact d'urgence",
+    "certification": "Certification",
+    "totalDives": "Total de plongées",
+    "suitType": "Combinaison préférée",
+    "diveType": "Type de plongée préféré",
+    "maxDepth": "Profondeur max",
+    "contactName": "Nom",
+    "contactPhone": "Téléphone",
+    "contactRelation": "Relation",
+    "updatedAt": "Mis à jour"
+  },
+  "adminDiveSites": {
+    "title": "Gestion des sites de plongée",
+    "subtitle": "Sites de plongée",
+    "addSite": "Ajouter un site",
+    "noSites": "Aucun site de plongée trouvé",
+    "edit": "Modifier",
+    "verify": "Vérifier",
+    "confirmDelete": "Êtes-vous sûr de vouloir supprimer ce site de plongée ?",
+    "searchLat": "Latitude",
+    "searchLon": "Longitude",
+    "searchRadius": "Rayon (km)",
+    "search": "Rechercher",
+    "sourceManual": "Manuel",
+    "sourceApi": "Import API",
+    "sourceOverpass": "Overpass",
+    "table": {
+      "name": "Nom",
+      "location": "Emplacement",
+      "type": "Type",
+      "depth": "Profondeur",
+      "verified": "Vérifié",
+      "source": "Source",
+      "distance": "Distance",
+      "country": "Pays",
+      "region": "Région",
+      "createdAt": "Créé"
+    },
+    "form": {
+      "createTitle": "Ajouter un site de plongée",
+      "editTitle": "Modifier le site de plongée",
+      "subtitle": "Entrez les détails du site",
+      "name": "Nom",
+      "namePlaceholder": "ex. : Trou Bleu, Dahab",
+      "nameRequired": "Veuillez entrer un nom",
+      "description": "Description",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "maxDepth": "Profondeur max (m)",
+      "diveType": "Type de plongée",
+      "difficulty": "Niveau de difficulté",
+      "country": "Pays",
+      "region": "Région"
+    },
+    "searchPrompt": "Entrez les coordonnées pour rechercher des sites de plongée",
+    "searchPromptHint": "Définissez la latitude et la longitude ci-dessus, puis cliquez sur Rechercher",
+    "import": {
+      "title": "Importer depuis Overpass API",
+      "description": "Importez des sites de plongée depuis OpenStreetMap dans une zone délimitée.",
+      "center": "Centre",
+      "radius": "Rayon (km)",
+      "southLat": "Lat. sud",
+      "westLon": "Lon. ouest",
+      "northLat": "Lat. nord",
+      "eastLon": "Lon. est",
+      "button": "Importer les sites",
+      "importing": "Importation...",
+      "imported": "Importés",
+      "skipped": "Ignorés (doublons)",
+      "total": "Total trouvé",
+      "invalidCoords": "Veuillez entrer des coordonnées valides"
+    },
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "page": "Page {{current}} sur {{total}}"
+    },
+    "resetFilters": "Réinitialiser",
+    "filters": {
+      "title": "Filtres",
+      "search": "Rechercher par nom",
+      "searchPlaceholder": "Nom du site de plongée...",
+      "verified": "Statut de vérification",
+      "all": "Tous",
+      "verifiedOnly": "Vérifiés",
+      "unverifiedOnly": "Non vérifiés",
+      "source": "Source",
+      "allSources": "Toutes les sources",
+      "allTypes": "Tous les types",
+      "country": "Pays",
+      "countryPlaceholder": "ex. Grèce",
+      "region": "Région",
+      "regionPlaceholder": "ex. Crète",
+      "coordinates": "Coordonnées (pour le tri par distance)",
+      "sortBy": "Trier par",
+      "sortName": "Nom",
+      "sortDistance": "Distance",
+      "sortCreatedAt": "Date de création",
+      "sortOrder": "Ordre",
+      "ascending": "Croissant",
+      "descending": "Décroissant",
+      "pageSize": "Par page"
+    }
+  },
+  "session": {
+    "expired": "Votre session a expiré. Veuillez vous reconnecter."
+  },
+  "errors": {
+    "fetchDiveConditions": "Impossible de récupérer les conditions de plongée",
+    "loadSavedLocations": "Impossible de charger les emplacements enregistrés",
+    "refreshWeather": "Impossible d'actualiser la météo",
+    "refreshAllWeather": "Impossible d'actualiser la météo pour tous les emplacements",
+    "deleteLocation": "Impossible de supprimer l'emplacement",
+    "networkError": "Erreur réseau. Veuillez vérifier votre connexion.",
+    "unknownError": "Une erreur inattendue s'est produite"
+  },
+  "enums": {
+    "diveStatus": {
+      "0": "Inconnu",
+      "1": "Excellent",
+      "2": "Bon",
+      "3": "Passable",
+      "4": "Mauvais",
+      "5": "Non recommandé"
+    },
+    "currentStrength": {
+      "0": "Aucun",
+      "1": "Faible",
+      "2": "Modéré",
+      "3": "Fort",
+      "4": "Dangereux"
+    },
+    "tidePhase": {
+      "0": "Inconnu",
+      "1": "Montante",
+      "2": "Descendante",
+      "3": "Haute",
+      "4": "Basse",
+      "5": "Étale"
+    },
+    "waveCondition": {
+      "0": "Inconnu",
+      "1": "Calme",
+      "2": "Légère",
+      "3": "Modérée",
+      "4": "Agitée",
+      "5": "Très agitée"
+    },
+    "riskLevel": {
+      "0": "Inconnu",
+      "1": "Faible",
+      "2": "Modéré",
+      "3": "Élevé",
+      "4": "Extrême"
+    },
+    "wetsuitType": {
+      "0": "Inconnu",
+      "1": "Lycra",
+      "2": "Combinaison 3mm",
+      "3": "Combinaison 5mm",
+      "4": "Combinaison 7mm",
+      "5": "Semi-étanche",
+      "6": "Combinaison étanche"
+    },
+    "beginnerSuitability": {
+      "0": "Inconnu",
+      "1": "Oui",
+      "2": "Non",
+      "3": "Avec encadrement"
+    },
+    "skyCondition": {
+      "0": "Inconnu",
+      "1": "Dégagé",
+      "2": "Partiellement nuageux",
+      "3": "Très nuageux",
+      "4": "Couvert",
+      "5": "Brumeux",
+      "6": "Bruine",
+      "7": "Pluie",
+      "8": "Neige",
+      "9": "Averses",
+      "10": "Orage"
+    },
+    "surgeIntensity": {
+      "0": "Aucune",
+      "1": "Légère",
+      "2": "Modérée",
+      "3": "Forte"
+    },
+    "season": {
+      "0": "Inconnu",
+      "1": "Printemps",
+      "2": "Été",
+      "3": "Automne",
+      "4": "Hiver"
+    },
+    "certificationLevel": {
+      "0": "Open Water",
+      "1": "Advanced Open Water",
+      "2": "Rescue",
+      "3": "Divemaster",
+      "4": "Plongée non recommandée"
+    },
+    "planktonLevel": {
+      "0": "Inconnu",
+      "1": "Faible",
+      "2": "Moyen",
+      "3": "Élevé",
+      "4": "Efflorescence"
+    },
+    "sedimentLevel": {
+      "0": "Inconnu",
+      "1": "Faible",
+      "2": "Moyen",
+      "3": "Élevé"
+    },
+    "windType": {
+      "0": "Inconnu",
+      "1": "Marin",
+      "2": "De terre",
+      "3": "Latéral"
+    },
+    "precipitationType": {
+      "0": "Aucune",
+      "1": "Pluie légère",
+      "2": "Pluie",
+      "3": "Forte pluie",
+      "4": "Tempête"
+    },
+    "difficultyLevel": {
+      "0": "Inconnu",
+      "1": "Facile",
+      "2": "Modéré",
+      "3": "Difficile",
+      "4": "Dangereux"
+    },
+    "boatCondition": {
+      "0": "Inconnu",
+      "1": "Calme",
+      "2": "Légère agitation",
+      "3": "Agitation modérée",
+      "4": "Agité"
+    },
+    "bottomComposition": {
+      "0": "Inconnu",
+      "1": "Sable",
+      "2": "Vase",
+      "3": "Récif",
+      "4": "Roche",
+      "5": "Mixte"
+    },
+    "diveType": {
+      "0": "Inconnu",
+      "1": "Loisir",
+      "2": "Dérivante",
+      "3": "Technique"
+    },
+    "photoConditions": {
+      "0": "Inconnu",
+      "1": "Excellent",
+      "2": "Bon",
+      "3": "Passable",
+      "4": "Mauvais"
+    },
+    "beaufortScale": {
+      "0": "Calme",
+      "1": "Très légère brise",
+      "2": "Légère brise",
+      "3": "Petite brise",
+      "4": "Jolie brise",
+      "5": "Bonne brise",
+      "6": "Vent frais",
+      "7": "Grand frais",
+      "8": "Coup de vent",
+      "9": "Fort coup de vent",
+      "10": "Tempête",
+      "11": "Violente tempête",
+      "12": "Ouragan"
+    }
+  },
+  "reviews": {
+    "title": "Avis",
+    "writeReview": "Écrire un avis",
+    "editReview": "Modifier l'avis",
+    "updateReview": "Mettre à jour",
+    "submitReview": "Publier l'avis",
+    "deleteReview": "Supprimer l'avis",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cet avis ?",
+    "submitting": "Envoi en cours...",
+    "yourRating": "Votre note",
+    "comment": "Commentaire",
+    "commentPlaceholder": "Partagez votre expérience de plongée sur ce site...",
+    "ratingRequired": "Veuillez sélectionner une note",
+    "commentRequired": "Veuillez écrire un commentaire",
+    "diveDetails": "Détails de plongée (optionnel)",
+    "diveDate": "Date de plongée",
+    "visibility": "Visibilité (m)",
+    "duration": "Durée (min)",
+    "maxDepth": "Prof. max (m)",
+    "waterTemp": "Temp. eau (°C)",
+    "currentStrength": "Courant",
+    "selectCurrent": "Sélectionner...",
+    "currentNone": "Aucun",
+    "currentWeak": "Faible",
+    "currentModerate": "Modéré",
+    "currentStrong": "Fort",
+    "photos": "Photos",
+    "addPhoto": "Ajouter une photo",
+    "uploadingPhoto": "Envoi en cours...",
+    "dragOrClickPhoto": "Glissez-déposez des photos ici ou cliquez pour parcourir",
+    "photoHint": "JPEG, PNG ou WebP jusqu'à 10 Mo",
+    "photoUploadError": "Impossible d'envoyer la photo",
+    "showPhotos": "Afficher les photos ({{count}})",
+    "hidePhotos": "Masquer les photos",
+    "photo": "Photo",
+    "noReviews": "Aucun avis pour le moment. Soyez le premier à donner votre avis !",
+    "basedOn": "Basé sur {{count}} avis",
+    "edited": "modifié",
+    "vis": "visibilité",
+    "pagination": {
+      "previous": "Précédent",
+      "next": "Suivant",
+      "page": "Page {{current}} sur {{total}}"
+    }
+  },
+  "privateNotes": {
+    "title": "Mes notes privées",
+    "addNote": "Ajouter une note",
+    "createNote": "Créer la note",
+    "editNote": "Modifier",
+    "deleteNote": "Supprimer",
+    "deleteConfirm": "Êtes-vous sûr de vouloir supprimer cette note ?",
+    "titlePlaceholder": "Titre de la note...",
+    "contentPlaceholder": "Écrivez vos notes privées ici...",
+    "noNotes": "Vous n'avez pas encore de notes privées pour ce site.",
+    "privacyHint": "Ces notes ne sont visibles que par vous et ne seront jamais partagées publiquement.",
+    "edited": "modifié"
+  },
+  "aiLoader": {
+    "title": "Analyse IA des conditions de plongée en cours",
+    "subtitle": "Exécution de notre analyse en 10 étapes pour vos coordonnées exactes",
+    "completeTitle": "Analyse terminée",
+    "completeSubtitle": "Compilation de votre rapport de plongée",
+    "disclaimerHeadline": "Cela peut prendre jusqu'à 5 minutes.",
+    "disclaimerBody": "Notre moteur IA calcule une analyse environnementale complète pour vos coordonnées exactes. Veuillez garder cet onglet ouvert — le fermer annulera l'analyse.",
+    "flushHeadline": "Résultats reçus.",
+    "flushBody": "Finalisation des étapes restantes…",
+    "finalising": "Finalisation de votre rapport",
+    "handingOff": "Ouverture de votre rapport",
+    "keepTabOpen": "Gardez cet onglet ouvert pendant que nous travaillons",
+    "steps": {
+      "locate": {
+        "label": "Localisation de votre site de plongée",
+        "detail": "Identification du site et préparation de l'analyse IA"
+      },
+      "bathymetry": {
+        "label": "Cartographie du fond marin et de la profondeur",
+        "detail": "Compréhension du paysage sous-marin à votre emplacement"
+      },
+      "weather": {
+        "label": "Récupération de la météo atmosphérique",
+        "detail": "Conditions météo en direct au-dessus de la surface"
+      },
+      "marine": {
+        "label": "Récupération des prévisions marines",
+        "detail": "Conditions océaniques en direct en surface et en profondeur"
+      },
+      "tides": {
+        "label": "Calcul des marées et des étales",
+        "detail": "Recherche du meilleur moment du cycle des marées pour plonger"
+      },
+      "satellite": {
+        "label": "Lecture de la clarté de l'eau par satellite",
+        "detail": "Analyse IA d'imagerie satellite en direct (c'est la plus longue)"
+      },
+      "visibility": {
+        "label": "Calcul de la visibilité et de la thermocline",
+        "detail": "Estimation de ce que vous verrez réellement sous l'eau"
+      },
+      "dynamics": {
+        "label": "Analyse de la houle, des courants et du cycle des marées",
+        "detail": "Évaluation du mouvement dans l'eau qui affecte les plongeurs"
+      },
+      "safety": {
+        "label": "Évaluation de sécurité par IA",
+        "detail": "Raisonnement sur chaque facteur de risque pour votre plongée"
+      },
+      "ai": {
+        "label": "Génération des recommandations",
+        "detail": "Combinaison, niveau de certification, alertes faune marine et meilleur moment pour plonger"
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "Comment ça marche",
+    "crumb": "Comment ça marche",
+    "title": "L'intelligence de plongée IA,",
+    "titleHighlight": "expliquée simplement",
+    "subtitle": "Touchez un lieu, notre IA exécute une analyse complète d'intelligence océanique et renvoie une évaluation claire de la sécurité. Voici ce qui se passe en coulisses.",
+    "pipeline": {
+      "eyebrow": "Le workflow IA",
+      "title": "D'un seul clic à une évaluation complète de plongée",
+      "subtitle": "Notre IA travaille à l'analyse en étapes claires et séquentielles. Chacune est indépendamment résiliente — si une partie a un souci, le reste continue.",
+      "stageLabel": "Étape",
+      "stages": {
+        "locate": {
+          "title": "Localiser le site de plongée",
+          "description": "Notre IA identifie votre site et prépare l'analyse pour ce lieu précis."
+        },
+        "bathymetry": {
+          "title": "Cartographier le fond et la profondeur",
+          "description": "Nous évaluons le paysage sous-marin — profondeur et terrain pour une planification sûre."
+        },
+        "weather": {
+          "title": "Récupérer la météo atmosphérique",
+          "description": "Conditions météo en direct au-dessus de la surface, pour l'entrée, la sortie et la sécurité face aux orages."
+        },
+        "marine": {
+          "title": "Récupérer les prévisions marines",
+          "description": "Intelligence en direct sur l'état de la mer : mouvement de surface, courants et température de l'eau."
+        },
+        "tides": {
+          "title": "Calculer marées et étales",
+          "description": "Nous trouvons le moment le plus calme du cycle des marées — la fenêtre optimale pour plonger."
+        },
+        "satellite": {
+          "title": "Lire la clarté de l'eau par satellite",
+          "description": "Analyse IA d'imagerie satellite en direct pour comprendre la limpidité de l'eau."
+        },
+        "visibility": {
+          "title": "Calculer visibilité et thermocline",
+          "description": "Nous estimons ce que vous verrez réellement sous l'eau et où vous ressentirez un changement de température."
+        },
+        "dynamics": {
+          "title": "Analyser houle et courants",
+          "description": "Notre IA évalue le mouvement dans l'eau — combien les plongeurs seront déplacés en profondeur."
+        },
+        "safety": {
+          "title": "Évaluation de sécurité par IA",
+          "description": "Le moteur pèse chaque facteur de risque et applique des protections intégrées pour les conditions réellement dangereuses."
+        },
+        "ai": {
+          "title": "Générer des recommandations",
+          "description": "Combinaison personnalisée, niveau de certification, alertes faune marine et meilleur moment — adaptés à votre site."
+        }
+      }
+    },
+    "latency": {
+      "title": "À quoi s'attendre côté temps de réponse",
+      "subtitle": "Notre IA est honnête sur la durée de l'analyse. La plupart des requêtes sont rapides, certaines sont lentes, et nous vous disons laquelle.",
+      "fast": {
+        "title": "Analyse rapide",
+        "body": "Régions familières où notre IA peut répondre presque instantanément."
+      },
+      "typical": {
+        "title": "Requête typique",
+        "body": "Une évaluation IA fraîche pour n'importe quel littoral peuplé."
+      },
+      "cold": {
+        "title": "Analyse approfondie",
+        "body": "Coordonnées éloignées où l'imagerie satellite en direct doit être analysée à la demande."
+      }
+    },
+    "resilience": {
+      "title": "Conçu pour le monde réel imparfait",
+      "subtitle": "Même la meilleure intelligence océanique a des lacunes. Notre IA s'en occupe.",
+      "cardTitle": "Résilience IA intégrée",
+      "body1": "Chaque étape de l'analyse est isolée pour qu'un incident transitoire ne fasse pas échouer la requête entière. Quand un signal se dégrade, notre IA bascule sur des valeurs estimées et étiquette clairement les champs concernés.",
+      "body2": "Notre moteur refuse de gonfler le score de sécurité quand des signaux essentiels manquent. Si nous ne pouvons pas vous donner de réponse honnête, nous vous le disons — nous n'en inventons pas."
+    }
+  },
+  "safetyScoring": {
+    "eyebrow": "Intelligence de sécurité",
+    "crumb": "Score de sécurité",
+    "title": "Votre site de plongée, noté par",
+    "titleHighlight": "l'IA",
+    "subtitle": "Notre IA condense l'intelligence océanique en direct en un score unique de sécurité 0–100 sur lequel vous pouvez agir — d'un coup d'œil.",
+    "intro": {
+      "eyebrow": "Comment notre IA réfléchit",
+      "title": "Des conditions océaniques complexes à une réponse claire",
+      "subtitle": "Notre moteur IA raisonne sur l'image complète de votre site — surface, profondeur, mouvement, météo et clarté — et la traduit en un nombre que les plongeurs comprennent vraiment.",
+      "cards": {
+        "intelligence": {
+          "title": "Pondération intelligente des risques",
+          "body": "Notre IA pèse chaque signal océanique pertinent pour votre site et les combine en un score unique et intuitif."
+        },
+        "realtime": {
+          "title": "En direct, jamais mis en cache",
+          "body": "Chaque score est calculé à neuf face à l'intelligence océanique actuelle. Aucune réponse recyclée — votre plan de plongée mérite une analyse à la minute."
+        }
+      }
+    },
+    "bands": {
+      "title": "Bandes de risque",
+      "subtitle": "Ce que chaque tranche de score signifie en pratique — ce sont les étiquettes que vous verrez dans l'application.",
+      "low": {
+        "label": "Risque faible",
+        "description": "Excellentes ou bonnes conditions. Procédures binôme standard."
+      },
+      "moderate": {
+        "label": "Risque modéré",
+        "description": "Globalement sûr avec vigilance. Certaines conditions exigent attention."
+      },
+      "high": {
+        "label": "Risque élevé",
+        "description": "Plongée réservée aux plongeurs expérimentés avec équipement adapté et connaissance locale."
+      },
+      "extreme": {
+        "label": "Non recommandé",
+        "description": "Conditions inappropriées aujourd'hui. Notre IA recommande de reporter."
+      }
+    },
+    "overrides": {
+      "title": "Protections de sécurité IA",
+      "subtitle": "Certaines conditions sont dangereuses quels que soient les autres signaux positifs. Notre IA sait quand dire non.",
+      "cardTitle": "Quand notre IA prime sur les signaux positifs",
+      "body": "Même quand la plupart des signaux semblent bons, certaines situations rendent la plongée vraiment dangereuse — notre IA forcera alors le score à zéro. Vous verrez une explication claire de la condition déclenchante pour comprendre précisément ce qui ne va pas."
+    },
+    "disclaimer": {
+      "title": "Le score est une aide à la décision, pas un permis de plonger",
+      "body": "Un score élevé reflète les conditions environnementales modélisées mais ne tient pas compte de votre expérience individuelle, de votre équipement, du niveau de votre binôme, d'événements locaux récents, ou de votre état du jour. Faites toujours votre propre évaluation, suivez votre plan de plongée et ne plongez jamais contre votre instinct."
+    }
+  },
+  "faq": {
+    "eyebrow": "Questions fréquentes",
+    "crumb": "FAQ",
+    "title": "Questions,",
+    "titleHighlight": "réponses honnêtes",
+    "subtitle": "Tout ce qu'on nous demande sur le fonctionnement d'iSea, ses limites, et l'utilisation de vos données.",
+    "questions": {
+      "whatIsIsea": {
+        "q": "Qu'est-ce qu'iSea ?",
+        "a": "iSea est une plateforme de planification de plongée alimentée par l'IA. Vous touchez un lieu sur une carte, notre moteur analyse les conditions environnementales pour ce point exact et renvoie une évaluation complète — visibilité, courants, marées, recommandation de combinaison et score de sécurité 0–100."
+      },
+      "isItAi": {
+        "q": "Est-ce vraiment de l'IA ?",
+        "a": "Notre pipeline est un moteur IA qui analyse de façon autonome l'intelligence océanique en direct et applique des décennies de science océanographique établie pour produire une recommandation unique. Ce n'est pas une boîte noire de deep learning — nous utilisons délibérément des heuristiques transparentes pour que les décisions soient auditables et explicables."
+      },
+      "whyFiveMinutes": {
+        "q": "Pourquoi les conditions de plongée peuvent prendre jusqu'à 5 minutes ?",
+        "a": "La plupart des requêtes sont rapides. Le cas lent est quand notre IA doit faire une analyse approfondie pour un endroit éloigné qu'elle n'a pas vu récemment — cela peut prendre quelques minutes. Une vue en direct de la progression vous montre exactement ce qui se passe."
+      },
+      "accuracy": {
+        "q": "Quelle est sa précision ?",
+        "a": "Le score de sécurité d'iSea est une prévision basée sur des entrées environnementales détectées à distance. Il ne capture pas les microclimats, la variabilité horaire ni les événements locaux récents. Traitez-le comme une aide à la décision, pas comme une garantie — faites toujours votre propre évaluation le jour J."
+      },
+      "offlineUse": {
+        "q": "Puis-je utiliser iSea hors ligne ou sous l'eau ?",
+        "a": "Non. iSea nécessite une connexion internet car chaque score est calculé en direct à partir de données fraîches. Pas de score mis en cache — ce serait trompeur."
+      },
+      "replaceInstructor": {
+        "q": "iSea remplace-t-il un moniteur ou un guide local ?",
+        "a": "Absolument pas. iSea est une aide à la décision pour plongeurs déjà certifiés. Il ne peut pas vous apprendre à plonger, ni remplacer la connaissance locale, ni juger votre état personnel un jour donné. Référez-vous toujours à des moniteurs certifiés et opérateurs locaux pour les sites que vous ne connaissez pas."
+      },
+      "safetyScore": {
+        "q": "Que signifie réellement le score de sécurité ?",
+        "a": "C'est un nombre de 0 à 100 qui capture à quel point les conditions sont sûres sur votre site précis, en ce moment. Notre IA pèse tous les facteurs océaniques pertinents et aboutit à un score avec une bande de risque claire (Faible, Modéré, Élevé ou Non recommandé). Quand quelque chose est réellement dangereux, l'IA remplace tout le reste et le score tombe à zéro avec une explication."
+      },
+      "coldOpen": {
+        "q": "Pourquoi la première requête pour un endroit éloigné prend plus de temps ?",
+        "a": "Notre IA fait une analyse plus profonde la première fois qu'elle voit une région inconnue. Une fois qu'un lieu a été analysé récemment, les requêtes suivantes pour la même zone sont généralement bien plus rapides."
+      },
+      "lakes": {
+        "q": "iSea fonctionne-t-il pour les lacs et l'eau douce ?",
+        "a": "Partiellement. Notre IA est principalement réglée pour la plongée en mer et océan. Les conditions de lacs peuvent quand même être analysées mais le score et les estimations de visibilité seront moins précis que pour les sites marins. Une intelligence dédiée à l'eau douce est sur notre feuille de route."
+      },
+      "cost": {
+        "q": "iSea est-il gratuit ?",
+        "a": "Oui, iSea est gratuit. Nous pouvons introduire des paliers payants à l'avenir pour un usage professionnel à fort volume."
+      },
+      "data": {
+        "q": "Quelles données collectez-vous sur moi ?",
+        "a": "Infos de compte (email, nom), les lieux de plongée que vous interrogez, et vos sites sauvegardés. Nous ne vendons pas les données et ne vous suivons pas sur d'autres sites. Voir la politique de confidentialité pour plus de détails."
+      }
+    }
+  },
+  "terms": {
+    "eyebrow": "Mentions légales",
+    "crumb": "Conditions d'utilisation",
+    "title": "Conditions d'utilisation",
+    "subtitle": "L'accord entre vous et iSea lorsque vous utilisez ce service.",
+    "lastUpdated": "Dernière mise à jour : {{date}}",
+    "summary": "En bref — iSea est une aide à la décision, pas un substitut à la formation ou au jugement le jour J. Lisez toujours l'<disclaimerLink>avertissement de sécurité complet</disclaimerLink>. Si quelque chose n'est pas clair, <contactLink>contactez-nous</contactLink>.",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptation des conditions",
+        "body": "En accédant à iSea (le « Service ») ou en l'utilisant, vous acceptez d'être lié par ces Conditions d'utilisation. Si vous n'êtes pas d'accord, n'utilisez pas le Service."
+      },
+      "eligibility": {
+        "title": "Éligibilité",
+        "body": "Vous devez avoir au moins 16 ans pour utiliser iSea. En utilisant le Service, vous représentez répondre à cette exigence et utiliser iSea en conjonction avec une formation et une certification de plongée appropriées."
+      },
+      "account": {
+        "title": "Responsabilités du compte",
+        "body": "Vous êtes responsable de la protection de vos identifiants et de toute activité sur votre compte. Signalez-nous immédiatement tout accès non autorisé."
+      },
+      "license": {
+        "title": "Licence d'utilisation",
+        "body": "Nous vous accordons une licence limitée, non exclusive, non transférable et révocable pour accéder et utiliser le Service à des fins personnelles et non commerciales de planification de plongée."
+      },
+      "restrictions": {
+        "title": "Usage acceptable",
+        "body": "Vous ne pouvez pas : (a) procéder à de l'ingénierie inverse ; (b) l'utiliser pour décider pour autrui sans consentement éclairé ; (c) extraire ou redistribuer nos données ; (d) présenter les sorties comme des garanties de sécurité ; (e) l'utiliser à des fins illégales."
+      },
+      "userContent": {
+        "title": "Contenu utilisateur",
+        "body": "Vous conservez la propriété des sites, avis et notes que vous soumettez. Vous accordez à iSea une licence non exclusive pour héberger et afficher ce contenu dans le Service. Nous pouvons retirer tout contenu enfreignant ces Conditions."
+      },
+      "thirdParty": {
+        "title": "Données tierces",
+        "body": "Le Service intègre des données provenant de fournisseurs tiers de données océanographiques ouvertes et commerciales. Les conditions et licences de chaque fournisseur s'appliquent ; iSea ne garantit pas l'exactitude des données tierces. Une liste des fournisseurs et attributions requises peut être obtenue sur demande."
+      },
+      "disclaimerOfWarranties": {
+        "title": "Exclusion de garanties",
+        "body": "LE SERVICE EST FOURNI « EN L'ÉTAT » SANS GARANTIE D'AUCUNE SORTE. NOUS NE GARANTISSONS PAS QUE LES ÉVALUATIONS DE SÉCURITÉ SERONT EXACTES, COMPLÈTES OU ADAPTÉES À UNE PLONGÉE SPÉCIFIQUE."
+      },
+      "limitationOfLiability": {
+        "title": "Limitation de responsabilité",
+        "body": "DANS LA MESURE PERMISE PAR LA LOI, ISEA ET SES OPÉRATEURS NE SAURAIENT ÊTRE TENUS RESPONSABLES DE DOMMAGES INDIRECTS, ACCESSOIRES OU PUNITIFS, NOTAMMENT LES BLESSURES CORPORELLES, LE DÉCÈS, LA PERTE DE PROFITS, DE DONNÉES OU D'USAGE. LA PLONGÉE EST UNE ACTIVITÉ INTRINSÈQUEMENT DANGEREUSE ET VOUS EN ASSUMEZ TOUS LES RISQUES."
+      },
+      "indemnification": {
+        "title": "Indemnisation",
+        "body": "Vous acceptez d'indemniser iSea de toute réclamation, dommage ou dépense découlant de votre utilisation du Service ou de votre violation des présentes Conditions."
+      },
+      "termination": {
+        "title": "Résiliation",
+        "body": "Nous pouvons suspendre ou résilier votre compte à tout moment en cas de violation. Vous pouvez supprimer votre compte à tout moment depuis vos paramètres."
+      },
+      "governingLaw": {
+        "title": "Droit applicable",
+        "body": "Ces Conditions sont régies par les lois de la juridiction d'exploitation d'iSea, sans tenir compte des règles de conflit de lois."
+      },
+      "changes": {
+        "title": "Modifications",
+        "body": "Nous pouvons mettre à jour ces Conditions de temps à autre. Les changements importants seront communiqués via le Service. L'utilisation continue après modification vaut acceptation."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Pour toute question, utilisez les canaux de contact listés sur notre page d'accueil."
+      }
+    }
+  },
+  "privacy": {
+    "eyebrow": "Mentions légales",
+    "crumb": "Politique de confidentialité",
+    "title": "Politique de confidentialité",
+    "subtitle": "Ce que nous collectons, pourquoi, et ce que nous ne ferons jamais avec vos données.",
+    "lastUpdated": "Dernière mise à jour : {{date}}",
+    "summary": "Version courte : nous collectons le strict minimum pour faire fonctionner le Service, nous ne vendons jamais vos données et nous ne vous suivons pas sur d'autres sites. Vous pouvez supprimer votre compte et vos données à tout moment.",
+    "sections": {
+      "whatWeCollect": {
+        "title": "Ce que nous collectons",
+        "body": "Infos de compte (email, nom, hash de mot de passe). Coordonnées que vous interrogez. Sites, avis et notes que vous créez. Journaux techniques standards (IP, navigateur) nécessaires au fonctionnement."
+      },
+      "howWeUse": {
+        "title": "Utilisation de vos données",
+        "body": "Fournir le Service. Améliorer le Service (analytique agrégée et anonyme). Communiquer des messages essentiels (compte, sécurité, mises à jour)."
+      },
+      "legalBasis": {
+        "title": "Base légale (RGPD)",
+        "body": "Nous traitons vos données au titre (a) du contrat — nécessaire pour fournir le Service ; (b) des intérêts légitimes — journalisation et prévention des abus ; (c) du consentement — quand requis par la loi."
+      },
+      "sharing": {
+        "title": "Partage des données",
+        "body": "Nous ne vendons pas vos données. Nous les partageons uniquement avec les fournisseurs d'infrastructure nécessaires (hébergement, base, email). Vos avis de sites sont publics par conception."
+      },
+      "thirdPartyApis": {
+        "title": "API tierces appelées en votre nom",
+        "body": "Quand vous demandez des conditions de plongée, vos coordonnées sont envoyées à des fournisseurs tiers de données océanographiques et météorologiques utilisés par notre pipeline. Ces services ont leurs propres politiques. Nous ne transmettons pas votre identité personnelle (compte, nom, email) à ces fournisseurs."
+      },
+      "cookies": {
+        "title": "Cookies et technologies similaires",
+        "body": "Nous utilisons un petit nombre de cookies strictement nécessaires pour l'authentification et la session. Pas de cookies publicitaires tiers."
+      },
+      "retention": {
+        "title": "Conservation",
+        "body": "Les données de compte sont conservées tant que votre compte est actif. Les journaux de requêtes sont conservés au maximum 12 mois. Les comptes supprimés sont purgés sous 30 jours."
+      },
+      "security": {
+        "title": "Sécurité",
+        "body": "Les mots de passe sont stockés sous forme de hash à sens unique. Tout le trafic est en HTTPS. Nous suivons les bonnes pratiques de l'industrie, mais aucun système n'est 100 % sûr."
+      },
+      "yourRights": {
+        "title": "Vos droits",
+        "body": "Vous avez le droit d'accéder à, corriger, exporter et supprimer vos données à tout moment. La plupart des actions sont possibles depuis vos paramètres ; pour le reste, contactez-nous."
+      },
+      "children": {
+        "title": "Vie privée des enfants",
+        "body": "iSea ne s'adresse pas aux enfants de moins de 16 ans et nous ne collectons pas sciemment leurs données. Si vous pensez qu'un enfant nous a fourni des données, contactez-nous immédiatement."
+      },
+      "transfers": {
+        "title": "Transferts internationaux",
+        "body": "Vos données peuvent être traitées dans des pays autres que le vôtre. Quand requis, nous nous appuyons sur des mécanismes de transfert appropriés reconnus par votre juridiction."
+      },
+      "changes": {
+        "title": "Modifications",
+        "body": "Nous pouvons mettre à jour cette politique. Les changements importants seront communiqués via le Service."
+      },
+      "contact": {
+        "title": "Contact",
+        "body": "Questions et demandes liées aux droits peuvent être envoyées via les canaux listés sur notre page d'accueil."
+      }
+    }
+  },
+  "disclaimer": {
+    "eyebrow": "Sécurité",
+    "crumb": "Avertissement sécurité plongée",
+    "title": "Avertissement sécurité",
+    "titleHighlight": "plongée",
+    "subtitle": "iSea est une aide à la décision, pas un substitut à la formation, au jugement ou à la connaissance locale. Lisez attentivement avant d'utiliser une évaluation de sécurité dans votre planification.",
+    "bigWarning": {
+      "headline": "La plongée sous-marine est une activité intrinsèquement dangereuse.",
+      "body": "Elle comporte un risque de blessure grave ou de décès. Aucun logiciel — y compris iSea — ne peut éliminer ce risque. Les scores, recommandations et avertissements fournis par iSea sont des estimations informées basées sur des données environnementales détectées à distance et ne constituent pas une garantie de sécurité."
+    },
+    "points": {
+      "noSubstitute": {
+        "title": "Pas un substitut à une formation certifiée",
+        "body": "iSea s'adresse aux plongeurs titulaires d'une certification actuelle d'un organisme reconnu (PADI, SSI, NAUI, BSAC, CMAS, etc.). Il ne peut pas vous apprendre à plonger, évaluer votre état personnel ou remplacer une éducation formelle."
+      },
+      "estimates": {
+        "title": "Toutes les sorties sont des estimations",
+        "body": "Visibilité, courants, température et autres paramètres sont modélisés ou prévus à partir de sources tierces. Les conditions réelles peuvent différer significativement. Vérifiez toujours sur place."
+      },
+      "localConditions": {
+        "title": "La connaissance locale est irremplaçable",
+        "body": "Les courants, dangers, logistique d'entrée/sortie et le comportement de la faune sur un site précis sont mieux connus des opérateurs locaux et plongeurs expérimentés du coin. Quand c'est possible, plongez avec ou consultez quelqu'un qui connaît le site."
+      },
+      "medical": {
+        "title": "L'aptitude médicale est de votre ressort",
+        "body": "iSea n'évalue pas votre aptitude médicale. Maladie récente, fatigue, alcool, certains médicaments, problèmes ORL et autres facteurs peuvent considérablement affecter la sécurité. En cas de doute, consultez un médecin de plongée."
+      },
+      "emergency": {
+        "title": "Ayez toujours un plan d'urgence",
+        "body": "Connaissez votre caisson hyperbare le plus proche, ayez un support de surface, déposez un plan de plongée auprès de quelqu'un à terre, portez le matériel de signalisation approprié (parachute, signal sonore, miroir) et suivez les procédures d'urgence de votre organisme de formation."
+      }
+    },
+    "acknowledgement": "En utilisant iSea, vous reconnaissez avoir lu et compris cet avertissement, accepter tous les risques liés à la plongée, et exercer votre propre jugement à chaque plongée."
+  },
+  "personalAssessment": {
+    "title": "Évaluation personnelle",
+    "summaryAllPass": "{{passes}} ✓",
+    "summaryWithWarnings": "{{passes}} ✓ · {{warnings}} ⚠",
+    "experienceLevels": {
+      "Beginner": "Débutant",
+      "Intermediate": "Intermédiaire",
+      "Experienced": "Expérimenté",
+      "Expert": "Expert",
+      "Unknown": "Inconnu"
+    },
+    "checks": {
+      "certification": {
+        "label": "Certification",
+        "pass": "Votre certification {{cert}} couvre cette plongée.",
+        "warnFallback": "Votre certification est peut-être insuffisante pour ces conditions."
+      },
+      "depth": {
+        "label": "Profondeur prévue",
+        "pass": "Dans votre maximum préféré de {{max}} m.",
+        "warnFallback": "La profondeur prévue dépasse votre maximum préféré."
+      },
+      "suit": {
+        "label": "Combinaison",
+        "pass": "Votre combinaison habituelle convient à ces conditions.",
+        "warnFallback": "Vous pourriez avoir besoin d'une combinaison plus épaisse que d'habitude."
+      },
+      "experience": {
+        "label": "Expérience",
+        "detail": "Plongeur {{level}} ({{dives}} plongées enregistrées)"
+      },
+      "emergencyContact": {
+        "label": "Contact d'urgence",
+        "pass": "{{name}} · {{relation}} enregistré.",
+        "warnFallback": "Aucun contact d'urgence enregistré. Ajoutez-en un dans votre profil."
+      }
+    },
+    "emergencyContactCard": {
+      "title": "Contact d'urgence"
+    }
+  }
+}

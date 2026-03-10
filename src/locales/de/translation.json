@@ -1,0 +1,1485 @@
+{
+  "common": {
+    "loading": "Laden...",
+    "yes": "Ja",
+    "no": "Nein",
+    "na": "k. A.",
+    "unknown": "Unbekannt",
+    "cancel": "Abbrechen",
+    "save": "Speichern",
+    "delete": "Löschen",
+    "confirm": "Bestätigen",
+    "error": "Fehler",
+    "success": "Erfolg"
+  },
+  "nav": {
+    "diveMap": "Tauchkarte",
+    "logIn": "Anmelden",
+    "signUp": "Registrieren",
+    "logOut": "Abmelden",
+    "accountSettings": "Kontoeinstellungen",
+    "admin": "Admin",
+    "adminUsers": "Benutzer",
+    "adminDiveSites": "Admin Tauchplätze",
+    "diveSites": "Tauchplätze",
+    "savedLocations": "Gespeicherte Orte",
+    "howItWorks": "So funktioniert's",
+    "safetyScoring": "Sicherheitsbewertung",
+    "faq": "FAQ"
+  },
+  "diveSites": {
+    "title": "Tauchplätze",
+    "subtitle": "Verifizierte Tauchplätze weltweit durchsuchen",
+    "subtitleAdmin": "Alle Tauchplätze einschließlich ungeprüfter Einreichungen",
+    "searchPlaceholder": "Nach Name, Land oder Region suchen...",
+    "fetchError": "Tauchplätze konnten nicht geladen werden",
+    "noResults": "Keine Tauchplätze entsprechen Ihrer Suche",
+    "empty": "Keine Tauchplätze verfügbar",
+    "pending": "Ausstehend",
+    "website": "Website",
+    "source": "Quelle",
+    "listView": "Liste",
+    "mapView": "Karte",
+    "viewDetails": "Details anzeigen",
+    "showing": "{{count}} von {{total}} Plätzen angezeigt",
+    "suggestSite": "Platz vorschlagen",
+    "suggestTitle": "Tauchplatz vorschlagen",
+    "suggestSubtitle": "Einen neuen Tauchplatz zur Prüfung einreichen",
+    "suggestSubmit": "Vorschlag einreichen",
+    "suggestSuccess": "Vorschlag eingereicht!",
+    "suggestSuccessHint": "Ein Administrator wird Ihre Einreichung in Kürze prüfen.",
+    "suggestError": "Vorschlag konnte nicht eingereicht werden",
+    "type": "Typ",
+    "siteType": "Standorttyp",
+    "siteTypeSelect": "Standorttyp auswählen...",
+    "siteTypes": {
+      "Unknown": "Unbekannt",
+      "Reef": "Riff",
+      "Wreck": "Wrack",
+      "Cave": "Höhle",
+      "Cavern": "Kaverne",
+      "Wall": "Steilwand",
+      "Pinnacle": "Felsnadel",
+      "Drift": "Strömungstauchen",
+      "Lake": "See",
+      "Muck": "Muck",
+      "Pelagic": "Pelagisch",
+      "Plateau": "Plateau"
+    },
+    "depth": "Tiefe",
+    "minDepth": "Min. Tiefe",
+    "maxDepth": "Max. Tiefe",
+    "rating": "Bewertung",
+    "country": "Land",
+    "difficulty": "Schwierigkeit",
+    "unverified": "Unverifiziert",
+    "verified": "Verifiziert"
+  },
+  "diveSiteDetail": {
+    "backToList": "Zurück zu Tauchplätzen",
+    "fetchError": "Tauchplatzdetails konnten nicht geladen werden",
+    "notFound": "Tauchplatz nicht gefunden",
+    "description": "Beschreibung",
+    "coordinates": "Koordinaten",
+    "maxDepth": "Max. Tiefe",
+    "phone": "Telefon",
+    "adminInfo": "Admin-Informationen",
+    "osmId": "OSM-ID",
+    "createdAt": "Erstellt",
+    "edit": "Bearbeiten",
+    "verify": "Bestätigen",
+    "unverify": "Widerrufen",
+    "delete": "Löschen",
+    "deleteConfirm": "Möchten Sie diesen Tauchplatz wirklich löschen? Diese Aktion kann nicht rückgängig gemacht werden.",
+    "location": "Standort",
+    "diveConditions": "Tauchbedingungen",
+    "getConditions": "Tauchbedingungen abrufen",
+    "loadingConditions": "Tauchbedingungen werden geladen...",
+    "conditionsError": "Tauchbedingungen konnten nicht geladen werden",
+    "retryConditions": "Erneut versuchen",
+    "conditionsUnavailable": "Tauchbedingungen sind nur für verifizierte Tauchplätze verfügbar."
+  },
+  "diveSiteImages": {
+    "title": "Fotos",
+    "upload": "Foto hochladen",
+    "uploading": "Wird hochgeladen...",
+    "noImages": "Noch keine Fotos",
+    "delete": "Foto löschen",
+    "deleteConfirm": "Möchten Sie dieses Foto wirklich löschen?",
+    "invalidType": "Nur JPEG-, PNG- und WebP-Bilder sind erlaubt",
+    "tooLarge": "Das Bild darf nicht größer als {{max}} MB sein",
+    "dropHere": "Bild hier ablegen",
+    "dropHint": "JPEG, PNG oder WebP bis zu 10 MB",
+    "dragOrClick": "Foto hierher ziehen oder klicken zum Durchsuchen"
+  },
+  "savedLocationsPage": {
+    "title": "Gespeicherte Orte",
+    "subtitle": "Ihre persönlich markierten Tauchplätze"
+  },
+  "footer": {
+    "tagline": "KI-gestützte Ozean-Intelligenz für sicherere Unterwasserabenteuer.",
+    "product": "Produkt",
+    "resources": "Ressourcen",
+    "legal": "Rechtliches",
+    "howItWorks": "So funktioniert's",
+    "safetyScoring": "Sicherheitsbewertung",
+    "faq": "FAQ",
+    "disclaimer": "Haftungsausschluss",
+    "terms": "Nutzungsbedingungen",
+    "privacy": "Datenschutzerklärung",
+    "copyright": "Alle Rechte vorbehalten."
+  },
+  "home": {
+    "badge": "KI-gestützte Tauchintelligenz",
+    "heroTitle": "Kenne die Bedingungen",
+    "heroTitleHighlight": "bevor du tauchst",
+    "heroSubtitle": "iSea führt eine proprietäre, KI-gesteuerte Analyse aus, um eine vollständige Sicherheitsbewertung für jeden Tauchplatz auf der Erde zu liefern — mit einem einzigen Tipp.",
+    "openDiveMap": "Tauchkarte öffnen",
+    "getStarted": "Kostenlos starten",
+    "logIn": "Anmelden",
+    "howItWorksLink": "Sieh, wie es funktioniert",
+    "trust": {
+      "satellite": "Live-Satellitenintelligenz",
+      "research": "Forschungsbasierte Methodik",
+      "free": "Kostenlos"
+    },
+    "features": {
+      "visibility": {
+        "title": "Sichtvorhersage",
+        "description": "KI-Schätzung der Unterwassersicht aus Live-Satellitenanalysen deines Tauchplatzes."
+      },
+      "temperature": {
+        "title": "Temperaturprofil",
+        "description": "Oberflächen- und Bodentemperatur mit persönlichen Tauchanzug-Empfehlungen."
+      },
+      "currents": {
+        "title": "Strömungen & Gezeiten",
+        "description": "Live-Strömungsstärke, Position im Gezeitenzyklus und optimale Stauwasser-Fenster."
+      },
+      "safety": {
+        "title": "KI-Sicherheitsbewertung",
+        "description": "Klare 0–100-Risikobewertung durch unsere KI, generiert für deinen exakten Ort und Zeitpunkt."
+      }
+    },
+    "stats": {
+      "aiPowered": "KI-gestützte Analyse",
+      "aiPoweredSub": "Live-Ozeanintelligenz an jedem Tauchplatz",
+      "coverage": "Weltweite Abdeckung",
+      "coverageSub": "Von den Tropen bis zu den Polen",
+      "realTime": "Immer verfügbar",
+      "realTimeSub": "Vorhersagen bis zu 7 Tage im Voraus",
+      "free": "Kostenlos",
+      "freeSub": "Kein Abonnement erforderlich"
+    },
+    "ai": {
+      "badge": "KI-Intelligenz",
+      "title": "Ozeanintelligenz, automatisiert",
+      "subtitle": "Hinter jeder Sicherheitsbewertung steht eine KI-Engine, die deinen Tauchplatz in Echtzeit analysiert und komplexe Ozeanbedingungen in eine klare Go/No-Go-Antwort übersetzt.",
+      "capabilities": {
+        "satellite": {
+          "title": "Satellitenintelligenz",
+          "description": "Live-Satellitenanalyse der Wasserbedingungen und Klarheit an deinen exakten Koordinaten."
+        },
+        "fusion": {
+          "title": "Mehrkanal-Fusion",
+          "description": "Unsere KI kombiniert viele unabhängige Ozeansignale zu einem einheitlichen Bild deines Tauchplatzes."
+        },
+        "reasoning": {
+          "title": "KI-Sicherheitslogik",
+          "description": "Die Engine wägt alle Risikofaktoren ab und wendet eingebaute Sicherheitsausschlüsse für wirklich gefährliche Bedingungen an."
+        },
+        "realtime": {
+          "title": "Echtzeit-Analyse",
+          "description": "Jede Anfrage wird frisch ausgeführt — keine veralteten Antworten, keine recycelten Bewertungen. Dein Tauchplan verdient aktuelle Intelligenz."
+        }
+      }
+    },
+    "featuresSection": {
+      "title": "Alles was du für sicheres Tauchen brauchst",
+      "subtitle": "Umfassende Umweltintelligenz, aus mehreren autoritativen Quellen aggregiert, durch unsere KI-Engine verarbeitet und in einem nutzbaren Format präsentiert."
+    },
+    "howItWorks": {
+      "title": "Einfach für Taucher, ausgeklügelt unter der Haube",
+      "subtitle": "Drei Schritte für dich. Zehn Stufen für unsere KI-Pipeline.",
+      "step01": {
+        "title": "Wähle einen Ort",
+        "desc": "Tippe auf eine beliebige Koordinate auf der interaktiven Ozeankarte weltweit."
+      },
+      "step02": {
+        "title": "Die KI erledigt die Arbeit",
+        "desc": "Unsere Pipeline holt Live-Ozeanintelligenz und denkt in Echtzeit darüber nach."
+      },
+      "step03": {
+        "title": "Erhalte deine Sicherheitsbewertung",
+        "desc": "Eine 0–100-Bewertung, vollständige Risikoaufschlüsselung und persönliche Empfehlungen."
+      },
+      "step": "SCHRITT",
+      "cta": "Sieh die vollständige 10-Stufen-Pipeline"
+    },
+    "safetyBanner": {
+      "title": "iSea ist Entscheidungshilfe — kein Ersatz für Ausbildung.",
+      "body": "Halte dich immer an deinen Tauchplan, deinen Buddy-Check und die örtlichen Bedingungen am Tag. Lies den vollständigen",
+      "link": "Tauchsicherheits-Haftungsausschluss →"
+    },
+    "cta": {
+      "title": "Beginne heute, intelligenter zu tauchen",
+      "subtitle": "Schließe dich Tauchern weltweit an, die die KI-gestützte Intelligenz von iSea nutzen, um sicherere und besser informierte Tauchgänge zu planen.",
+      "button": "Kostenloses Konto erstellen"
+    }
+  },
+  "login": {
+    "title": "Willkommen zurück",
+    "subtitle": "Melde dich an, um mit iSea fortzufahren",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "diver@example.com",
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Gib dein Passwort ein",
+    "submitButton": "Anmelden",
+    "submitting": "Anmeldung...",
+    "noAccount": "Noch kein Konto?",
+    "createOne": "Jetzt erstellen",
+    "defaultError": "Ungültige E-Mail oder ungültiges Passwort"
+  },
+  "register": {
+    "title": "Erstelle dein Konto",
+    "subtitle": "Beginne mit iSea sicherere Tauchgänge zu planen",
+    "firstNameLabel": "Vorname",
+    "lastNameLabel": "Nachname",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "diver@example.com",
+    "roleLabel": "Ich bin",
+    "roleOptions": {
+      "diver": "Sporttaucher",
+      "trainer": "Tauchlehrer",
+      "diveCenter": "Tauchzentrum"
+    },
+    "passwordLabel": "Passwort",
+    "passwordPlaceholder": "Min. 8 Zeichen",
+    "confirmPasswordLabel": "Passwort bestätigen",
+    "confirmPasswordPlaceholder": "Bestätige dein Passwort",
+    "submitButton": "Konto erstellen",
+    "submitting": "Konto wird erstellt...",
+    "hasAccount": "Hast du bereits ein Konto?",
+    "signIn": "Anmelden",
+    "errors": {
+      "passwordMismatch": "Passwörter stimmen nicht überein",
+      "passwordLength": "Passwort muss mindestens 8 Zeichen lang sein",
+      "defaultError": "Registrierung fehlgeschlagen"
+    }
+  },
+  "profile": {
+    "title": "Kontoeinstellungen",
+    "subtitle": "Verwalte dein Profil und deine Einstellungen",
+    "loadingProfile": "Profil wird geladen...",
+    "tabs": {
+      "profile": "Profil",
+      "password": "Passwort"
+    },
+    "personal": {
+      "title": "Persönliche Informationen",
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "bio": "Biografie",
+      "bioPlaceholder": "Erzähle uns etwas über dich..."
+    },
+    "diver": {
+      "title": "Taucherinformationen",
+      "certificationLevel": "Zertifizierungsstufe",
+      "selectCertification": "Zertifizierung auswählen",
+      "totalDives": "Gesamtanzahl Tauchgänge",
+      "certificationLevels": {
+        "openWater": "Open Water",
+        "advancedOpenWater": "Advanced Open Water",
+        "rescueDiver": "Rettungstaucher",
+        "divemaster": "Divemaster",
+        "instructor": "Tauchlehrer"
+      }
+    },
+    "emergency": {
+      "title": "Notfallkontakt",
+      "contactName": "Kontaktname",
+      "contactNamePlaceholder": "Max Mustermann",
+      "phone": "Telefonnummer",
+      "phonePlaceholder": "+49 123 456 7890",
+      "relationship": "Beziehung",
+      "relationshipPlaceholder": "Ehepartner, Elternteil, usw."
+    },
+    "preferences": {
+      "title": "Tauchpräferenzen",
+      "preferredSuit": "Bevorzugter Anzug",
+      "selectSuit": "Anzugtyp auswählen",
+      "suitTypes": {
+        "wetsuit3mm": "Nassanzug 3mm",
+        "wetsuit5mm": "Nassanzug 5mm",
+        "wetsuit7mm": "Nassanzug 7mm",
+        "drysuit": "Trockenanzug",
+        "shorty": "Shorty"
+      },
+      "preferredDiveType": "Bevorzugte Tauchart",
+      "selectDiveType": "Tauchart auswählen",
+      "diveTypes": {
+        "shore": "Ufer",
+        "boat": "Boot",
+        "night": "Nacht",
+        "wreck": "Wrack",
+        "drift": "Strömungstauchen",
+        "deep": "Tieftauchen"
+      },
+      "maxDepth": "Maximale Tiefe (m)",
+      "unitSystem": "Einheitensystem",
+      "metric": "Metrisch (m, km)",
+      "imperial": "Imperial (ft, mi)",
+      "temperatureUnit": "Temperatureinheit",
+      "celsius": "Celsius (°C)",
+      "fahrenheit": "Fahrenheit (°F)"
+    },
+    "saveChanges": "Änderungen speichern",
+    "saving": "Speichern...",
+    "profileUpdated": "Profil erfolgreich aktualisiert!",
+    "failedToLoad": "Profil konnte nicht geladen werden",
+    "failedToUpdate": "Profil konnte nicht aktualisiert werden",
+    "password": {
+      "title": "Passwort ändern",
+      "currentPassword": "Aktuelles Passwort",
+      "newPassword": "Neues Passwort",
+      "confirmNewPassword": "Neues Passwort bestätigen",
+      "changeButton": "Passwort ändern",
+      "changing": "Wird geändert...",
+      "changed": "Passwort erfolgreich geändert!",
+      "failedToChange": "Passwort konnte nicht geändert werden",
+      "errors": {
+        "mismatch": "Neue Passwörter stimmen nicht überein",
+        "length": "Passwort muss mindestens 8 Zeichen lang sein"
+      }
+    }
+  },
+  "map": {
+    "sidebarTitle": "Tauchinformationen",
+    "sidebarSubtitle": "Tauchstandorte analysieren und speichern",
+    "conditionsTab": "Bedingungen",
+    "savedTab": "Gespeichert",
+    "sitesTab": "Tauchplätze",
+    "adminTab": "Admin",
+    "selectedLocation": "Ausgewählter Standort",
+    "saveThisLocation": "Diesen Standort speichern",
+    "clearSelection": "Auswahl aufheben",
+    "divePoint": "Tauchpunkt",
+    "kmFromSelected": "{{distance}} km vom ausgewählten Punkt",
+    "onLand": "Ausgewählter Punkt liegt an Land – nächster Tauchplatz wird angezeigt",
+    "tooShallow": "Ausgewählter Punkt ist zu flach ({{depth}}m) – nächster Tauchplatz wird angezeigt",
+    "noLocation": "Kein Standort ausgewählt",
+    "noLocationHint": "Klicke auf die Karte, um zu beginnen",
+    "clickToSelect": "Klicke auf die Karte, um einen Tauchstandort auszuwählen",
+    "diveDate": "Tauchdatum (optional)",
+    "diveTime": "Tauchzeit (optional)",
+    "getConditions": "Tauchbedingungen abrufen",
+    "analyzingConditions": "Bedingungen werden analysiert...",
+    "legend": {
+      "markers": "Markierungen",
+      "selected": "Ausgewählt",
+      "divePoint": "Tauchpunkt",
+      "diveSites": "Tauchplätze",
+      "verifiedSite": "Verifizierter Platz",
+      "unverifiedSite": "Unverifiziert",
+      "savedLocations": "Meine gespeicherten",
+      "shore": "Ufer",
+      "reef": "Riff",
+      "boat": "Boot",
+      "wreck": "Wrack",
+      "cave": "Höhle",
+      "other": "Sonstiges",
+      "diveSiteTypes": "Tauchplatz-Typen"
+    },
+    "addAsDiveSite": "Als Tauchplatz hinzufügen",
+    "verifiedSiteRequired": "Tauchbedingungen sind nur für verifizierte Tauchplätze verfügbar. Bitte wählen Sie einen verifizierten Platz auf der Karte.",
+    "layers": {
+      "title": "Ebenen",
+      "verified": "Verifizierte Plätze",
+      "unverified": "Unverifizierte Plätze",
+      "saved": "Meine Gespeicherten",
+      "sitesLoaded": "Plätze geladen",
+      "siteTypes": "Standorttypen",
+      "showAll": "Alle anzeigen",
+      "hideAll": "Alle ausblenden",
+      "depthRange": "Tiefenbereich"
+    },
+    "search": {
+      "placeholder": "Adresse, Stadt, PLZ oder Koordinaten suchen...",
+      "noResults": "Keine Orte gefunden. Versuchen Sie einen anderen Suchbegriff.",
+      "error": "Suche fehlgeschlagen. Bitte versuchen Sie es erneut.",
+      "nearbySites": "{{count}} Tauchplätze in der Nähe"
+    },
+    "noNearbySiteToSave": "Klicke auf einen Tauchplatz-Marker zum Speichern"
+  },
+  "adminSites": {
+    "addSite": "Tauchplatz hinzufügen",
+    "importOsm": "Von OpenStreetMap importieren",
+    "importOsmHint": "Tauchplätze rund um das aktuelle Kartenzentrum automatisch importieren.",
+    "radius": "Radius",
+    "import": "Importieren",
+    "importing": "Importiere...",
+    "verified": "Geprüft",
+    "unverified": "Ausstehend",
+    "pendingReview": "Ausstehende Prüfung",
+    "verifiedSites": "Geprüfte Plätze",
+    "empty": "Keine Tauchplätze in diesem Bereich",
+    "emptyHint": "Manuell hinzufügen oder von OpenStreetMap importieren",
+    "region": "Region",
+    "maxDepth": "Max. Tiefe",
+    "source": "Quelle",
+    "sourceManual": "Manuell",
+    "sourceApi": "API-Import",
+    "sourceOverpass": "Overpass",
+    "checkConditions": "Bedingungen prüfen",
+    "verify": "Bestätigen",
+    "edit": "Bearbeiten",
+    "deleteConfirm": "Soll dieser Tauchplatz wirklich gelöscht werden?",
+    "form": {
+      "addTitle": "Neuen Tauchplatz hinzufügen",
+      "editTitle": "Tauchplatz bearbeiten",
+      "name": "Name",
+      "namePlaceholder": "z. B. Blaues Loch",
+      "latitude": "Breitengrad",
+      "longitude": "Längengrad",
+      "description": "Beschreibung",
+      "descriptionPlaceholder": "Kurze Beschreibung dieses Tauchplatzes...",
+      "country": "Land",
+      "region": "Region",
+      "maxDepth": "Max. Tiefe (m)",
+      "phone": "Telefonnummer",
+      "website": "Website",
+      "nameRequired": "Name ist erforderlich",
+      "invalidCoords": "Bitte gültige Koordinaten eingeben",
+      "saveFailed": "Tauchplatz konnte nicht gespeichert werden",
+      "saving": "Speichern..."
+    }
+  },
+  "conditions": {
+    "safetyScore": "Sicherheitsbewertung",
+    "excellent": "Ausgezeichnet",
+    "good": "Gut",
+    "fair": "Mäßig",
+    "poor": "Schlecht",
+    "visibility": "Sicht",
+    "temperature": "Temperatur",
+    "current": "Strömung",
+    "waves": "Wellen",
+    "locationAdjusted": "Standort angepasst",
+    "onLandAdjusted": "Ausgewählter Punkt war an Land. Nächster Tauchplatz wird angezeigt ({{distance}}km entfernt).",
+    "shallowAdjusted": "Ausgewählter Punkt war zu flach ({{depth}}m). Nächster Tauchplatz mit ausreichender Tiefe wird angezeigt ({{distance}}km entfernt).",
+    "activeWarnings": "Aktive Warnungen",
+    "recommendations": "Empfehlungen",
+    "bestTime": "Beste Zeit",
+    "recommendedSuit": "Empfohlener Anzug",
+    "suitableForBeginners": "Für Anfänger geeignet",
+    "viewFullDetails": "Vollständige Details anzeigen",
+    "personalWarnings": "Persönliche Warnungen"
+  },
+  "conditionsModal": {
+    "title": "Tauchbedingungen im Detail",
+    "safetyScore": "Sicherheitsbewertung",
+    "warningsTitle": "Warnungen & Hinweise",
+    "activeWarnings": "Aktive Warnungen",
+    "advisories": "Hinweise",
+    "visibility": {
+      "title": "Sicht",
+      "estimated": "Geschätzte Sicht",
+      "base": "Grundsicht",
+      "secchiDepth": "Secchi-Tiefe",
+      "kd490": "Kd490 (Trübung)",
+      "chlorophyll": "Chlorophyll",
+      "planktonLevel": "Planktonstufe",
+      "sedimentLevel": "Sedimentstufe",
+      "runoffPenalty": "Abfluss-Abzug",
+      "wavePenalty": "Wellen-Abzug"
+    },
+    "waterTemp": {
+      "title": "Wassertemperatur",
+      "surface": "Oberflächentemperatur",
+      "estimatedBottom": "Geschätzte Bodentemperatur",
+      "plannedDepth": "Geplante Tiefe",
+      "thermoclineDepth": "Thermokline Tiefe",
+      "thermoclineStrength": "Thermokline Stärke",
+      "season": "Jahreszeit",
+      "recommendedSuit": "Empfohlener Anzug"
+    },
+    "currents": {
+      "title": "Strömungen & Gezeiten",
+      "currentSpeed": "Strömungsgeschwindigkeit",
+      "currentStrength": "Strömungsstärke",
+      "currentDirection": "Strömungsrichtung",
+      "tidePhase": "Gezeitenphase",
+      "tideHeight": "Gezeitenhöhe",
+      "tidalRange": "Tidenhub",
+      "nextHighTide": "Nächste Flut",
+      "nextLowTide": "Nächste Ebbe",
+      "nextSlackTide": "Nächstes Stauwasser",
+      "timeToSlack": "Zeit bis Stauwasser",
+      "slackWindow": "Stauwasser-Fenster",
+      "driftDiving": "Strömungstauchen möglich"
+    },
+    "surge": {
+      "title": "Dünung & Wellen",
+      "waveHeight": "Wellenhöhe",
+      "wavePeriod": "Wellenperiode",
+      "waveCondition": "Wellenzustand",
+      "waveDirection": "Wellenrichtung",
+      "swellHeight": "Dünungshöhe",
+      "swellPeriod": "Dünungsperiode",
+      "swellDirection": "Dünungsrichtung",
+      "waveEnergy": "Wellenenergie",
+      "surgeIntensity": "Brandungsintensität",
+      "surgeDepth": "Brandungs-Tiefenwirkung"
+    },
+    "weather": {
+      "title": "Wetterbedingungen",
+      "windSpeed": "Windgeschwindigkeit",
+      "windGusts": "Windböen",
+      "windDirection": "Windrichtung",
+      "beaufortScale": "Beaufort-Skala",
+      "windType": "Windtyp",
+      "airTemp": "Lufttemperatur",
+      "sky": "Himmel",
+      "cloudCover": "Bewölkung",
+      "precipitation": "Niederschlag",
+      "precipitationType": "Niederschlagsart",
+      "thunderstormRisk": "Gewitterrisiko"
+    },
+    "surface": {
+      "title": "Oberflächenbedingungen",
+      "entryDifficulty": "Einstiegsschwierigkeit",
+      "exitDifficulty": "Ausstiegsschwierigkeit",
+      "shoreDive": "Ufer-Tauchgang möglich",
+      "boatDive": "Boot-Tauchgang empfohlen",
+      "boatConditions": "Bootbedingungen",
+      "anchoring": "Ankern schwierig",
+      "surfaceCurrents": "Starke Oberflächenströmungen",
+      "breakingWaves": "Brechende Wellen",
+      "ripCurrent": "Rippströmungsrisiko"
+    },
+    "safety": {
+      "title": "Sicherheitsbewertung",
+      "overallRisk": "Gesamtrisikostufe",
+      "overallScore": "Gesamtbewertung",
+      "waveScore": "Wellen",
+      "currentScore": "Strömung",
+      "visibilityScore": "Sicht",
+      "weatherScore": "Wetter",
+      "temperatureScore": "Temperatur",
+      "surgeScore": "Brandung",
+      "minCertification": "Mindestzertifizierung",
+      "requiresGuide": "Ortskundiger Führer erforderlich",
+      "requiresEquipment": "Spezialausrüstung erforderlich",
+      "requiredEquipment": "Erforderliche Ausrüstung",
+      "postponeRecommended": "Verschiebung empfohlen: {{reason}}",
+      "nextSafeWindow": " Nächstes sicheres Zeitfenster: {{window}}"
+    },
+    "bathymetry": {
+      "title": "Bathymetrie",
+      "onLand": "Ausgewählter Standort war an Land – nächster Tauchplatz wird angezeigt",
+      "tooShallow": "Ausgewählter Standort war zu flach ({{depth}}m) – nächster Tauchplatz wird angezeigt",
+      "distance": "Entfernung: {{distance}} km",
+      "depthAtSite": "Tiefe am Tauchplatz",
+      "originalDepth": "Tiefe am ursprünglichen Standort",
+      "tooShallowSuffix": "(zu flach)",
+      "maxDiveDepth": "Maximale Tauchtiefe",
+      "beginnerDepth": "Anfängertiefe",
+      "minDepthArea": "Minimale Tiefe im Gebiet",
+      "maxDepthArea": "Maximale Tiefe im Gebiet",
+      "slope": "Neigung",
+      "terrainType": "Geländetyp",
+      "bottomComposition": "Bodenbeschaffenheit",
+      "offshoreDirection": "Richtung zum offenen Meer"
+    },
+    "recommendations": {
+      "title": "Empfehlungen",
+      "bestTime": "Beste Zeit heute",
+      "optimalSlack": "Optimales Stauwasser",
+      "recommendedSuit": "Empfohlener Anzug",
+      "needsHood": "Kopfhaube benötigt",
+      "needsGloves": "Handschuhe benötigt",
+      "needsBoots": "Füßlinge benötigt",
+      "diveType": "Tauchart",
+      "suitableForBeginners": "Für Anfänger geeignet",
+      "idealExperience": "Ideales Erfahrungsniveau",
+      "specialConsiderations": "Besondere Hinweise"
+    },
+    "marinLife": {
+      "title": "Meeresleben & Fotografie",
+      "photoConditions": "Fotobedingungen",
+      "marineLifeAlerts": "Meeresleben-Hinweise"
+    },
+    "dataSources": "Datenquellen: {{sources}}",
+    "requested": "Angefragt: {{time}}"
+  },
+  "savedLocations": {
+    "title": "Gespeicherte Standorte",
+    "count": "({{count}})",
+    "refreshAll": "Alle aktualisieren",
+    "empty": "Keine gespeicherten Standorte",
+    "emptyHint": "Klicke auf die Karte und speichere einen Ort, um ihn hier zu sehen",
+    "noData": "Keine Daten",
+    "score": "Bewertung: {{score}}",
+    "difficulty": "Schwierigkeit:",
+    "maxDepth": "Maximale Tiefe:",
+    "visits": "Besuche:",
+    "updated": "Aktualisiert {{time}}",
+    "updateWeather": "Wetter aktualisieren",
+    "viewDiveSite": "Tauchplatz ansehen",
+    "deleteConfirm": "Bist du sicher, dass du diesen Standort löschen möchtest?",
+    "timeAgo": {
+      "never": "Nie",
+      "justNow": "Gerade eben",
+      "minutesAgo": "vor {{count}}min",
+      "hoursAgo": "vor {{count}}h",
+      "daysAgo": "vor {{count}}t"
+    },
+    "edit": "Bearbeiten",
+    "editTitle": "Standort bearbeiten",
+    "editSubtitle": "Aktualisiere deine persönlichen Notizen und Bewertung",
+    "notesLabel": "Notizen",
+    "notesPlaceholder": "Persönliche Notizen, Tipps, gesichtete Meereslebewesen...",
+    "ratingLabel": "Deine Bewertung",
+    "timesVisitedLabel": "Anzahl Besuche",
+    "lastDiveDateLabel": "Datum des letzten Tauchgangs",
+    "saving": "Speichern...",
+    "saveButton": "Änderungen speichern",
+    "editFailed": "Standort konnte nicht aktualisiert werden"
+  },
+  "saveLocationModal": {
+    "title": "Tauchstandort speichern",
+    "subtitle": "Füge diesen Ort zu deinen gespeicherten Standorten hinzu",
+    "coordinates": "Koordinaten",
+    "nameLabel": "Standortname",
+    "namePlaceholder": "z. B. Blue Hole, Great Barrier Reef",
+    "nameRequired": "Bitte gib einen Namen für diesen Standort ein",
+    "descriptionLabel": "Beschreibung",
+    "descriptionPlaceholder": "Kurze Beschreibung dieses Tauchplatzes...",
+    "diveTypeLabel": "Tauchart",
+    "diveTypes": {
+      "shore": "Ufer-Tauchgang",
+      "boat": "Boot-Tauchgang",
+      "reef": "Riff",
+      "wreck": "Wrack",
+      "cave": "Höhle"
+    },
+    "difficultyLabel": "Schwierigkeitsgrad",
+    "difficulties": {
+      "beginner": "Anfänger",
+      "intermediate": "Fortgeschritten",
+      "advanced": "Erfahren",
+      "expert": "Experte"
+    },
+    "maxDepthLabel": "Maximale Tiefe (Meter)",
+    "maxDepthPlaceholder": "z. B. 30",
+    "ratingLabel": "Deine Bewertung",
+    "notesLabel": "Notizen",
+    "notesPlaceholder": "Persönliche Notizen, Tipps, gesichtete Meereslebewesen...",
+    "saveButton": "Standort speichern",
+    "saving": "Speichern...",
+    "failedToSave": "Standort konnte nicht gespeichert werden"
+  },
+  "admin": {
+    "title": "Admin-Bereich",
+    "users": "Benutzer",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "status": "Status",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "activate": "Aktivieren",
+    "deactivate": "Deaktivieren",
+    "changeRole": "Rolle ändern",
+    "actions": "Aktionen",
+    "noUsers": "Keine Benutzer gefunden",
+    "createdAt": "Erstellt",
+    "confirmDeactivate": "Bist du sicher, dass du diesen Benutzer deaktivieren möchtest?",
+    "confirmRoleChange": "Bist du sicher, dass du die Rolle dieses Benutzers ändern möchtest?",
+    "cannotDeactivateSelf": "Du kannst dein eigenes Konto nicht deaktivieren",
+    "accessDenied": "Zugriff verweigert",
+    "showing": "Zeige",
+    "of": "von",
+    "userDetail": "Benutzerdetails",
+    "personalInfo": "Persönliche Informationen",
+    "diverInfo": "Taucherinformationen",
+    "emergencyContact": "Notfallkontakt",
+    "certification": "Zertifizierung",
+    "totalDives": "Tauchgänge insgesamt",
+    "suitType": "Bevorzugter Tauchanzug",
+    "diveType": "Bevorzugte Tauchart",
+    "maxDepth": "Maximale Tiefe",
+    "contactName": "Name",
+    "contactPhone": "Telefon",
+    "contactRelation": "Beziehung",
+    "updatedAt": "Aktualisiert"
+  },
+  "adminDiveSites": {
+    "title": "Tauchplatz-Verwaltung",
+    "subtitle": "Tauchplätze",
+    "addSite": "Tauchplatz hinzufügen",
+    "noSites": "Keine Tauchplätze gefunden",
+    "edit": "Bearbeiten",
+    "verify": "Verifizieren",
+    "confirmDelete": "Bist du sicher, dass du diesen Tauchplatz löschen möchtest?",
+    "searchLat": "Breitengrad",
+    "searchLon": "Längengrad",
+    "searchRadius": "Radius (km)",
+    "search": "Suchen",
+    "sourceManual": "Manuell",
+    "sourceApi": "API-Import",
+    "sourceOverpass": "Overpass",
+    "table": {
+      "name": "Name",
+      "location": "Standort",
+      "type": "Typ",
+      "depth": "Tiefe",
+      "verified": "Verifiziert",
+      "source": "Quelle",
+      "distance": "Entfernung",
+      "country": "Land",
+      "region": "Region",
+      "createdAt": "Erstellt"
+    },
+    "form": {
+      "createTitle": "Tauchplatz hinzufügen",
+      "editTitle": "Tauchplatz bearbeiten",
+      "subtitle": "Tauchplatzdetails eingeben",
+      "name": "Name",
+      "namePlaceholder": "z. B. Blue Hole, Dahab",
+      "nameRequired": "Bitte gib einen Namen ein",
+      "description": "Beschreibung",
+      "latitude": "Breitengrad",
+      "longitude": "Längengrad",
+      "maxDepth": "Maximale Tiefe (m)",
+      "diveType": "Tauchart",
+      "difficulty": "Schwierigkeitsgrad",
+      "country": "Land",
+      "region": "Region"
+    },
+    "searchPrompt": "Koordinaten eingeben, um Tauchplätze zu suchen",
+    "searchPromptHint": "Breitengrad und Längengrad oben eingeben, dann auf Suchen klicken",
+    "import": {
+      "title": "Import von Overpass API",
+      "description": "Importiere Tauchplätze von OpenStreetMap innerhalb eines Begrenzungsrahmens.",
+      "center": "Zentrum",
+      "radius": "Radius (km)",
+      "southLat": "Süd. Breitengrad",
+      "westLon": "West. Längengrad",
+      "northLat": "Nördl. Breitengrad",
+      "eastLon": "Östl. Längengrad",
+      "button": "Tauchplätze importieren",
+      "importing": "Importiere...",
+      "imported": "Importiert",
+      "skipped": "Übersprungen (Duplikate)",
+      "total": "Insgesamt gefunden",
+      "invalidCoords": "Bitte gib gültige Koordinaten ein"
+    },
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "page": "Seite {{current}} von {{total}}"
+    },
+    "resetFilters": "Zurücksetzen",
+    "filters": {
+      "title": "Filter",
+      "search": "Nach Name suchen",
+      "searchPlaceholder": "Name des Tauchplatzes...",
+      "verified": "Verifizierungsstatus",
+      "all": "Alle",
+      "verifiedOnly": "Verifiziert",
+      "unverifiedOnly": "Nicht verifiziert",
+      "source": "Quelle",
+      "allSources": "Alle Quellen",
+      "allTypes": "Alle Typen",
+      "country": "Land",
+      "countryPlaceholder": "z. B. Griechenland",
+      "region": "Region",
+      "regionPlaceholder": "z. B. Kreta",
+      "coordinates": "Koordinaten (für Sortierung nach Entfernung)",
+      "sortBy": "Sortieren nach",
+      "sortName": "Name",
+      "sortDistance": "Entfernung",
+      "sortCreatedAt": "Erstellungsdatum",
+      "sortOrder": "Reihenfolge",
+      "ascending": "Aufsteigend",
+      "descending": "Absteigend",
+      "pageSize": "Pro Seite"
+    }
+  },
+  "session": {
+    "expired": "Ihre Sitzung ist abgelaufen. Bitte melden Sie sich erneut an."
+  },
+  "errors": {
+    "fetchDiveConditions": "Tauchbedingungen konnten nicht abgerufen werden",
+    "loadSavedLocations": "Gespeicherte Standorte konnten nicht geladen werden",
+    "refreshWeather": "Wetter konnte nicht aktualisiert werden",
+    "refreshAllWeather": "Wetter für alle Standorte konnte nicht aktualisiert werden",
+    "deleteLocation": "Standort konnte nicht gelöscht werden",
+    "networkError": "Netzwerkfehler. Bitte überprüfe deine Verbindung.",
+    "unknownError": "Ein unerwarteter Fehler ist aufgetreten"
+  },
+  "enums": {
+    "diveStatus": {
+      "0": "Unbekannt",
+      "1": "Ausgezeichnet",
+      "2": "Gut",
+      "3": "Mäßig",
+      "4": "Schlecht",
+      "5": "Nicht empfohlen"
+    },
+    "currentStrength": {
+      "0": "Keine",
+      "1": "Schwach",
+      "2": "Mäßig",
+      "3": "Stark",
+      "4": "Gefährlich"
+    },
+    "tidePhase": {
+      "0": "Unbekannt",
+      "1": "Steigend",
+      "2": "Fallend",
+      "3": "Hochwasser",
+      "4": "Niedrigwasser",
+      "5": "Stauwasser"
+    },
+    "waveCondition": {
+      "0": "Unbekannt",
+      "1": "Ruhig",
+      "2": "Leicht",
+      "3": "Mäßig",
+      "4": "Rau",
+      "5": "Sehr rau"
+    },
+    "riskLevel": {
+      "0": "Unbekannt",
+      "1": "Niedrig",
+      "2": "Mäßig",
+      "3": "Hoch",
+      "4": "Extrem"
+    },
+    "wetsuitType": {
+      "0": "Unbekannt",
+      "1": "Rash Guard",
+      "2": "3mm Anzug",
+      "3": "5mm Anzug",
+      "4": "7mm Anzug",
+      "5": "Halbtrocken",
+      "6": "Trockenanzug"
+    },
+    "beginnerSuitability": {
+      "0": "Unbekannt",
+      "1": "Ja",
+      "2": "Nein",
+      "3": "Unter Aufsicht"
+    },
+    "skyCondition": {
+      "0": "Unbekannt",
+      "1": "Klar",
+      "2": "Teilweise bewölkt",
+      "3": "Überwiegend bewölkt",
+      "4": "Bedeckt",
+      "5": "Neblig",
+      "6": "Nieselregen",
+      "7": "Regen",
+      "8": "Schnee",
+      "9": "Schauer",
+      "10": "Gewitter"
+    },
+    "surgeIntensity": {
+      "0": "Keine",
+      "1": "Leicht",
+      "2": "Mäßig",
+      "3": "Stark"
+    },
+    "season": {
+      "0": "Unbekannt",
+      "1": "Frühling",
+      "2": "Sommer",
+      "3": "Herbst",
+      "4": "Winter"
+    },
+    "certificationLevel": {
+      "0": "Open Water",
+      "1": "Advanced Open Water",
+      "2": "Rettungstaucher",
+      "3": "Divemaster",
+      "4": "Tauchen nicht empfohlen"
+    },
+    "planktonLevel": {
+      "0": "Unbekannt",
+      "1": "Niedrig",
+      "2": "Mittel",
+      "3": "Hoch",
+      "4": "Blüte"
+    },
+    "sedimentLevel": {
+      "0": "Unbekannt",
+      "1": "Niedrig",
+      "2": "Mittel",
+      "3": "Hoch"
+    },
+    "windType": {
+      "0": "Unbekannt",
+      "1": "Auflandig",
+      "2": "Ablandig",
+      "3": "Seitlich"
+    },
+    "precipitationType": {
+      "0": "Keine",
+      "1": "Leichter Regen",
+      "2": "Regen",
+      "3": "Starker Regen",
+      "4": "Sturm"
+    },
+    "difficultyLevel": {
+      "0": "Unbekannt",
+      "1": "Einfach",
+      "2": "Mäßig",
+      "3": "Schwierig",
+      "4": "Gefährlich"
+    },
+    "boatCondition": {
+      "0": "Unbekannt",
+      "1": "Ruhig",
+      "2": "Leichte Bewegung",
+      "3": "Mäßige Bewegung",
+      "4": "Rau"
+    },
+    "bottomComposition": {
+      "0": "Unbekannt",
+      "1": "Sand",
+      "2": "Schlick",
+      "3": "Riff",
+      "4": "Fels",
+      "5": "Gemischt"
+    },
+    "diveType": {
+      "0": "Unbekannt",
+      "1": "Sporttauchen",
+      "2": "Strömungstauchen",
+      "3": "Technisches Tauchen"
+    },
+    "photoConditions": {
+      "0": "Unbekannt",
+      "1": "Ausgezeichnet",
+      "2": "Gut",
+      "3": "Mäßig",
+      "4": "Schlecht"
+    },
+    "beaufortScale": {
+      "0": "Windstille",
+      "1": "Leiser Zug",
+      "2": "Leichte Brise",
+      "3": "Schwache Brise",
+      "4": "Mäßige Brise",
+      "5": "Frische Brise",
+      "6": "Starker Wind",
+      "7": "Steifer Wind",
+      "8": "Stürmischer Wind",
+      "9": "Sturm",
+      "10": "Schwerer Sturm",
+      "11": "Orkanartiger Sturm",
+      "12": "Orkan"
+    }
+  },
+  "reviews": {
+    "title": "Bewertungen",
+    "writeReview": "Bewertung schreiben",
+    "editReview": "Bewertung bearbeiten",
+    "updateReview": "Bewertung aktualisieren",
+    "submitReview": "Bewertung abgeben",
+    "deleteReview": "Bewertung löschen",
+    "deleteConfirm": "Möchten Sie diese Bewertung wirklich löschen?",
+    "submitting": "Wird gesendet...",
+    "yourRating": "Ihre Bewertung",
+    "comment": "Kommentar",
+    "commentPlaceholder": "Teilen Sie Ihre Taucherfahrung an diesem Ort...",
+    "ratingRequired": "Bitte wählen Sie eine Bewertung",
+    "commentRequired": "Bitte schreiben Sie einen Kommentar",
+    "diveDetails": "Tauchdetails (optional)",
+    "diveDate": "Tauchdatum",
+    "visibility": "Sichtweite (m)",
+    "duration": "Dauer (Min.)",
+    "maxDepth": "Max. Tiefe (m)",
+    "waterTemp": "Wassertemp. (°C)",
+    "currentStrength": "Strömung",
+    "selectCurrent": "Auswählen...",
+    "currentNone": "Keine",
+    "currentWeak": "Schwach",
+    "currentModerate": "Mäßig",
+    "currentStrong": "Stark",
+    "photos": "Fotos",
+    "addPhoto": "Foto hinzufügen",
+    "uploadingPhoto": "Wird hochgeladen...",
+    "dragOrClickPhoto": "Fotos hierher ziehen oder klicken zum Durchsuchen",
+    "photoHint": "JPEG, PNG oder WebP bis zu 10 MB",
+    "photoUploadError": "Foto konnte nicht hochgeladen werden",
+    "showPhotos": "Fotos anzeigen ({{count}})",
+    "hidePhotos": "Fotos ausblenden",
+    "photo": "Foto",
+    "noReviews": "Noch keine Bewertungen. Seien Sie der Erste!",
+    "basedOn": "Basierend auf {{count}} Bewertungen",
+    "edited": "bearbeitet",
+    "vis": "Sichtweite",
+    "pagination": {
+      "previous": "Zurück",
+      "next": "Weiter",
+      "page": "Seite {{current}} von {{total}}"
+    }
+  },
+  "privateNotes": {
+    "title": "Meine privaten Notizen",
+    "addNote": "Notiz hinzufügen",
+    "createNote": "Notiz erstellen",
+    "editNote": "Bearbeiten",
+    "deleteNote": "Löschen",
+    "deleteConfirm": "Möchten Sie diese Notiz wirklich löschen?",
+    "titlePlaceholder": "Notiz-Titel...",
+    "contentPlaceholder": "Schreiben Sie hier Ihre privaten Notizen...",
+    "noNotes": "Sie haben noch keine privaten Notizen für diesen Tauchplatz.",
+    "privacyHint": "Diese Notizen sind nur für Sie sichtbar und werden niemals öffentlich geteilt.",
+    "edited": "bearbeitet"
+  },
+  "aiLoader": {
+    "title": "KI-Analyse der Tauchbedingungen läuft",
+    "subtitle": "Wir führen unsere 10-Stufen-Analyse für deine genauen Koordinaten aus",
+    "completeTitle": "Analyse abgeschlossen",
+    "completeSubtitle": "Wir stellen deinen Tauchbericht zusammen",
+    "disclaimerHeadline": "Dies kann bis zu 5 Minuten dauern.",
+    "disclaimerBody": "Unsere KI-Engine berechnet eine vollständige Umweltanalyse für deine genauen Koordinaten. Bitte halte diesen Tab offen — das Schließen bricht die Analyse ab.",
+    "flushHeadline": "Ergebnisse empfangen.",
+    "flushBody": "Restliche Schritte werden abgeschlossen…",
+    "finalising": "Bericht wird finalisiert",
+    "handingOff": "Bericht wird geöffnet",
+    "keepTabOpen": "Halte diesen Tab offen, während wir arbeiten",
+    "steps": {
+      "locate": {
+        "label": "Tauchplatz wird lokalisiert",
+        "detail": "Identifizierung des Ortes und Vorbereitung der KI-Analyse"
+      },
+      "bathymetry": {
+        "label": "Meeresboden & Tiefe werden kartiert",
+        "detail": "Verständnis der Unterwasserlandschaft an deinem Standort"
+      },
+      "weather": {
+        "label": "Atmosphärisches Wetter wird abgerufen",
+        "detail": "Live-Wetterbedingungen über der Oberfläche"
+      },
+      "marine": {
+        "label": "Marine Vorhersage wird abgerufen",
+        "detail": "Live-Ozeanbedingungen an der Oberfläche und darunter"
+      },
+      "tides": {
+        "label": "Gezeiten & Stauwasser-Fenster werden berechnet",
+        "detail": "Den besten Moment im Gezeitenzyklus zum Tauchen finden"
+      },
+      "satellite": {
+        "label": "Wasserklarheit per Satellit wird gelesen",
+        "detail": "KI-Analyse von Live-Satellitenbildern (das ist der langsame Teil)"
+      },
+      "visibility": {
+        "label": "Sicht & Thermokline werden berechnet",
+        "detail": "Schätzung dessen, was du tatsächlich unter Wasser siehst"
+      },
+      "dynamics": {
+        "label": "Wellenschwall, Strömungen & Gezeitenzyklus werden analysiert",
+        "detail": "Bewertung der Wasserbewegung, die Taucher betrifft"
+      },
+      "safety": {
+        "label": "KI-Sicherheitsbewertung läuft",
+        "detail": "Abwägen jedes Risikofaktors für deinen Tauchgang"
+      },
+      "ai": {
+        "label": "Tauchempfehlungen werden generiert",
+        "detail": "Tauchanzug, Zertifizierungsstufe, Meereslebewesen-Warnungen und beste Tauchzeit"
+      }
+    }
+  },
+  "howItWorks": {
+    "eyebrow": "So funktioniert's",
+    "crumb": "So funktioniert's",
+    "title": "KI-Tauchintelligenz,",
+    "titleHighlight": "einfach erklärt",
+    "subtitle": "Tippe auf einen Ort, unsere KI führt eine vollständige Ozeanintelligenz-Analyse durch und liefert eine klare Sicherheitsbewertung. Hier ist, was hinter den Kulissen geschieht.",
+    "pipeline": {
+      "eyebrow": "Der KI-Workflow",
+      "title": "Von einem einzigen Tipp zur vollständigen Tauchbewertung",
+      "subtitle": "Unsere KI bearbeitet die Analyse in klaren, aufeinanderfolgenden Stufen. Jede ist eigenständig widerstandsfähig — wenn ein Teil hakt, läuft der Rest weiter.",
+      "stageLabel": "Stufe",
+      "stages": {
+        "locate": {
+          "title": "Tauchplatz lokalisieren",
+          "description": "Unsere KI identifiziert deinen Tauchplatz und bereitet die Analyse für diesen exakten Ort vor."
+        },
+        "bathymetry": {
+          "title": "Meeresboden & Tiefe kartieren",
+          "description": "Wir bewerten die Unterwasserlandschaft — Tiefe und Geländeart für sichere Tauchplanung."
+        },
+        "weather": {
+          "title": "Atmosphärisches Wetter abrufen",
+          "description": "Live-Wetterbedingungen über der Oberfläche, für Einstieg, Ausstieg und Gewittersicherheit."
+        },
+        "marine": {
+          "title": "Marine Vorhersage abrufen",
+          "description": "Live-Intelligenz zum Seegang: Oberflächenbewegung, Strömungen und Wassertemperatur."
+        },
+        "tides": {
+          "title": "Gezeiten & Stauwasser berechnen",
+          "description": "Wir finden den ruhigsten Moment im Gezeitenzyklus — das optimale Tauchfenster."
+        },
+        "satellite": {
+          "title": "Wasserklarheit per Satellit lesen",
+          "description": "KI-Analyse von Live-Satellitenbildern, um die Klarheit des Wassers zu verstehen."
+        },
+        "visibility": {
+          "title": "Sicht & Thermokline berechnen",
+          "description": "Wir schätzen, was du tatsächlich unter Wasser siehst und wo du eine Temperaturänderung spürst."
+        },
+        "dynamics": {
+          "title": "Wellenschwall & Strömungen analysieren",
+          "description": "Unsere KI bewertet die Wasserbewegung — wie sehr Taucher in der Tiefe bewegt werden."
+        },
+        "safety": {
+          "title": "KI-Sicherheitsbewertung",
+          "description": "Die Engine wägt jeden Risikofaktor ab und wendet eingebaute Ausschlüsse für wirklich gefährliche Bedingungen an."
+        },
+        "ai": {
+          "title": "Empfehlungen generieren",
+          "description": "Personalisierter Tauchanzug, Zertifizierungsstufe, Meereslebewesen-Warnungen und beste Tauchzeit — auf deinen Tauchplatz zugeschnitten."
+        }
+      }
+    },
+    "latency": {
+      "title": "Was du bei der Antwortzeit erwarten kannst",
+      "subtitle": "Unsere KI ist ehrlich über die Analysedauer. Die meisten Anfragen sind schnell, einige sind langsam, und wir sagen dir welche.",
+      "fast": {
+        "title": "Schnelle Analyse",
+        "body": "Bekannte Regionen, in denen unsere KI fast sofort antworten kann."
+      },
+      "typical": {
+        "title": "Typische Anfrage",
+        "body": "Eine frische KI-Bewertung für jede bewohnte Küstenlinie."
+      },
+      "cold": {
+        "title": "Tiefenanalyse",
+        "body": "Entlegene Koordinaten, bei denen Live-Satellitenbilder bei Bedarf analysiert werden müssen."
+      }
+    },
+    "resilience": {
+      "title": "Gebaut für die unordentliche reale Welt",
+      "subtitle": "Selbst die beste Ozeanintelligenz hat Lücken. Unsere KI kommt damit klar.",
+      "cardTitle": "Eingebaute KI-Widerstandsfähigkeit",
+      "body1": "Jede Stufe der Analyse ist eigenständig gekapselt, sodass ein vorübergehender Aussetzer nicht die gesamte Anfrage scheitern lässt. Wenn ein Signal sich verschlechtert, fällt unsere KI auf geschätzte Werte zurück und kennzeichnet die betroffenen Felder klar.",
+      "body2": "Unsere Engine weigert sich, die Sicherheitsbewertung aufzublasen, wenn wesentliche Signale fehlen. Wenn wir dir keine ehrliche Antwort geben können, sagen wir dir das — wir erfinden keine."
+    }
+  },
+  "safetyScoring": {
+    "eyebrow": "Sicherheitsintelligenz",
+    "crumb": "Sicherheitsbewertung",
+    "title": "Dein Tauchplatz, bewertet von",
+    "titleHighlight": "KI",
+    "subtitle": "Unsere KI verdichtet Live-Ozeanintelligenz zu einer einzigen 0–100-Sicherheitsbewertung, auf die du reagieren kannst — auf einen Blick.",
+    "intro": {
+      "eyebrow": "Wie unsere KI denkt",
+      "title": "Von komplexen Ozeanbedingungen zu einer klaren Antwort",
+      "subtitle": "Unsere KI-Engine denkt über das Gesamtbild deines Tauchplatzes nach — Oberfläche, Tiefe, Bewegung, Wetter und Wasserklarheit — und übersetzt es in eine Zahl, die Taucher tatsächlich verstehen.",
+      "cards": {
+        "intelligence": {
+          "title": "Intelligente Risikogewichtung",
+          "body": "Unsere KI wiegt jedes relevante Ozeansignal für deinen Tauchplatz und kombiniert sie zu einer einzigen, intuitiven Sicherheitsbewertung."
+        },
+        "realtime": {
+          "title": "Live, nie zwischengespeichert",
+          "body": "Jede Bewertung wird frisch gegen die aktuelle Ozeanintelligenz berechnet. Keine recycelten Antworten — dein Tauchplan verdient eine minutenaktuelle Analyse."
+        }
+      }
+    },
+    "bands": {
+      "title": "Risikostufen",
+      "subtitle": "Was jeder Bewertungsbereich praktisch bedeutet — das sind die Etiketten, die du in der App sehen wirst.",
+      "low": {
+        "label": "Geringes Risiko",
+        "description": "Hervorragende oder gute Tauchbedingungen. Standard-Buddy-Verfahren gelten."
+      },
+      "moderate": {
+        "label": "Moderates Risiko",
+        "description": "Allgemein sicher mit Aufmerksamkeit. Einige Bedingungen erfordern Beachtung."
+      },
+      "high": {
+        "label": "Hohes Risiko",
+        "description": "Nur durch erfahrene Taucher mit angemessener Ausrüstung und lokalem Wissen tauchbar."
+      },
+      "extreme": {
+        "label": "Nicht empfohlen",
+        "description": "Bedingungen heute ungeeignet. Unsere KI empfiehlt, den Tauchgang zu verschieben."
+      }
+    },
+    "overrides": {
+      "title": "KI-Sicherheitsausschlüsse",
+      "subtitle": "Manche Bedingungen sind unabhängig von anderen positiven Signalen gefährlich. Unsere KI weiß, wann sie Nein sagen muss.",
+      "cardTitle": "Wann unsere KI positive Signale überstimmt",
+      "body": "Selbst wenn die meisten Signale deines Tauchplatzes gut aussehen, machen bestimmte Situationen das Tauchen wirklich unsicher — und unsere KI wird in diesen Fällen die Bewertung immer auf null setzen. Du siehst eine klare Erklärung, welche Bedingung den Ausschluss ausgelöst hat, sodass du genau weißt, was nicht stimmt."
+    },
+    "disclaimer": {
+      "title": "Die Bewertung ist Entscheidungshilfe, kein Tauchgenehmigung",
+      "body": "Eine hohe Sicherheitsbewertung spiegelt modellierte Umweltbedingungen wider, kann aber nicht deine individuelle Erfahrung, deine Ausrüstung, den Erfahrungsgrad deines Buddys, kürzliche örtliche Ereignisse oder dein körperliches Befinden am Tag berücksichtigen. Mache immer deine eigene Bewertung, halte dich an deinen Tauchplan und tauche niemals gegen dein Bauchgefühl."
+    }
+  },
+  "faq": {
+    "eyebrow": "Häufige Fragen",
+    "crumb": "FAQ",
+    "title": "Fragen,",
+    "titleHighlight": "ehrlich beantwortet",
+    "subtitle": "Alles, was wir gefragt werden, wie iSea funktioniert, wo seine Grenzen liegen und wofür deine Daten verwendet werden.",
+    "questions": {
+      "whatIsIsea": {
+        "q": "Was ist iSea?",
+        "a": "iSea ist eine KI-gestützte Tauchplanungsplattform. Du tippst einen Ort auf einer Karte an, unsere Engine analysiert die Umweltbedingungen für diesen exakten Punkt und liefert eine vollständige Sicherheitsbewertung — einschließlich Sicht, Strömungen, Gezeiten, Tauchanzug-Empfehlung und einer 0–100-Sicherheitsbewertung."
+      },
+      "isItAi": {
+        "q": "Ist es wirklich KI?",
+        "a": "Unsere Pipeline ist eine KI-Engine, die autonom Live-Ozeanintelligenz analysiert und Jahrzehnte etablierter ozeanografischer Wissenschaft anwendet, um eine einzige Empfehlung zu erzeugen. Es ist keine Deep-Learning-Blackbox — wir verwenden bewusst transparente Heuristiken, damit Sicherheitsentscheidungen überprüfbar und erklärbar bleiben."
+      },
+      "whyFiveMinutes": {
+        "q": "Warum können Tauchbedingungen bis zu 5 Minuten dauern?",
+        "a": "Die meisten Anfragen sind schnell. Der langsame Fall ist, wenn unsere KI eine Tiefenanalyse für einen entlegenen Ort durchführen muss, den sie kürzlich nicht gesehen hat — das kann ein paar Minuten dauern. Eine Live-Fortschrittsansicht zeigt dir genau, was passiert."
+      },
+      "accuracy": {
+        "q": "Wie genau ist es?",
+        "a": "Die Sicherheitsbewertung von iSea ist eine Vorhersage basierend auf ferngesensten Umweltdaten. Sie kann keine Mikroklimaeffekte, Tagesvariationen oder kürzliche örtliche Ereignisse erfassen. Behandle sie als Entscheidungshilfe, nicht als Garantie — mache am Tauchtag immer deine eigene Bewertung."
+      },
+      "offlineUse": {
+        "q": "Kann ich iSea offline oder unter Wasser nutzen?",
+        "a": "Nein. iSea benötigt eine Internetverbindung, weil jede Bewertung live aus frischen Daten berechnet wird. Es gibt keine zwischengespeicherte Bewertung — das wäre irreführend."
+      },
+      "replaceInstructor": {
+        "q": "Ersetzt iSea einen Tauchlehrer oder lokalen Guide?",
+        "a": "Absolut nicht. iSea ist Entscheidungshilfe für bereits zertifizierte Taucher. Es kann dir nicht das Tauchen beibringen, lokales Wissen nicht ersetzen und deine persönliche Tauchbereitschaft an einem bestimmten Tag nicht beurteilen. Vertraue für unbekannte Tauchplätze immer auf zertifizierte Lehrer und lokale Betreiber."
+      },
+      "safetyScore": {
+        "q": "Was bedeutet die Sicherheitsbewertung tatsächlich?",
+        "a": "Es ist eine Zahl von 0 bis 100, die erfasst, wie sicher die Tauchbedingungen an deinem genauen Tauchplatz gerade sind. Unsere KI wägt alle relevanten Ozeanfaktoren ab und landet bei einer einzigen Bewertung mit einer klaren Risikostufe (Gering, Moderat, Hoch oder Nicht empfohlen). Wenn etwas wirklich gefährlich ist, überstimmt unsere KI alles andere und die Bewertung fällt auf null mit einer Erklärung."
+      },
+      "coldOpen": {
+        "q": "Warum dauert die erste Anfrage für einen entlegenen Ort länger?",
+        "a": "Unsere KI macht eine tiefere Analyse, wenn sie zum ersten Mal eine unbekannte Region sieht. Sobald ein Ort kürzlich analysiert wurde, sind nachfolgende Anfragen für dieselbe Region typischerweise viel schneller."
+      },
+      "lakes": {
+        "q": "Funktioniert iSea für Seen und Süßwasser?",
+        "a": "Teilweise. Unsere KI ist primär auf Tauchen in Meer und Ozean abgestimmt. Seebedingungen können trotzdem analysiert werden, aber die Sicherheitsbewertung und Sichtschätzungen werden weniger genau sein als für Meeresorte. Dedizierte Süßwasser-Intelligenz steht auf unserer Roadmap."
+      },
+      "cost": {
+        "q": "Ist iSea kostenlos?",
+        "a": "Ja, iSea ist kostenlos. Wir können in Zukunft kostenpflichtige Stufen für intensive professionelle Nutzung einführen."
+      },
+      "data": {
+        "q": "Welche Daten sammelt ihr über mich?",
+        "a": "Kontodaten (E-Mail, Name), die Tauchorte, die du abfragst, und deine gespeicherten Tauchplätze. Wir verkaufen keine Daten und verfolgen dich nicht auf anderen Seiten. Siehe Datenschutzerklärung für Details."
+      }
+    }
+  },
+  "terms": {
+    "eyebrow": "Rechtliches",
+    "crumb": "Nutzungsbedingungen",
+    "title": "Nutzungsbedingungen",
+    "subtitle": "Die Vereinbarung zwischen dir und iSea, wenn du diesen Dienst nutzt.",
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+    "summary": "Kurzfassung — iSea ist Entscheidungshilfe, kein Ersatz für Tauchausbildung oder Urteilsvermögen am Tag. Lies immer den <disclaimerLink>vollständigen Sicherheitshinweis</disclaimerLink>. Wenn etwas unklar ist, <contactLink>kontaktiere uns</contactLink>.",
+    "sections": {
+      "acceptance": {
+        "title": "Annahme der Bedingungen",
+        "body": "Durch Zugang zu oder Nutzung von iSea (dem „Dienst“) erklärst du dich mit diesen Nutzungsbedingungen einverstanden. Wenn nicht, nutze den Dienst nicht."
+      },
+      "eligibility": {
+        "title": "Berechtigung",
+        "body": "Du musst mindestens 16 Jahre alt sein, um iSea zu nutzen. Mit der Nutzung versicherst du, diese Anforderung zu erfüllen und iSea in Verbindung mit angemessener Tauchausbildung und Zertifizierung zu nutzen."
+      },
+      "account": {
+        "title": "Kontoverantwortung",
+        "body": "Du bist für den Schutz deiner Zugangsdaten und für jede Aktivität in deinem Konto verantwortlich. Melde uns unbefugten Zugriff sofort."
+      },
+      "license": {
+        "title": "Nutzungslizenz",
+        "body": "Wir gewähren dir eine begrenzte, nicht ausschließliche, nicht übertragbare, widerrufliche Lizenz zur Nutzung des Dienstes für persönliche, nicht-kommerzielle Tauchplanung."
+      },
+      "restrictions": {
+        "title": "Akzeptable Nutzung",
+        "body": "Du wirst nicht: (a) den Dienst reverse-engineeren; (b) ihn nutzen, um Entscheidungen für andere ohne deren informierte Zustimmung zu treffen; (c) unsere Daten extrahieren oder weiterverbreiten; (d) die Ergebnisse als Sicherheitsgarantie darstellen; (e) ihn für rechtswidrige Zwecke nutzen."
+      },
+      "userContent": {
+        "title": "Nutzerinhalte",
+        "body": "Du behältst das Eigentum an Tauchplätzen, Bewertungen und Notizen, die du einreichst. Du gewährst iSea eine nicht-ausschließliche Lizenz, diesen Inhalt innerhalb des Dienstes zu hosten und anzuzeigen. Wir können Inhalte entfernen, die diese Bedingungen verletzen."
+      },
+      "thirdParty": {
+        "title": "Daten von Dritten",
+        "body": "Der Dienst integriert Daten von offenen und kommerziellen ozeanografischen Drittanbietern. Die Bedingungen und Lizenzen jedes Anbieters gelten; iSea garantiert die Genauigkeit von Drittanbieter-Daten nicht. Eine Liste der Anbieter und erforderlichen Zuschreibungen ist auf Anfrage erhältlich."
+      },
+      "disclaimerOfWarranties": {
+        "title": "Gewährleistungsausschluss",
+        "body": "DER DIENST WIRD „WIE BESEHEN“ OHNE JEGLICHE GEWÄHRLEISTUNG BEREITGESTELLT. WIR GARANTIEREN NICHT, DASS SICHERHEITSBEWERTUNGEN GENAU, VOLLSTÄNDIG ODER FÜR EINEN BESTIMMTEN TAUCHGANG GEEIGNET SIND."
+      },
+      "limitationOfLiability": {
+        "title": "Haftungsbeschränkung",
+        "body": "SOWEIT GESETZLICH ZULÄSSIG, HAFTEN ISEA UND SEINE BETREIBER NICHT FÜR INDIREKTE, BEILÄUFIGE ODER STRAFENDE SCHÄDEN, EINSCHLIESSLICH PERSÖNLICHER VERLETZUNG, TOD, ENTGANGENER GEWINNE, DATEN- ODER NUTZUNGSVERLUST. TAUCHEN IST EINE INHÄRENT GEFÄHRLICHE AKTIVITÄT, UND DU TRÄGST DAS GESAMTE RISIKO."
+      },
+      "indemnification": {
+        "title": "Schadensersatzleistung",
+        "body": "Du verpflichtest dich, iSea von allen Ansprüchen, Schäden und Aufwendungen freizustellen, die aus deiner Nutzung des Dienstes oder deinem Verstoß gegen diese Bedingungen entstehen."
+      },
+      "termination": {
+        "title": "Beendigung",
+        "body": "Wir können dein Konto bei Verstößen jederzeit aussetzen oder beenden. Du kannst dein Konto jederzeit über deine Profileinstellungen löschen."
+      },
+      "governingLaw": {
+        "title": "Anwendbares Recht",
+        "body": "Diese Bedingungen unterliegen den Gesetzen der Gerichtsbarkeit, in der iSea betrieben wird, ohne Berücksichtigung von Kollisionsnormen."
+      },
+      "changes": {
+        "title": "Änderungen",
+        "body": "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Wesentliche Änderungen werden über den Dienst kommuniziert."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Fragen können über die auf unserer Startseite aufgeführten Kontaktkanäle gestellt werden."
+      }
+    }
+  },
+  "privacy": {
+    "eyebrow": "Rechtliches",
+    "crumb": "Datenschutzerklärung",
+    "title": "Datenschutzerklärung",
+    "subtitle": "Was wir sammeln, warum wir es sammeln, und was wir niemals mit deinen Daten machen.",
+    "lastUpdated": "Zuletzt aktualisiert: {{date}}",
+    "summary": "Kurzfassung: Wir sammeln das Minimum, das nötig ist, um den Dienst zu betreiben, wir verkaufen deine Daten nie und wir verfolgen dich nicht auf anderen Websites. Du kannst dein Konto und deine Daten jederzeit löschen.",
+    "sections": {
+      "whatWeCollect": {
+        "title": "Was wir sammeln",
+        "body": "Kontoinformationen (E-Mail, Name, Passwort-Hash). Koordinaten, die du abfragst. Tauchplätze, Bewertungen und Notizen, die du erstellst. Standard-Techniklogs (IP, Browser) zum Betrieb des Dienstes."
+      },
+      "howWeUse": {
+        "title": "Wie wir deine Daten verwenden",
+        "body": "Den Dienst bereitstellen. Den Dienst verbessern (aggregierte, anonymisierte Analyse). Wesentliche Nachrichten kommunizieren (Konto, Sicherheit, Aktualisierungen)."
+      },
+      "legalBasis": {
+        "title": "Rechtsgrundlage (DSGVO)",
+        "body": "Wir verarbeiten deine Daten auf Grundlage von (a) Vertrag — notwendig zur Bereitstellung; (b) berechtigten Interessen — Logging und Missbrauchsprävention; (c) Einwilligung — wo gesetzlich erforderlich."
+      },
+      "sharing": {
+        "title": "Mit wem wir Daten teilen",
+        "body": "Wir verkaufen deine persönlichen Daten nicht. Wir teilen sie nur mit den Infrastrukturanbietern, die zum Betrieb benötigt werden (Hosting, Datenbank, E-Mail). Deine Tauchplatz-Bewertungen sind nach Design öffentlich."
+      },
+      "thirdPartyApis": {
+        "title": "Dienste Dritter in deinem Namen",
+        "body": "Wenn du Tauchbedingungen anforderst, werden deine Koordinaten an ozeanografische und meteorologische Drittanbieter unserer Pipeline gesendet. Diese Dienste haben eigene Datenschutzrichtlinien. Wir übermitteln deine persönliche Identität (Konto, Name, E-Mail) nicht an diese."
+      },
+      "cookies": {
+        "title": "Cookies und ähnliche Technologien",
+        "body": "Wir verwenden eine kleine Anzahl strikt notwendiger Cookies für Authentifizierung und Sitzungsverwaltung. Wir verwenden keine Werbecookies von Dritten."
+      },
+      "retention": {
+        "title": "Aufbewahrung",
+        "body": "Kontodaten werden so lange aufbewahrt, wie dein Konto aktiv ist. Anfragelogs werden maximal 12 Monate gespeichert. Gelöschte Konten werden innerhalb von 30 Tagen bereinigt."
+      },
+      "security": {
+        "title": "Sicherheit",
+        "body": "Passwörter werden als Einweg-Hashes gespeichert. Aller Verkehr nutzt HTTPS. Wir folgen Industriestandards, aber kein System ist zu 100 % sicher."
+      },
+      "yourRights": {
+        "title": "Deine Rechte",
+        "body": "Du hast jederzeit das Recht auf Zugang zu, Korrektur, Export und Löschung deiner Daten. Die meisten Aktionen sind direkt aus deinen Einstellungen möglich; für andere kontaktiere uns."
+      },
+      "children": {
+        "title": "Datenschutz von Kindern",
+        "body": "iSea richtet sich nicht an Kinder unter 16 und wir sammeln wissentlich keine Daten von ihnen. Wenn du glaubst, dass ein Kind uns Daten zur Verfügung gestellt hat, kontaktiere uns sofort."
+      },
+      "transfers": {
+        "title": "Internationale Datentransfers",
+        "body": "Deine Daten können in Ländern außerhalb deines eigenen verarbeitet werden. Wo erforderlich, stützen wir uns auf geeignete Übertragungsmechanismen, die in deiner Gerichtsbarkeit anerkannt sind."
+      },
+      "changes": {
+        "title": "Änderungen dieser Richtlinie",
+        "body": "Wir können diese Richtlinie von Zeit zu Zeit aktualisieren. Wesentliche Änderungen werden über den Dienst kommuniziert."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "body": "Datenschutzfragen und Anträge zu Datenrechten können über die auf unserer Startseite aufgeführten Kontaktkanäle gestellt werden."
+      }
+    }
+  },
+  "disclaimer": {
+    "eyebrow": "Sicherheit",
+    "crumb": "Tauchsicherheits-Hinweis",
+    "title": "Tauchsicherheits-",
+    "titleHighlight": "Hinweis",
+    "subtitle": "iSea ist Entscheidungshilfe, kein Ersatz für Ausbildung, Urteilsvermögen oder lokales Wissen. Bitte lies dies sorgfältig, bevor du eine Sicherheitsbewertung in deine Tauchplanung einbeziehst.",
+    "bigWarning": {
+      "headline": "Tauchen ist eine inhärent gefährliche Aktivität.",
+      "body": "Es birgt das Risiko schwerer Verletzungen oder des Todes. Keine Software — auch iSea nicht — kann dieses Risiko eliminieren. Die von iSea bereitgestellten Sicherheitsbewertungen, Empfehlungen und Warnungen sind informierte Schätzungen basierend auf ferngesensten Umweltdaten und stellen keine Garantie für sichere Tauchbedingungen dar."
+    },
+    "points": {
+      "noSubstitute": {
+        "title": "Kein Ersatz für zertifizierte Ausbildung",
+        "body": "iSea ist für Taucher mit aktueller Zertifizierung einer anerkannten Ausbildungsorganisation (PADI, SSI, NAUI, BSAC, CMAS usw.) vorgesehen. Es kann dir nicht das Tauchen beibringen, deine persönliche Bereitschaft bewerten oder eine formale Tauchausbildung ersetzen."
+      },
+      "estimates": {
+        "title": "Alle Ausgaben sind Schätzungen",
+        "body": "Sicht, Strömungen, Temperatur und andere Parameter werden aus Drittdaten modelliert oder vorhergesagt. Reale Bedingungen können erheblich abweichen. Überprüfe immer am Tag."
+      },
+      "localConditions": {
+        "title": "Lokales Wissen ist unersetzbar",
+        "body": "Strömungen, Gefahren, Ein-/Ausstiegslogistik und Meereslebewesen-Verhalten an einem bestimmten Tauchplatz sind lokalen Betreibern und erfahrenen Tauchern am besten bekannt. Wenn möglich, tauche mit oder konsultiere jemanden, der den Tauchplatz kennt."
+      },
+      "medical": {
+        "title": "Medizinische Fitness liegt in deiner Verantwortung",
+        "body": "iSea bewertet deine medizinische Tauchfähigkeit nicht. Kürzliche Krankheit, Müdigkeit, Alkohol, bestimmte Medikamente, Ohr-/Nebenhöhlenprobleme und andere medizinische Faktoren können die Sicherheit dramatisch beeinflussen. Im Zweifel konsultiere einen Tauchmediziner."
+      },
+      "emergency": {
+        "title": "Habe immer einen Notfallplan",
+        "body": "Kenne deine nächste Druckkammer, habe Oberflächenunterstützung, hinterlege einen Tauchplan bei jemandem an Land, trage angemessene Notfall-Signalausrüstung (SMB, Schallgeber, Spiegel) und befolge die Notfallverfahren deiner Ausbildungsorganisation."
+      }
+    },
+    "acknowledgement": "Durch die Nutzung von iSea bestätigst du, diesen Hinweis gelesen und verstanden zu haben, alle mit dem Tauchen verbundenen Risiken zu akzeptieren, und bei jedem Tauchgang dein eigenes Urteilsvermögen anzuwenden."
+  },
+  "personalAssessment": {
+    "title": "Persönliche Bewertung",
+    "summaryAllPass": "{{passes}} ✓",
+    "summaryWithWarnings": "{{passes}} ✓ · {{warnings}} ⚠",
+    "experienceLevels": {
+      "Beginner": "Anfänger",
+      "Intermediate": "Mittlere Stufe",
+      "Experienced": "Erfahren",
+      "Expert": "Experte",
+      "Unknown": "Unbekannt"
+    },
+    "checks": {
+      "certification": {
+        "label": "Zertifizierung",
+        "pass": "Deine {{cert}}-Zertifizierung deckt diesen Tauchgang ab.",
+        "warnFallback": "Deine Zertifizierung könnte für diese Bedingungen unzureichend sein."
+      },
+      "depth": {
+        "label": "Geplante Tiefe",
+        "pass": "Innerhalb deiner bevorzugten Maximaltiefe von {{max}} m.",
+        "warnFallback": "Die geplante Tiefe übersteigt deine bevorzugte Maximaltiefe."
+      },
+      "suit": {
+        "label": "Tauchanzug",
+        "pass": "Dein üblicher Anzug ist warm genug für diese Bedingungen.",
+        "warnFallback": "Du brauchst möglicherweise einen dickeren Anzug als gewöhnlich."
+      },
+      "experience": {
+        "label": "Erfahrung",
+        "detail": "{{level}} Taucher ({{dives}} geloggte Tauchgänge)"
+      },
+      "emergencyContact": {
+        "label": "Notfallkontakt",
+        "pass": "{{name}} · {{relation}} hinterlegt.",
+        "warnFallback": "Kein Notfallkontakt hinterlegt. Füge einen in deinem Profil hinzu."
+      }
+    },
+    "emergencyContactCard": {
+      "title": "Notfallkontakt"
+    }
+  }
+}
